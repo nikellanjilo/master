@@ -1,0 +1,164 @@
+Synopsys Generic Technology Pre-mapping, Version map201503actrcp1, Build 002R, Built Jul  1 2015 06:58:23
+Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version J-2015.03M-3
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@L: C:\Projects\Verilog\led_IGLOO\led_2\led_2\synthesis\led_igloo_scck.rpt 
+Printing clock  summary report in "C:\Projects\Verilog\led_IGLOO\led_2\led_2\synthesis\led_igloo_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+syn_allowed_resources : blockrams=69  set on top level netlist led_igloo
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+
+@S |Clock Summary
+*****************
+
+Start     Requested     Requested     Clock     Clock
+Clock     Frequency     Period        Type      Group
+-----------------------------------------------------
+=====================================================
+
+Finished Pre Mapping Phase.
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":99:13:99:17|Tristate driver GPIO1 on net GPIO1 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":98:13:98:17|Tristate driver GPIO2 on net GPIO2 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":93:13:93:17|Tristate driver GPIO7 on net GPIO7 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":92:13:92:17|Tristate driver GPIO8 on net GPIO8 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":91:13:91:17|Tristate driver GPIO9 on net GPIO9 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":90:13:90:18|Tristate driver GPIO10 on net GPIO10 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":88:13:88:18|Tristate driver GPIO12 on net GPIO12 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":87:13:87:18|Tristate driver GPIO14 on net GPIO14 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":86:13:86:18|Tristate driver GPIO15 on net GPIO15 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":85:13:85:18|Tristate driver GPIO16 on net GPIO16 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":84:13:84:18|Tristate driver GPIO17 on net GPIO17 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":83:13:83:18|Tristate driver GPIO19 on net GPIO19 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":82:13:82:18|Tristate driver GPIO20 on net GPIO20 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":81:13:81:20|Tristate driver en_modul on net en_modul has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":79:13:79:18|Tristate driver dsa_le on net dsa_le has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":78:13:78:20|Tristate driver dsa_data on net dsa_data has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":77:13:77:19|Tristate driver dsa_clk on net dsa_clk has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":75:13:75:18|Tristate driver oclk_1 on net oclk_1 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":72:13:72:22|Tristate driver SENSE_CS_1 on net SENSE_CS_1 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":70:13:70:21|Tristate driver REF_MXOUT on net REF_MXOUT has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":69:13:69:18|Tristate driver REF_LE on net REF_LE has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":68:13:68:18|Tristate driver REF_LD on net REF_LD has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":67:13:67:20|Tristate driver REF_DATA on net REF_DATA has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":66:13:66:19|Tristate driver REF_CLK on net REF_CLK has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":65:13:65:18|Tristate driver REF_CE on net REF_CE has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":63:13:63:21|Tristate driver GPS1_SHDN on net GPS1_SHDN has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":62:13:62:22|Tristate driver GPS1_SDATA on net GPS1_SDATA has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":61:13:61:21|Tristate driver GPS1_SCLK on net GPS1_SCLK has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":58:13:58:20|Tristate driver GPS1_PGM on net GPS1_PGM has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":56:13:56:21|Tristate driver GPS1_IDLE on net GPS1_IDLE has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":53:13:53:18|Tristate driver CSN_n1 on net CSN_n1 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":52:13:52:22|Tristate driver clk_out_n2 on net clk_out_n2 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":44:13:44:22|Tristate driver clk_out_n1 on net clk_out_n1 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":41:13:41:18|Tristate driver sr_wen on net sr_wen has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":40:13:40:18|Tristate driver sr_ubn on net sr_ubn has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":39:13:39:18|Tristate driver sr_oen on net sr_oen has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":38:13:38:18|Tristate driver sr_lbn on net sr_lbn has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":37:13:37:18|Tristate driver sr_cs2 on net sr_cs2 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":36:13:36:19|Tristate driver sr_cs1n on net sr_cs1n has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":35:13:35:18|Tristate driver fl_wpn on net fl_wpn has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":34:13:34:18|Tristate driver fl_wen on net fl_wen has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":33:13:33:19|Tristate driver fl_ryby on net fl_ryby has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":32:13:32:21|Tristate driver fl_resetn on net fl_resetn has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":31:13:31:18|Tristate driver fl_oen on net fl_oen has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":30:19:30:23|Tristate driver fl_dq_1 on net fl_dq[7] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":30:19:30:23|Tristate driver fl_dq_2 on net fl_dq[6] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":30:19:30:23|Tristate driver fl_dq_3 on net fl_dq[5] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":30:19:30:23|Tristate driver fl_dq_4 on net fl_dq[4] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":30:19:30:23|Tristate driver fl_dq_5 on net fl_dq[3] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":30:19:30:23|Tristate driver fl_dq_6 on net fl_dq[2] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":30:19:30:23|Tristate driver fl_dq_7 on net fl_dq[1] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":30:19:30:23|Tristate driver fl_dq_8 on net fl_dq[0] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":29:13:29:18|Tristate driver fl_cen on net fl_cen has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":28:13:28:20|Tristate driver fl_byten on net fl_byten has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":27:20:27:23|Tristate driver fl_a_1 on net fl_a[25] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":27:20:27:23|Tristate driver fl_a_2 on net fl_a[24] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":27:20:27:23|Tristate driver fl_a_3 on net fl_a[23] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":27:20:27:23|Tristate driver fl_a_4 on net fl_a[22] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":27:20:27:23|Tristate driver fl_a_5 on net fl_a[21] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":27:20:27:23|Tristate driver fl_a_6 on net fl_a[20] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":27:20:27:23|Tristate driver fl_a_7 on net fl_a[19] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":27:20:27:23|Tristate driver fl_a_8 on net fl_a[18] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":27:20:27:23|Tristate driver fl_a_9 on net fl_a[17] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":27:20:27:23|Tristate driver fl_a_10 on net fl_a[16] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":27:20:27:23|Tristate driver fl_a_11 on net fl_a[15] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":27:20:27:23|Tristate driver fl_a_12 on net fl_a[14] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":27:20:27:23|Tristate driver fl_a_13 on net fl_a[13] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":27:20:27:23|Tristate driver fl_a_14 on net fl_a[12] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":27:20:27:23|Tristate driver fl_a_15 on net fl_a[11] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":27:20:27:23|Tristate driver fl_a_16 on net fl_a[10] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":27:20:27:23|Tristate driver fl_a_17 on net fl_a[9] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":27:20:27:23|Tristate driver fl_a_18 on net fl_a[8] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":27:20:27:23|Tristate driver fl_a_19 on net fl_a[7] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":27:20:27:23|Tristate driver fl_a_20 on net fl_a[6] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":27:20:27:23|Tristate driver fl_a_21 on net fl_a[5] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":27:20:27:23|Tristate driver fl_a_22 on net fl_a[4] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":27:20:27:23|Tristate driver fl_a_23 on net fl_a[3] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":27:20:27:23|Tristate driver fl_a_24 on net fl_a[2] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":27:20:27:23|Tristate driver fl_a_25 on net fl_a[1] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":27:20:27:23|Tristate driver fl_a_26 on net fl_a[0] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":25:13:25:22|Tristate driver dac1_sleep on net dac1_sleep has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":23:13:23:20|Tristate driver dac2_clk on net dac2_clk has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":22:13:22:20|Tristate driver dac1_clk on net dac1_clk has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":116:15:116:15|Tristate driver BW_1 on net BW[33] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":116:15:116:15|Tristate driver BW_2 on net BW[32] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":116:15:116:15|Tristate driver BW_3 on net BW[31] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":116:15:116:15|Tristate driver BW_4 on net BW[30] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":116:15:116:15|Tristate driver BW_5 on net BW[29] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":116:15:116:15|Tristate driver BW_6 on net BW[28] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":116:15:116:15|Tristate driver BW_7 on net BW[27] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":116:15:116:15|Tristate driver BW_8 on net BW[26] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":116:15:116:15|Tristate driver BW_9 on net BW[25] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":116:15:116:15|Tristate driver BW_10 on net BW[24] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":116:15:116:15|Tristate driver BW_11 on net BW[23] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":116:15:116:15|Tristate driver BW_12 on net BW[22] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":116:15:116:15|Tristate driver BW_13 on net BW[21] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":116:15:116:15|Tristate driver BW_14 on net BW[20] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":116:15:116:15|Tristate driver BW_15 on net BW[19] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":116:15:116:15|Tristate driver BW_16 on net BW[18] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":116:15:116:15|Tristate driver BW_17 on net BW[17] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":116:15:116:15|Tristate driver BW_18 on net BW[16] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":116:15:116:15|Tristate driver BW_19 on net BW[15] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":116:15:116:15|Tristate driver BW_20 on net BW[14] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":116:15:116:15|Tristate driver BW_21 on net BW[13] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":116:15:116:15|Tristate driver BW_22 on net BW[12] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":116:15:116:15|Tristate driver BW_23 on net BW[11] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":116:15:116:15|Tristate driver BW_24 on net BW[10] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":116:15:116:15|Tristate driver BW_25 on net BW[9] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":116:15:116:15|Tristate driver BW_26 on net BW[8] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":116:15:116:15|Tristate driver BW_27 on net BW[7] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":116:15:116:15|Tristate driver BW_28 on net BW[6] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":116:15:116:15|Tristate driver BW_29 on net BW[5] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":116:15:116:15|Tristate driver BW_30 on net BW[4] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":116:15:116:15|Tristate driver BW_31 on net BW[3] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":116:15:116:15|Tristate driver BW_32 on net BW[2] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":116:15:116:15|Tristate driver BW_33 on net BW[1] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":116:15:116:15|Tristate driver BW_34 on net BW[0] has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_2\led_2\hdl\led.v":10:13:10:16|Tristate driver out2 on net out2 has its enable tied to GND (module led_igloo) 
+@N: BN225 |Writing default property annotation file C:\Projects\Verilog\led_IGLOO\led_2\led_2\synthesis\led_igloo.sap.
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 133MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Mar 02 20:14:16 2016
+
+###########################################################]

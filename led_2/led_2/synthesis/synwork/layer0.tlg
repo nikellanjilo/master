@@ -1,0 +1,168 @@
+Selecting top level module led_igloo
+@N: CG364 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":3:7:3:15|Synthesizing module led_igloo
+
+@W: CG133 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":9:17:9:20|No assignment to out1
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":10:13:10:16|No assignment to wire out2
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":22:13:22:20|No assignment to wire dac1_clk
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":23:13:23:20|No assignment to wire dac2_clk
+
+@W: CG133 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":24:24:24:30|No assignment to dac1_db
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":25:13:25:22|No assignment to wire dac1_sleep
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":27:20:27:23|No assignment to wire fl_a
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":28:13:28:20|No assignment to wire fl_byten
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":29:13:29:18|No assignment to wire fl_cen
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":30:19:30:23|No assignment to wire fl_dq
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":31:13:31:18|No assignment to wire fl_oen
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":32:13:32:21|No assignment to wire fl_resetn
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":33:13:33:19|No assignment to wire fl_ryby
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":34:13:34:18|No assignment to wire fl_wen
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":35:13:35:18|No assignment to wire fl_wpn
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":36:13:36:19|No assignment to wire sr_cs1n
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":37:13:37:18|No assignment to wire sr_cs2
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":38:13:38:18|No assignment to wire sr_lbn
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":39:13:39:18|No assignment to wire sr_oen
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":40:13:40:18|No assignment to wire sr_ubn
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":41:13:41:18|No assignment to wire sr_wen
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":44:13:44:22|No assignment to wire clk_out_n1
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":52:13:52:22|No assignment to wire clk_out_n2
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":53:13:53:18|No assignment to wire CSN_n1
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":56:13:56:21|No assignment to wire GPS1_IDLE
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":58:13:58:20|No assignment to wire GPS1_PGM
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":61:13:61:21|No assignment to wire GPS1_SCLK
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":62:13:62:22|No assignment to wire GPS1_SDATA
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":63:13:63:21|No assignment to wire GPS1_SHDN
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":65:13:65:18|No assignment to wire REF_CE
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":66:13:66:19|No assignment to wire REF_CLK
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":67:13:67:20|No assignment to wire REF_DATA
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":68:13:68:18|No assignment to wire REF_LD
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":69:13:69:18|No assignment to wire REF_LE
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":70:13:70:21|No assignment to wire REF_MXOUT
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":72:13:72:22|No assignment to wire SENSE_CS_1
+
+@W: CG133 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":74:23:74:32|No assignment to SENSE_DOUT
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":75:13:75:18|No assignment to wire oclk_1
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":77:13:77:19|No assignment to wire dsa_clk
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":78:13:78:20|No assignment to wire dsa_data
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":79:13:79:18|No assignment to wire dsa_le
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":81:13:81:20|No assignment to wire en_modul
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":82:13:82:18|No assignment to wire GPIO20
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":83:13:83:18|No assignment to wire GPIO19
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":84:13:84:18|No assignment to wire GPIO17
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":85:13:85:18|No assignment to wire GPIO16
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":86:13:86:18|No assignment to wire GPIO15
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":87:13:87:18|No assignment to wire GPIO14
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":88:13:88:18|No assignment to wire GPIO12
+
+@W: CG133 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":89:17:89:22|No assignment to GPIO11
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":90:13:90:18|No assignment to wire GPIO10
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":91:13:91:17|No assignment to wire GPIO9
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":92:13:92:17|No assignment to wire GPIO8
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":93:13:93:17|No assignment to wire GPIO7
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":98:13:98:17|No assignment to wire GPIO2
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":99:13:99:17|No assignment to wire GPIO1
+
+@A: CL153 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":9:17:9:20|*Unassigned bits of out1 are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":24:24:24:30|*Unassigned bits of dac1_db[13:5] are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":74:23:74:32|*Unassigned bits of SENSE_DOUT[1:0] are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":89:17:89:22|*Unassigned bits of GPIO11 are referenced and tied to 0 -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":10:13:10:16|*Output out2 has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":19:24:19:25|*Output BW has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":22:13:22:20|*Output dac1_clk has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":23:13:23:20|*Output dac2_clk has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":25:13:25:22|*Output dac1_sleep has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":27:20:27:23|*Output fl_a has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":28:13:28:20|*Output fl_byten has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":29:13:29:18|*Output fl_cen has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":30:19:30:23|*Output fl_dq has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":31:13:31:18|*Output fl_oen has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":32:13:32:21|*Output fl_resetn has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":33:13:33:19|*Output fl_ryby has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":34:13:34:18|*Output fl_wen has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":35:13:35:18|*Output fl_wpn has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":36:13:36:19|*Output sr_cs1n has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":37:13:37:18|*Output sr_cs2 has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":38:13:38:18|*Output sr_lbn has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":39:13:39:18|*Output sr_oen has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":40:13:40:18|*Output sr_ubn has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":41:13:41:18|*Output sr_wen has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":44:13:44:22|*Output clk_out_n1 has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":52:13:52:22|*Output clk_out_n2 has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":53:13:53:18|*Output CSN_n1 has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":56:13:56:21|*Output GPS1_IDLE has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":58:13:58:20|*Output GPS1_PGM has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":61:13:61:21|*Output GPS1_SCLK has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":62:13:62:22|*Output GPS1_SDATA has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":63:13:63:21|*Output GPS1_SHDN has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":65:13:65:18|*Output REF_CE has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":66:13:66:19|*Output REF_CLK has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":67:13:67:20|*Output REF_DATA has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":68:13:68:18|*Output REF_LD has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":69:13:69:18|*Output REF_LE has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":70:13:70:21|*Output REF_MXOUT has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":72:13:72:22|*Output SENSE_CS_1 has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":75:13:75:18|*Output oclk_1 has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":77:13:77:19|*Output dsa_clk has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":78:13:78:20|*Output dsa_data has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":79:13:79:18|*Output dsa_le has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":81:13:81:20|*Output en_modul has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":82:13:82:18|*Output GPIO20 has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":83:13:83:18|*Output GPIO19 has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":84:13:84:18|*Output GPIO17 has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":85:13:85:18|*Output GPIO16 has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":86:13:86:18|*Output GPIO15 has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":87:13:87:18|*Output GPIO14 has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":88:13:88:18|*Output GPIO12 has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":90:13:90:18|*Output GPIO10 has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":91:13:91:17|*Output GPIO9 has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":92:13:92:17|*Output GPIO8 has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":93:13:93:17|*Output GPIO7 has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":98:13:98:17|*Output GPIO2 has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":99:13:99:17|*Output GPIO1 has undriven bits -- simulation mismatch possible.

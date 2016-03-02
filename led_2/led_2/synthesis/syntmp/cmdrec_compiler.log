@@ -1,0 +1,8 @@
+C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\bin64\c_hdl.exe  -osyn  C:\Projects\Verilog\led_IGLOO\led_2\led_2\synthesis\synwork\led_igloo_comp.srs  -top  led_igloo  -hdllog  C:\Projects\Verilog\led_IGLOO\led_2\led_2\synthesis\synlog\led_igloo_compiler.srr  -encrypt  -mp  1  -verilog  -prodtype  synplify_pro  -primux -dspmac -pqdpadd -fixsmult -sdff_counter -divnmod -nram   -I C:\Projects\Verilog\led_IGLOO\led_2\led_2\synthesis\  -I C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib   -v2001  -devicelib  C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\generic\igloo2.v  -encrypt  -pro  -dmgen  C:\Projects\Verilog\led_IGLOO\led_2\led_2\synthesis\dm  -ui -fid2 -ram -sharing on -ll 2000 -autosm  -lib work C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v 
+rc:0 success:1
+C:\Projects\Verilog\led_IGLOO\led_2\led_2\synthesis\synwork\led_igloo_comp.srs|o|1456935254|6620
+C:\Projects\Verilog\led_IGLOO\led_2\led_2\synthesis\synlog\led_igloo_compiler.srr|o|1456935254|16988
+C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\generic\igloo2.v|i|1431621606|16387
+C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v|i|1456935241|4244
+C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\bin\c_hdl.exe|i|1431628566|1299456
+C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\bin64\c_hdl.exe|i|1431628756|1903104

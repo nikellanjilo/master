@@ -1,0 +1,59 @@
+***** Place and Route Configurations *****
+Timing-driven       : OFF
+Power-driven        : OFF
+High-effort         : OFF
+Repair Min-delay    : ON
+Incremental         : OFF
+
+Running 'g4layout.exe' in 64-bit mode
+
+Running the I/O Bank and Globals Assigner.
+Info:  I/O Bank and Globals Assigner identified 179 fixed I/O macros, 3 unfixed I/O macros
+
+I/O Bank and Globals Assigner completed successfully.
+Total time spent in I/O Bank and Globals Assigner: 0 seconds
+Running 'g4placer.exe' in 64-bit mode
+Placer V4.0 - 11.6.1 
+Design: led_igloo                       Started: Wed Mar 02 20:41:56 2016
+
+Initializing Standard Placement ...
+Placing design...
+End of placement.
+Pre-Placement Runtime        : 1 seconds
+Placement Runtime            : 1 seconds
+
+Placer completed successfully.
+
+Design: led_igloo                       
+Finished: Wed Mar 02 20:42:08 2016
+Total CPU Time:     00:00:07            Total Elapsed Time: 00:00:12
+Total Memory Usage: 228.3 Mbytes
+                        o - o - o - o - o - o
+
+Running 'g4layout.exe' in 64-bit mode
+Running 'g4router.exe' in 64-bit mode
+Router 
+Design: C:\Projects\Verilog\led_IGLOO\led_2\led_2\designer\led_igloo\led_iglooStarted: Wed Mar 02 20:42:18 2016
+
+
+Router completed successfully.
+
+Design: C:\Projects\Verilog\led_IGLOO\led_2\led_2\designer\led_igloo\led_igloo
+Finished: Wed Mar 02 20:43:03 2016
+Total CPU Time:     00:00:28            Total Elapsed Time: 00:00:45
+Total Memory Usage: 1762.4 Mbytes
+                        o - o - o - o - o - o
+
+Resource Usage
++---------------+------+-------+------------+
+| Type          | Used | Total | Percentage |
++---------------+------+-------+------------+
+| 4LUT          | 13   | 56340 | 0.02       |
+| DFF           | 0    | 56340 | 0.00       |
+| I/O Register  | 0    | 1125  | 0.00       |
+| Logic Element | 13   | 56340 | 0.02       |
++---------------+------+-------+------------+
+
+The 'probe' command succeeded.
+The Execute Script command succeeded.
+Running 'g4layout.exe' in 64-bit mode

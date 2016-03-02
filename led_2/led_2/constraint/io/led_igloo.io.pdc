@@ -1,0 +1,1174 @@
+# Microsemi I/O Physical Design Constraints file
+# Auto Generated User I/O Constraints file
+
+# Version: v11.6 SP1 11.6.1.6
+# Family: IGLOO2 , Die: M2GL050T , Package: 896 FBGA
+# Date generated: Wed Mar 02 20:37:20 2016 
+
+
+# 
+# User Locked I/O Bank Settings
+# 
+
+
+# 
+# Unlocked I/O Bank Settings
+# The I/O Bank Settings can be locked by directly editing this file
+# or by making changes in the I/O Attribute Editor
+# 
+
+
+# 
+# User Locked I/O settings
+# 
+
+set_io ANTF_n1        \
+    -pinname W24      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io ANTF_n2        \
+    -pinname R5       \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io {BW[0]}         \
+    -pinname F18       \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io {BW[1]}         \
+    -pinname B18       \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io {BW[2]}         \
+    -pinname A9        \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io {BW[3]}         \
+    -pinname B9        \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io {BW[4]}         \
+    -pinname A10       \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io {BW[5]}         \
+    -pinname B10       \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io {BW[6]}         \
+    -pinname F23       \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io {BW[7]}         \
+    -pinname B19       \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io {BW[8]}         \
+    -pinname A11       \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io {BW[9]}         \
+    -pinname B11       \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io {BW[10]}        \
+    -pinname A19       \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io {BW[11]}        \
+    -pinname D11       \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io {BW[12]}        \
+    -pinname B20       \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io {BW[13]}        \
+    -pinname D21       \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io {BW[14]}        \
+    -pinname A22       \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io {BW[15]}        \
+    -pinname A26       \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io {BW[16]}        \
+    -pinname A13       \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io {BW[17]}        \
+    -pinname B13       \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io {BW[18]}        \
+    -pinname A23       \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io {BW[19]}        \
+    -pinname A14       \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io {BW[20]}        \
+    -pinname D9        \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io {BW[21]}        \
+    -pinname D22       \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io {BW[22]}        \
+    -pinname B14       \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io {BW[23]}        \
+    -pinname E18       \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io {BW[24]}        \
+    -pinname A15       \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io {BW[25]}        \
+    -pinname B15       \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io {BW[26]}        \
+    -pinname A24       \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io {BW[27]}        \
+    -pinname F21       \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io {BW[28]}        \
+    -pinname D19       \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io {BW[29]}        \
+    -pinname E25       \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io {BW[30]}        \
+    -pinname E21       \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io {BW[31]}        \
+    -pinname E24       \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io {BW[32]}        \
+    -pinname A20       \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io {BW[33]}        \
+    -pinname E29       \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io {BW[34]}        \
+    -pinname A18       \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io BW_36           \
+    -pinname A25       \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io CSN_n1          \
+    -pinname P6        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io CTR1            \
+    -pinname M2        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io CTR2            \
+    -pinname J2        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io CTR3            \
+    -pinname G2        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io CTR4            \
+    -pinname F2        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io CTR5            \
+    -pinname F1        \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io CTR6            \
+    -pinname M26       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io CTR7            \
+    -pinname E1        \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io GPIO10          \
+    -pinname B16       \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io GPIO11          \
+    -pinname A17       \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io GPIO12          \
+    -pinname F11       \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io GPIO14          \
+    -pinname D15       \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io GPIO15          \
+    -pinname U24       \
+    -fixed yes         \
+    -iostd LVCMOS33    \
+    -DIRECTION OUTPUT
+
+
+set_io GPIO16          \
+    -pinname A12       \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io GPIO17          \
+    -pinname A16       \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io GPIO19          \
+    -pinname L26       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io GPIO20          \
+    -pinname L3        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io GPIO3           \
+    -pinname E23       \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io GPIO4           \
+    -pinname C30       \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io GPIO5           \
+    -pinname D23       \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io GPIO6           \
+    -pinname D13       \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io GPIO8           \
+    -pinname F15       \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io GPIO9           \
+    -pinname B17       \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io GPS1_I0        \
+    -pinname P25      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io GPS1_I1        \
+    -pinname V22      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io GPS1_IDLE       \
+    -pinname R6        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io GPS1_LD        \
+    -pinname K24      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io GPS1_PGM        \
+    -pinname W23       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io GPS1_Q0        \
+    -pinname Y22      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io GPS1_Q1        \
+    -pinname U23      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io GPS1_SCLK       \
+    -pinname P5        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io GPS1_SDATA      \
+    -pinname N4        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io GPS1_SHDN       \
+    -pinname N3        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io GPS2_LD        \
+    -pinname N5       \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io GPS2_Q0        \
+    -pinname V10      \
+    -fixed yes        \
+    -iostd LVCMOS25   \
+    -DIRECTION INPUT
+
+
+set_io GPS2_Q1        \
+    -pinname R9       \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io GPS_I0         \
+    -pinname R7       \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io GPS_I1         \
+    -pinname V9       \
+    -fixed yes        \
+    -iostd LVCMOS25   \
+    -DIRECTION INPUT
+
+
+set_io REF_CE          \
+    -pinname P2        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io REF_CLK         \
+    -pinname P4        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io REF_DATA        \
+    -pinname P1        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io REF_LD          \
+    -pinname V23       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io REF_LE          \
+    -pinname M1        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io REF_MXOUT       \
+    -pinname P24       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io SENSE_CS_1      \
+    -pinname V28       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {SENSE_DIN[0]}  \
+    -pinname V26       \
+    -fixed yes         \
+    -DIRECTION INPUT
+
+
+set_io {SENSE_DIN[1]}  \
+    -pinname K23       \
+    -fixed yes         \
+    -DIRECTION INPUT
+
+
+set_io {SENSE_DOUT[0]}  \
+    -pinname T26        \
+    -fixed yes          \
+    -DIRECTION OUTPUT
+
+
+set_io {SENSE_DOUT[1]}  \
+    -pinname M24        \
+    -fixed yes          \
+    -DIRECTION OUTPUT
+
+
+set_io adc_clk        \
+    -pinname G1       \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io {adc_d0[0]}    \
+    -pinname R28      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io {adc_d0[1]}    \
+    -pinname P26      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io {adc_d0[2]}    \
+    -pinname R25      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io {adc_d0[3]}    \
+    -pinname N24      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io {adc_d0[4]}    \
+    -pinname T27      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io {adc_d0[5]}    \
+    -pinname T28      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io {adc_d0[6]}    \
+    -pinname W25      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io {adc_d0[7]}    \
+    -pinname Y25      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io {adc_d0[8]}    \
+    -pinname U25      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io {adc_d0[9]}    \
+    -pinname R24      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io {adc_d0[10]}   \
+    -pinname P23      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io {adc_d0[11]}   \
+    -pinname AF1      \
+    -fixed yes        \
+    -iostd LVCMOS25   \
+    -DIRECTION INPUT
+
+
+set_io {adc_d0[12]}   \
+    -pinname L1       \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io {adc_d0[13]}   \
+    -pinname L2       \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io adc_oen        \
+    -pinname N25      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io adc_of         \
+    -pinname J1       \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io adc_shdn        \
+    -pinname H1        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io clk_out_n1      \
+    -pinname J4        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io clk_out_n2      \
+    -pinname P9        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io dac1_clk        \
+    -pinname M4        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {dac1_db[5]}    \
+    -pinname P27       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {dac1_db[6]}    \
+    -pinname L7        \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io {dac1_db[7]}    \
+    -pinname M8        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {dac1_db[8]}    \
+    -pinname N6        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {dac1_db[9]}    \
+    -pinname L6        \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io {dac1_db[10]}   \
+    -pinname P7        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {dac1_db[11]}   \
+    -pinname P8        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {dac1_db[12]}   \
+    -pinname N7        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {dac1_db[13]}   \
+    -pinname R8        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io dac1_sleep      \
+    -pinname H4        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io dac2_clk        \
+    -pinname G3        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io dsa_clk         \
+    -pinname P3        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io dsa_data        \
+    -pinname W27       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io dsa_le          \
+    -pinname N8        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io en_modul        \
+    -pinname K5        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {fl_a[0]}       \
+    -pinname W30       \
+    -fixed yes         \
+    -iostd LVCMOS33    \
+    -DIRECTION OUTPUT
+
+
+set_io {fl_a[1]}       \
+    -pinname V30       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {fl_a[2]}       \
+    -pinname R30       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {fl_a[3]}       \
+    -pinname P29       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {fl_a[4]}       \
+    -pinname R29       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {fl_a[5]}       \
+    -pinname M27       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {fl_a[6]}       \
+    -pinname N26       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {fl_a[7]}       \
+    -pinname N30       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {fl_a[8]}       \
+    -pinname K28       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {fl_a[9]}       \
+    -pinname K30       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {fl_a[10]}      \
+    -pinname J28       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {fl_a[11]}      \
+    -pinname J26       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {fl_a[12]}      \
+    -pinname M25       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {fl_a[13]}      \
+    -pinname K29       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {fl_a[14]}      \
+    -pinname J27       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {fl_a[15]}      \
+    -pinname H30       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {fl_a[16]}      \
+    -pinname H28       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {fl_a[17]}      \
+    -pinname M28       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {fl_a[18]}      \
+    -pinname P30       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {fl_a[19]}      \
+    -pinname L28       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {fl_a[20]}      \
+    -pinname V29       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {fl_a[21]}      \
+    -pinname N28       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {fl_a[22]}      \
+    -pinname J30       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {fl_a[23]}      \
+    -pinname J29       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {fl_a[24]}      \
+    -pinname H29       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {fl_a[25]}      \
+    -pinname G30       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io fl_byten        \
+    -pinname AD30      \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io fl_cen          \
+    -pinname N27       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {fl_dq[0]}      \
+    -pinname U30       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {fl_dq[1]}      \
+    -pinname AA28      \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {fl_dq[2]}      \
+    -pinname T30       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {fl_dq[3]}      \
+    -pinname Y30       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {fl_dq[4]}      \
+    -pinname F30       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {fl_dq[5]}      \
+    -pinname AA29      \
+    -fixed yes         \
+    -iostd LVCMOS33    \
+    -DIRECTION OUTPUT
+
+
+set_io {fl_dq[6]}      \
+    -pinname G29       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {fl_dq[7]}      \
+    -pinname W28       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io fl_oen          \
+    -pinname W29       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io fl_resetn       \
+    -pinname L29       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io fl_ryby         \
+    -pinname M30       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io fl_wen          \
+    -pinname L30       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io fl_wpn          \
+    -pinname N29       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io oclk_1          \
+    -pinname L23       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io osc_vcc        \
+    -pinname N9       \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io out1            \
+    -pinname K3        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io out2            \
+    -pinname N2        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io sr_cs1n         \
+    -pinname AC30      \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io sr_cs2          \
+    -pinname AC29      \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io sr_lbn          \
+    -pinname AB30      \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io sr_oen          \
+    -pinname AB29      \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io sr_ubn          \
+    -pinname K25       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io sr_wen          \
+    -pinname T24       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io temp1_so       \
+    -pinname U26      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io temp2_so       \
+    -pinname P28      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io temp3_so       \
+    -pinname V27      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io temp_csn       \
+    -pinname AE1      \
+    -fixed yes        \
+    -iostd LVCMOS25   \
+    -DIRECTION INPUT
+
+
+set_io temp_sck       \
+    -pinname U27      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+
+# 
+# Dedicated Peripheral I/O Settings
+# 
+
+
+# 
+# Unlocked I/O settings
+# The I/Os in this section are unplaced or placed but are not locked
+# the other listed attributes have been applied
+# 
+
+set_io GPIO7           \
+    -iostd LVCMOS33    \
+    -DIRECTION OUTPUT
+
+

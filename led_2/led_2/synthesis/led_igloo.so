@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>led_igloo</design>
+	<target_edif>C:\Projects\Verilog\led_IGLOO\led_2\led_2\synthesis\led_igloo.edn</target_edif>
+</SynplifyOutput>

@@ -1,0 +1,16 @@
+FlashPro
+Version: 11.6.1.6
+Release: v11.6 SP1
+
+Software Version: 11.6.1.6
+Opened 'C:/Projects/Verilog/led_IGLOO/led_2/led_2/designer/led_igloo/led_igloo_fp/led_igloo.pro'
+The 'open_project' command succeeded.
+PDB file
+'C:\Projects\Verilog\led_IGLOO\led_2\led_2\designer\led_igloo\1a40e455-c95c-44e3-895c-64e3c95c6\
+4e3.pdb' has been loaded successfully.
+DESIGN : led_igloo;  CHECKSUM : 9C9C;  PDB_VERSION : 1.9
+The 'load_programming_data' command succeeded.
+The 'set_programming_file' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.

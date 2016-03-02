@@ -1,0 +1,9 @@
+Debug File version: Ver 1.0
+Creator: Designer
+Creator version: v11.6 SP1
+Creator build: 11.6.1.6
+External die name: M2GL050T
+Package: 896 FBGA
+Design Name: led_igloo
+Probe A IO: available for probe A
+Probe B IO: not available for probing

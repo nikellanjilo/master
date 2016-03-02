@@ -1,0 +1,217 @@
+# Microsemi Physical design constraints file
+
+# Version: v11.6 SP1 11.6.1.6
+
+# Design Name: led_igloo 
+
+# Input Netlist Format: EDIF 
+
+# Family: IGLOO2 , Die: M2GL050T , Package: 896 FBGA , Speed grade: -1 
+
+# Date generated: Wed Mar 02 20:42:08 2016 
+
+
+#
+# I/O constraints
+#
+
+set_io ANTF_n1 -DIRECTION INPUT -pinname W24 -fixed no
+set_io ANTF_n2 -DIRECTION INPUT -pinname R5 -fixed no
+set_io BW\[0\] -DIRECTION OUTPUT -pinname F18 -fixed no
+set_io BW\[1\] -DIRECTION OUTPUT -pinname B18 -fixed no
+set_io BW\[2\] -DIRECTION OUTPUT -pinname A9 -fixed no
+set_io BW\[3\] -DIRECTION OUTPUT -pinname B9 -fixed no
+set_io BW\[4\] -DIRECTION OUTPUT -pinname A10 -fixed no
+set_io BW\[5\] -DIRECTION OUTPUT -pinname B10 -fixed no
+set_io BW\[6\] -DIRECTION OUTPUT -pinname F23 -fixed no
+set_io BW\[7\] -DIRECTION OUTPUT -pinname B19 -fixed no
+set_io BW\[8\] -DIRECTION OUTPUT -pinname A11 -fixed no
+set_io BW\[9\] -DIRECTION OUTPUT -pinname B11 -fixed no
+set_io BW\[10\] -DIRECTION OUTPUT -pinname A19 -fixed no
+set_io BW\[11\] -DIRECTION OUTPUT -pinname D11 -fixed no
+set_io BW\[12\] -DIRECTION OUTPUT -pinname B20 -fixed no
+set_io BW\[13\] -DIRECTION OUTPUT -pinname D21 -fixed no
+set_io BW\[14\] -DIRECTION OUTPUT -pinname A22 -fixed no
+set_io BW\[15\] -DIRECTION OUTPUT -pinname A26 -fixed no
+set_io BW\[16\] -DIRECTION OUTPUT -pinname A13 -fixed no
+set_io BW\[17\] -DIRECTION OUTPUT -pinname B13 -fixed no
+set_io BW\[18\] -DIRECTION OUTPUT -pinname A23 -fixed no
+set_io BW\[19\] -DIRECTION OUTPUT -pinname A14 -fixed no
+set_io BW\[20\] -DIRECTION OUTPUT -pinname D9 -fixed no
+set_io BW\[21\] -DIRECTION OUTPUT -pinname D22 -fixed no
+set_io BW\[22\] -DIRECTION OUTPUT -pinname B14 -fixed no
+set_io BW\[23\] -DIRECTION OUTPUT -pinname E18 -fixed no
+set_io BW\[24\] -DIRECTION OUTPUT -pinname A15 -fixed no
+set_io BW\[25\] -DIRECTION OUTPUT -pinname B15 -fixed no
+set_io BW\[26\] -DIRECTION OUTPUT -pinname A24 -fixed no
+set_io BW\[27\] -DIRECTION OUTPUT -pinname F21 -fixed no
+set_io BW\[28\] -DIRECTION OUTPUT -pinname D19 -fixed no
+set_io BW\[29\] -DIRECTION OUTPUT -pinname E25 -fixed no
+set_io BW\[30\] -DIRECTION OUTPUT -pinname E21 -fixed no
+set_io BW\[31\] -DIRECTION OUTPUT -pinname E24 -fixed no
+set_io BW\[32\] -DIRECTION OUTPUT -pinname A20 -fixed no
+set_io BW\[33\] -DIRECTION OUTPUT -pinname E29 -fixed no
+set_io BW\[34\] -DIRECTION OUTPUT -pinname A18 -fixed no
+set_io BW_36 -DIRECTION OUTPUT -pinname A25 -fixed no
+set_io CSN_n1 -DIRECTION OUTPUT -pinname P6 -fixed no
+set_io CTR1 -DIRECTION OUTPUT -pinname M2 -fixed no
+set_io CTR2 -DIRECTION OUTPUT -pinname J2 -fixed no
+set_io CTR3 -DIRECTION OUTPUT -pinname G2 -fixed no
+set_io CTR4 -DIRECTION OUTPUT -pinname F2 -fixed no
+set_io CTR5 -DIRECTION OUTPUT -pinname F1 -fixed no
+set_io CTR6 -DIRECTION OUTPUT -pinname M26 -fixed no
+set_io CTR7 -DIRECTION OUTPUT -pinname E1 -fixed no
+set_io GPIO1 -DIRECTION OUTPUT -pinname AB26 -fixed no
+set_io GPIO10 -DIRECTION OUTPUT -pinname B16 -fixed no
+set_io GPIO11 -DIRECTION OUTPUT -pinname A17 -fixed no
+set_io GPIO12 -DIRECTION OUTPUT -pinname F11 -fixed no
+set_io GPIO14 -DIRECTION OUTPUT -pinname D15 -fixed no
+set_io GPIO15 -DIRECTION OUTPUT -pinname U24 -fixed no
+set_io GPIO16 -DIRECTION OUTPUT -pinname A12 -fixed no
+set_io GPIO17 -DIRECTION OUTPUT -pinname A16 -fixed no
+set_io GPIO19 -DIRECTION OUTPUT -pinname L26 -fixed no
+set_io GPIO2 -DIRECTION OUTPUT -pinname M3 -fixed no
+set_io GPIO20 -DIRECTION OUTPUT -pinname L3 -fixed no
+set_io GPIO3 -DIRECTION OUTPUT -pinname E23 -fixed no
+set_io GPIO4 -DIRECTION OUTPUT -pinname C30 -fixed no
+set_io GPIO5 -DIRECTION OUTPUT -pinname D23 -fixed no
+set_io GPIO6 -DIRECTION OUTPUT -pinname D13 -fixed no
+set_io GPIO7 -DIRECTION OUTPUT -pinname V24 -fixed no
+set_io GPIO8 -DIRECTION OUTPUT -pinname F15 -fixed no
+set_io GPIO9 -DIRECTION OUTPUT -pinname B17 -fixed no
+set_io GPS1_I0 -DIRECTION INPUT -pinname P25 -fixed no
+set_io GPS1_I1 -DIRECTION INPUT -pinname V22 -fixed no
+set_io GPS1_IDLE -DIRECTION OUTPUT -pinname R6 -fixed no
+set_io GPS1_LD -DIRECTION INPUT -pinname K24 -fixed no
+set_io GPS1_PGM -DIRECTION OUTPUT -pinname W23 -fixed no
+set_io GPS1_Q0 -DIRECTION INPUT -pinname Y22 -fixed no
+set_io GPS1_Q1 -DIRECTION INPUT -pinname U23 -fixed no
+set_io GPS1_SCLK -DIRECTION OUTPUT -pinname P5 -fixed no
+set_io GPS1_SDATA -DIRECTION OUTPUT -pinname N4 -fixed no
+set_io GPS1_SHDN -DIRECTION OUTPUT -pinname N3 -fixed no
+set_io GPS2_LD -DIRECTION INPUT -pinname N5 -fixed no
+set_io GPS2_Q0 -DIRECTION INPUT -pinname V10 -fixed no
+set_io GPS2_Q1 -DIRECTION INPUT -pinname R9 -fixed no
+set_io GPS_I0 -DIRECTION INPUT -pinname R7 -fixed no
+set_io GPS_I1 -DIRECTION INPUT -pinname V9 -fixed no
+set_io REF_CE -DIRECTION OUTPUT -pinname P2 -fixed no
+set_io REF_CLK -DIRECTION OUTPUT -pinname P4 -fixed no
+set_io REF_DATA -DIRECTION OUTPUT -pinname P1 -fixed no
+set_io REF_LD -DIRECTION OUTPUT -pinname V23 -fixed no
+set_io REF_LE -DIRECTION OUTPUT -pinname M1 -fixed no
+set_io REF_MXOUT -DIRECTION OUTPUT -pinname P24 -fixed no
+set_io SENSE_CS_1 -DIRECTION OUTPUT -pinname V28 -fixed no
+set_io SENSE_DIN\[0\] -DIRECTION INPUT -pinname V26 -fixed no
+set_io SENSE_DIN\[1\] -DIRECTION INPUT -pinname K23 -fixed no
+set_io SENSE_DOUT\[0\] -DIRECTION OUTPUT -pinname T26 -fixed no
+set_io SENSE_DOUT\[1\] -DIRECTION OUTPUT -pinname M24 -fixed no
+set_io adc_clk -DIRECTION INPUT -pinname G1 -fixed no
+set_io adc_d0\[0\] -DIRECTION INPUT -pinname R28 -fixed no
+set_io adc_d0\[1\] -DIRECTION INPUT -pinname P26 -fixed no
+set_io adc_d0\[2\] -DIRECTION INPUT -pinname R25 -fixed no
+set_io adc_d0\[3\] -DIRECTION INPUT -pinname N24 -fixed no
+set_io adc_d0\[4\] -DIRECTION INPUT -pinname T27 -fixed no
+set_io adc_d0\[5\] -DIRECTION INPUT -pinname T28 -fixed no
+set_io adc_d0\[6\] -DIRECTION INPUT -pinname W25 -fixed no
+set_io adc_d0\[7\] -DIRECTION INPUT -pinname Y25 -fixed no
+set_io adc_d0\[8\] -DIRECTION INPUT -pinname U25 -fixed no
+set_io adc_d0\[9\] -DIRECTION INPUT -pinname R24 -fixed no
+set_io adc_d0\[10\] -DIRECTION INPUT -pinname P23 -fixed no
+set_io adc_d0\[11\] -DIRECTION INPUT -pinname AF1 -fixed no
+set_io adc_d0\[12\] -DIRECTION INPUT -pinname L1 -fixed no
+set_io adc_d0\[13\] -DIRECTION INPUT -pinname L2 -fixed no
+set_io adc_oen -DIRECTION INPUT -pinname N25 -fixed no
+set_io adc_of -DIRECTION INPUT -pinname J1 -fixed no
+set_io adc_shdn -DIRECTION OUTPUT -pinname H1 -fixed no
+set_io clk_out_n1 -DIRECTION OUTPUT -pinname J4 -fixed no
+set_io clk_out_n2 -DIRECTION OUTPUT -pinname P9 -fixed no
+set_io dac1_clk -DIRECTION OUTPUT -pinname M4 -fixed no
+set_io dac1_db\[5\] -DIRECTION OUTPUT -pinname P27 -fixed no
+set_io dac1_db\[6\] -DIRECTION OUTPUT -pinname L7 -fixed no
+set_io dac1_db\[7\] -DIRECTION OUTPUT -pinname M8 -fixed no
+set_io dac1_db\[8\] -DIRECTION OUTPUT -pinname N6 -fixed no
+set_io dac1_db\[9\] -DIRECTION OUTPUT -pinname L6 -fixed no
+set_io dac1_db\[10\] -DIRECTION OUTPUT -pinname P7 -fixed no
+set_io dac1_db\[11\] -DIRECTION OUTPUT -pinname P8 -fixed no
+set_io dac1_db\[12\] -DIRECTION OUTPUT -pinname N7 -fixed no
+set_io dac1_db\[13\] -DIRECTION OUTPUT -pinname R8 -fixed no
+set_io dac1_sleep -DIRECTION OUTPUT -pinname H4 -fixed no
+set_io dac2_clk -DIRECTION OUTPUT -pinname G3 -fixed no
+set_io dsa_clk -DIRECTION OUTPUT -pinname P3 -fixed no
+set_io dsa_data -DIRECTION OUTPUT -pinname W27 -fixed no
+set_io dsa_le -DIRECTION OUTPUT -pinname N8 -fixed no
+set_io en_modul -DIRECTION OUTPUT -pinname K5 -fixed no
+set_io fl_a\[0\] -DIRECTION OUTPUT -pinname W30 -fixed no
+set_io fl_a\[1\] -DIRECTION OUTPUT -pinname V30 -fixed no
+set_io fl_a\[2\] -DIRECTION OUTPUT -pinname R30 -fixed no
+set_io fl_a\[3\] -DIRECTION OUTPUT -pinname P29 -fixed no
+set_io fl_a\[4\] -DIRECTION OUTPUT -pinname R29 -fixed no
+set_io fl_a\[5\] -DIRECTION OUTPUT -pinname M27 -fixed no
+set_io fl_a\[6\] -DIRECTION OUTPUT -pinname N26 -fixed no
+set_io fl_a\[7\] -DIRECTION OUTPUT -pinname N30 -fixed no
+set_io fl_a\[8\] -DIRECTION OUTPUT -pinname K28 -fixed no
+set_io fl_a\[9\] -DIRECTION OUTPUT -pinname K30 -fixed no
+set_io fl_a\[10\] -DIRECTION OUTPUT -pinname J28 -fixed no
+set_io fl_a\[11\] -DIRECTION OUTPUT -pinname J26 -fixed no
+set_io fl_a\[12\] -DIRECTION OUTPUT -pinname M25 -fixed no
+set_io fl_a\[13\] -DIRECTION OUTPUT -pinname K29 -fixed no
+set_io fl_a\[14\] -DIRECTION OUTPUT -pinname J27 -fixed no
+set_io fl_a\[15\] -DIRECTION OUTPUT -pinname H30 -fixed no
+set_io fl_a\[16\] -DIRECTION OUTPUT -pinname H28 -fixed no
+set_io fl_a\[17\] -DIRECTION OUTPUT -pinname M28 -fixed no
+set_io fl_a\[18\] -DIRECTION OUTPUT -pinname P30 -fixed no
+set_io fl_a\[19\] -DIRECTION OUTPUT -pinname L28 -fixed no
+set_io fl_a\[20\] -DIRECTION OUTPUT -pinname V29 -fixed no
+set_io fl_a\[21\] -DIRECTION OUTPUT -pinname N28 -fixed no
+set_io fl_a\[22\] -DIRECTION OUTPUT -pinname J30 -fixed no
+set_io fl_a\[23\] -DIRECTION OUTPUT -pinname J29 -fixed no
+set_io fl_a\[24\] -DIRECTION OUTPUT -pinname H29 -fixed no
+set_io fl_a\[25\] -DIRECTION OUTPUT -pinname G30 -fixed no
+set_io fl_byten -DIRECTION OUTPUT -pinname AD30 -fixed no
+set_io fl_cen -DIRECTION OUTPUT -pinname N27 -fixed no
+set_io fl_dq\[0\] -DIRECTION OUTPUT -pinname U30 -fixed no
+set_io fl_dq\[1\] -DIRECTION OUTPUT -pinname AA28 -fixed no
+set_io fl_dq\[2\] -DIRECTION OUTPUT -pinname T30 -fixed no
+set_io fl_dq\[3\] -DIRECTION OUTPUT -pinname Y30 -fixed no
+set_io fl_dq\[4\] -DIRECTION OUTPUT -pinname F30 -fixed no
+set_io fl_dq\[5\] -DIRECTION OUTPUT -pinname AA29 -fixed no
+set_io fl_dq\[6\] -DIRECTION OUTPUT -pinname G29 -fixed no
+set_io fl_dq\[7\] -DIRECTION OUTPUT -pinname W28 -fixed no
+set_io fl_oen -DIRECTION OUTPUT -pinname W29 -fixed no
+set_io fl_resetn -DIRECTION OUTPUT -pinname L29 -fixed no
+set_io fl_ryby -DIRECTION OUTPUT -pinname M30 -fixed no
+set_io fl_wen -DIRECTION OUTPUT -pinname L30 -fixed no
+set_io fl_wpn -DIRECTION OUTPUT -pinname N29 -fixed no
+set_io oclk_1 -DIRECTION OUTPUT -pinname L23 -fixed no
+set_io osc_vcc -DIRECTION INPUT -pinname N9 -fixed no
+set_io out1 -DIRECTION OUTPUT -pinname K3 -fixed no
+set_io out2 -DIRECTION OUTPUT -pinname N2 -fixed no
+set_io sr_cs1n -DIRECTION OUTPUT -pinname AC30 -fixed no
+set_io sr_cs2 -DIRECTION OUTPUT -pinname AC29 -fixed no
+set_io sr_lbn -DIRECTION OUTPUT -pinname AB30 -fixed no
+set_io sr_oen -DIRECTION OUTPUT -pinname AB29 -fixed no
+set_io sr_ubn -DIRECTION OUTPUT -pinname K25 -fixed no
+set_io sr_wen -DIRECTION OUTPUT -pinname T24 -fixed no
+set_io temp1_so -DIRECTION INPUT -pinname U26 -fixed no
+set_io temp2_so -DIRECTION INPUT -pinname P28 -fixed no
+set_io temp3_so -DIRECTION INPUT -pinname V27 -fixed no
+set_io temp_csn -DIRECTION INPUT -pinname AE1 -fixed no
+set_io temp_sck -DIRECTION INPUT -pinname U27 -fixed no
+
+#
+# Core cell constraints
+#
+
+set_location GPIO6 -fixed no 24 72
+set_location GPIO3_9 -fixed no 869 60
+set_location GPIO6_4 -fixed no 19 54
+set_location GPIO4 -fixed no 835 114
+set_location GPIO6_5 -fixed no 808 69
+set_location GPIO5_4 -fixed no 807 69
+set_location GPIO3_8 -fixed no 867 60
+set_location GPIO5_6 -fixed no 106 147
+set_location GPIO3 -fixed no 866 60
+set_location GPIO5 -fixed no 805 69
+set_location GPIO5_8 -fixed no 873 69
+set_location GPIO3_7 -fixed no 865 60
+set_location GPIO3_6 -fixed no 25 135

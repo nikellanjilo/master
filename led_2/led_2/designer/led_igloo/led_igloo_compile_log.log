@@ -1,0 +1,20 @@
+Running 'g4compile.exe' in 64-bit mode
+
+===============================================================================.
+
+Info: Global design data: 
+      Total globals:                       0 
+      Globals that cannot be demoted:      0 
+      Globals considered for demotion:     0 
+
+
+Info: Demotion information: 
+Info: CMPG4-302: Added 0 row global instances.
+Info: CMPG4-303: Deleted 0 global instances.
+
+===============================================================================.
+
+INFO: Reading User PDC file C:/Projects/Verilog/led_IGLOO/led_2/led_2/constraint/io/led_igloo.io.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file C:/Projects/Verilog/led_IGLOO/led_2/led_2/constraint/fp/led_igloo.fp.pdc. 0 error(s) and 0 warning(s)
+Running 'st_shell.exe' in 64-bit mode
+Running 'g4layout.exe' in 64-bit mode

@@ -1,0 +1,5 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"C:\Projects\Verilog\led_IGLOO\led_2\led_2\hdl\led.v":3:7:3:15|Synthesizing module led_igloo
+@N|Running in 64-bit mode
+

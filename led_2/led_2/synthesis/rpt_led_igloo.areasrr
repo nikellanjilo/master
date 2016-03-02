@@ -1,0 +1,26 @@
+#### START OF AREA REPORT #####[
+
+Part:			M2GL050TFBGA896-1 (Microsemi)
+
+-------------------------------------------------------------------------
+########   Utilization report for  Top level view:   led_igloo   ########
+=========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      13                 100 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block led_igloo:	13 (6.60 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       182                100 %                
+=================================================
+Total IO PADS in the block led_igloo:	182 (92.39 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+
