@@ -1,0 +1,1314 @@
+#Build: Synplify Pro J-2015.03M-3, Build 048R, May 14 2015
+#install: C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3
+#OS: Windows 8 6.2
+#Hostname: NIKELLANJILO
+
+#Implementation: synthesis
+
+Synopsys HDL Compiler, version comp201503p1, Build 094R, built May 14 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp201503p1, Build 094R, built May 14 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@I::"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\generic\igloo2.v"
+@I::"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\vlog\hypermods.v"
+@I::"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\vlog\umr_capim.v"
+@I::"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\vlog\scemi_objects.v"
+@I::"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\vlog\scemi_pipes.svh"
+@I::"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp_pcie_hotreset.v"
+@I::"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v"
+@I::"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\work\build_sb\CCC_0\build_sb_CCC_0_FCCC.v"
+@I::"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\SgCore\OSC\1.0.105\osc_comps.v"
+@I::"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\work\build_sb\FABOSC_0\build_sb_FABOSC_0_OSC.v"
+@I::"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\work\build_sb_HPMS\build_sb_HPMS_syn.v"
+@I::"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\work\build_sb_HPMS\build_sb_HPMS.v"
+@I::"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\work\build_sb\build_sb.v"
+@I::"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v"
+@I::"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\work\build\build.v"
+Verilog syntax check successful!
+Selecting top level module build
+@N: CG364 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\work\build_sb_HPMS\build_sb_HPMS_syn.v":5:7:5:13|Synthesizing module MSS_050
+
+@N: CG364 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\work\build_sb_HPMS\build_sb_HPMS.v":9:7:9:19|Synthesizing module build_sb_HPMS
+
+@N: CG364 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\generic\igloo2.v":362:7:362:12|Synthesizing module CLKINT
+
+@N: CG364 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\generic\igloo2.v":376:7:376:9|Synthesizing module VCC
+
+@N: CG364 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\generic\igloo2.v":372:7:372:9|Synthesizing module GND
+
+@N: CG364 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\generic\igloo2.v":727:7:727:9|Synthesizing module CCC
+
+@N: CG364 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\work\build_sb\CCC_0\build_sb_CCC_0_FCCC.v":5:7:5:25|Synthesizing module build_sb_CCC_0_FCCC
+
+@N: CG364 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":23:7:23:16|Synthesizing module CoreResetP
+
+	FAMILY=32'b00000000000000000000000000010011
+	EXT_RESET_CFG=32'b00000000000000000000000000000000
+	DEVICE_VOLTAGE=32'b00000000000000000000000000000010
+	MDDR_IN_USE=32'b00000000000000000000000000000000
+	FDDR_IN_USE=32'b00000000000000000000000000000000
+	SDIF0_IN_USE=32'b00000000000000000000000000000000
+	SDIF1_IN_USE=32'b00000000000000000000000000000000
+	SDIF2_IN_USE=32'b00000000000000000000000000000000
+	SDIF3_IN_USE=32'b00000000000000000000000000000000
+	SDIF0_PCIE=32'b00000000000000000000000000000000
+	SDIF1_PCIE=32'b00000000000000000000000000000000
+	SDIF2_PCIE=32'b00000000000000000000000000000000
+	SDIF3_PCIE=32'b00000000000000000000000000000000
+	SDIF0_PCIE_HOTRESET=32'b00000000000000000000000000000001
+	SDIF1_PCIE_HOTRESET=32'b00000000000000000000000000000001
+	SDIF2_PCIE_HOTRESET=32'b00000000000000000000000000000001
+	SDIF3_PCIE_HOTRESET=32'b00000000000000000000000000000001
+	SDIF0_PCIE_L2P2=32'b00000000000000000000000000000001
+	SDIF1_PCIE_L2P2=32'b00000000000000000000000000000001
+	SDIF2_PCIE_L2P2=32'b00000000000000000000000000000001
+	SDIF3_PCIE_L2P2=32'b00000000000000000000000000000001
+	ENABLE_SOFT_RESETS=32'b00000000000000000000000000000000
+	DEVICE_090=32'b00000000000000000000000000000000
+	DDR_WAIT=32'b00000000000000000000000011001000
+	RCOSC_MEGAHERTZ=32'b00000000000000000000000000110010
+	SDIF_INTERVAL=32'b00000000000000000001100101100100
+	DDR_INTERVAL=32'b00000000000000000010011100010000
+	COUNT_WIDTH_SDIF=32'b00000000000000000000000000001101
+	COUNT_WIDTH_DDR=32'b00000000000000000000000000001110
+	S0=32'b00000000000000000000000000000000
+	S1=32'b00000000000000000000000000000001
+	S2=32'b00000000000000000000000000000010
+	S3=32'b00000000000000000000000000000011
+	S4=32'b00000000000000000000000000000100
+	S5=32'b00000000000000000000000000000101
+	S6=32'b00000000000000000000000000000110
+   Generated name = CoreResetP_Z1
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1613:4:1613:9|Pruning register count_ddr[13:0] 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1581:4:1581:9|Pruning register count_sdif3[12:0] 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1549:4:1549:9|Pruning register count_sdif2[12:0] 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1517:4:1517:9|Pruning register count_sdif1[12:0] 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1485:4:1485:9|Pruning register count_sdif0[12:0] 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif0_enable_q1 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif1_enable_q1 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif2_enable_q1 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif3_enable_q1 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif0_enable_rcosc 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif1_enable_rcosc 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif2_enable_rcosc 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif3_enable_rcosc 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_ddr_enable_q1 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_ddr_enable_rcosc 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Pruning register count_sdif3_enable 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Pruning register count_sdif2_enable 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Pruning register count_sdif1_enable 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Pruning register count_sdif0_enable 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Pruning register count_ddr_enable 
+
+@N: CL177 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1388:4:1388:9|Sharing sequential element M3_RESET_N_int.
+@N: CL177 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif2_spll_lock_q1.
+@N: CL177 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif1_spll_lock_q1.
+@N: CL177 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif0_spll_lock_q1.
+@N: CL177 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element fpll_lock_q1.
+@W: CL190 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1433:4:1433:9|Optimizing register bit EXT_RESET_OUT_int to a constant 0
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Pruning register release_ext_reset 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1433:4:1433:9|Pruning register EXT_RESET_OUT_int 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1433:4:1433:9|Pruning register sm2_state[2:0] 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":783:4:783:9|Pruning register sm2_areset_n_q1 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":783:4:783:9|Pruning register sm2_areset_n_clk_base 
+
+@N: CG364 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\SgCore\OSC\1.0.105\osc_comps.v":51:7:51:24|Synthesizing module RCOSC_25_50MHZ_FAB
+
+@N: CG364 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\SgCore\OSC\1.0.105\osc_comps.v":11:7:11:20|Synthesizing module RCOSC_25_50MHZ
+
+@N: CG364 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\work\build_sb\FABOSC_0\build_sb_FABOSC_0_OSC.v":5:7:5:27|Synthesizing module build_sb_FABOSC_0_OSC
+
+@N: CG364 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\generic\igloo2.v":718:7:718:14|Synthesizing module SYSRESET
+
+@N: CG364 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\work\build_sb\build_sb.v":9:7:9:14|Synthesizing module build_sb
+
+@N: CG364 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":3:7:3:15|Synthesizing module led_igloo
+
+@W: CG133 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":14:17:14:20|No assignment to out1
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":15:13:15:16|No assignment to wire out2
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":27:13:27:20|No assignment to wire dac1_clk
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":28:13:28:20|No assignment to wire dac2_clk
+
+@W: CG133 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":29:24:29:30|No assignment to dac1_db
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":30:13:30:22|No assignment to wire dac1_sleep
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":32:20:32:23|No assignment to wire fl_a
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":33:13:33:20|No assignment to wire fl_byten
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":34:13:34:18|No assignment to wire fl_cen
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":35:19:35:23|No assignment to wire fl_dq
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":36:13:36:18|No assignment to wire fl_oen
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":37:13:37:21|No assignment to wire fl_resetn
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":38:13:38:19|No assignment to wire fl_ryby
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":39:13:39:18|No assignment to wire fl_wen
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":40:13:40:18|No assignment to wire fl_wpn
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":41:13:41:19|No assignment to wire sr_cs1n
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":42:13:42:18|No assignment to wire sr_cs2
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":43:13:43:18|No assignment to wire sr_lbn
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":44:13:44:18|No assignment to wire sr_oen
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":45:13:45:18|No assignment to wire sr_ubn
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":46:13:46:18|No assignment to wire sr_wen
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":49:13:49:22|No assignment to wire clk_out_n1
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":57:13:57:22|No assignment to wire clk_out_n2
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":58:13:58:18|No assignment to wire CSN_n1
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":61:13:61:21|No assignment to wire GPS1_IDLE
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":63:13:63:20|No assignment to wire GPS1_PGM
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":66:13:66:21|No assignment to wire GPS1_SCLK
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":67:13:67:22|No assignment to wire GPS1_SDATA
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":68:13:68:21|No assignment to wire GPS1_SHDN
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":70:13:70:18|No assignment to wire REF_CE
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":71:13:71:19|No assignment to wire REF_CLK
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":72:13:72:20|No assignment to wire REF_DATA
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":73:13:73:18|No assignment to wire REF_LD
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":74:13:74:18|No assignment to wire REF_LE
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":75:13:75:21|No assignment to wire REF_MXOUT
+
+@W: CG134 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":79:23:79:32|No assignment to bit 0 of SENSE_DOUT
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":82:13:82:19|No assignment to wire dsa_clk
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":83:13:83:20|No assignment to wire dsa_data
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":84:13:84:18|No assignment to wire dsa_le
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":86:13:86:20|No assignment to wire en_modul
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":89:13:89:18|No assignment to wire GPIO17
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":103:13:103:17|No assignment to wire GPIO2
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":104:13:104:17|No assignment to wire GPIO1
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":193:4:193:9|Pruning register data_from_adc[8][11:0] 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":193:4:193:9|Pruning register data_from_adc[7][11:0] 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":193:4:193:9|Pruning register data_from_adc[6][11:0] 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":193:4:193:9|Pruning register data_from_adc[5][11:0] 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":193:4:193:9|Pruning register data_from_adc[4][11:0] 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":193:4:193:9|Pruning register data_from_adc[3][11:0] 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":193:4:193:9|Pruning register data_from_adc[1][11:0] 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":193:4:193:9|Pruning register data_from_adc[0][11:0] 
+
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[0][0] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[0][1] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[0][2] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[0][3] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[0][4] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[0][5] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[0][6] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[0][7] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[1][0] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[1][1] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[1][2] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[1][3] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[1][4] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[1][5] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[1][6] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[1][7] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[2][0] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[2][1] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[2][2] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[2][3] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[2][4] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[2][5] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[2][6] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[2][7] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[3][0] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[3][1] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[3][2] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[3][3] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[3][4] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[3][5] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[3][6] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[3][7] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[4][0] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[4][1] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[4][2] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[4][3] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[4][4] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[4][5] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[4][6] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[4][7] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[5][0] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[5][1] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[5][2] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[5][3] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[5][4] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[5][5] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[5][6] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[5][7] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[6][0] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[6][1] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[6][2] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[6][3] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[6][4] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[6][5] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[6][6] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[6][7] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[7][0] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[7][1] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[7][2] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[7][3] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[7][4] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[7][5] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[7][6] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[7][7] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[8][0] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[8][1] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[8][2] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[8][3] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[8][4] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[8][5] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[8][6] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":136:3:136:8|Register bit data_2adc[8][7] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":211:4:211:9|Register bit GPIO12 is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":199:4:199:9|Register bit freq[0] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":199:4:199:9|Register bit freq[1] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":199:4:199:9|Register bit freq[2] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":199:4:199:9|Register bit freq[3] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":199:4:199:9|Register bit freq[4] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":199:4:199:9|Register bit freq[5] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":199:4:199:9|Register bit freq[6] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":199:4:199:9|Register bit freq[10] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":199:4:199:9|Register bit freq[15] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":199:4:199:9|Register bit freq[23] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":199:4:199:9|Register bit freq[24] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":199:4:199:9|Register bit freq[25] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":199:4:199:9|Register bit freq[26] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":199:4:199:9|Register bit freq[27] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":199:4:199:9|Register bit freq[28] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":199:4:199:9|Register bit freq[29] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":199:4:199:9|Register bit freq[30] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":199:4:199:9|Register bit freq[31] is always 0, optimizing ...
+@W: CL279 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":199:4:199:9|Pruning register bits 31 to 23 of freq[31:0] 
+
+@W: CL260 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":199:4:199:9|Pruning register bit 15 of freq[31:0] 
+
+@W: CL260 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":199:4:199:9|Pruning register bit 10 of freq[31:0] 
+
+@W: CL279 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":199:4:199:9|Pruning register bits 6 to 0 of freq[31:0] 
+
+@N: CG364 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\work\build\build.v":9:7:9:11|Synthesizing module build
+
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":149:2:149:7|Register bit cnt[6] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":149:2:149:7|Register bit cnt[7] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":149:2:149:7|Register bit cnt[8] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":149:2:149:7|Register bit cnt[9] is always 0, optimizing ...
+@W: CL279 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":149:2:149:7|Pruning register bits 9 to 6 of cnt[9:0] 
+
+@N: CL201 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":149:2:149:7|Trying to extract state machine for register state
+@W: CL260 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":199:4:199:9|Pruning register bit 14 of freq[14:11] 
+
+@W: CL260 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":199:4:199:9|Pruning register bit 20 of freq[22:16] 
+
+@A: CL153 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":14:17:14:20|*Unassigned bits of out1 are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":29:24:29:30|*Unassigned bits of dac1_db[13:5] are referenced and tied to 0 -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":15:13:15:16|*Output out2 has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":24:24:24:25|*Output BW has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":27:13:27:20|*Output dac1_clk has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":28:13:28:20|*Output dac2_clk has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":30:13:30:22|*Output dac1_sleep has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":32:20:32:23|*Output fl_a has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":33:13:33:20|*Output fl_byten has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":34:13:34:18|*Output fl_cen has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":35:19:35:23|*Output fl_dq has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":36:13:36:18|*Output fl_oen has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":37:13:37:21|*Output fl_resetn has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":38:13:38:19|*Output fl_ryby has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":39:13:39:18|*Output fl_wen has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":40:13:40:18|*Output fl_wpn has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":41:13:41:19|*Output sr_cs1n has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":42:13:42:18|*Output sr_cs2 has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":43:13:43:18|*Output sr_lbn has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":44:13:44:18|*Output sr_oen has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":45:13:45:18|*Output sr_ubn has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":46:13:46:18|*Output sr_wen has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":49:13:49:22|*Output clk_out_n1 has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":57:13:57:22|*Output clk_out_n2 has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":58:13:58:18|*Output CSN_n1 has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":61:13:61:21|*Output GPS1_IDLE has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":63:13:63:20|*Output GPS1_PGM has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":66:13:66:21|*Output GPS1_SCLK has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":67:13:67:22|*Output GPS1_SDATA has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":68:13:68:21|*Output GPS1_SHDN has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":70:13:70:18|*Output REF_CE has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":71:13:71:19|*Output REF_CLK has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":72:13:72:20|*Output REF_DATA has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":73:13:73:18|*Output REF_LD has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":74:13:74:18|*Output REF_LE has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":75:13:75:21|*Output REF_MXOUT has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":79:23:79:32|*Output SENSE_DOUT has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":82:13:82:19|*Output dsa_clk has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":83:13:83:20|*Output dsa_data has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":84:13:84:18|*Output dsa_le has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":86:13:86:20|*Output en_modul has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":89:13:89:18|*Output GPIO17 has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":103:13:103:17|*Output GPIO2 has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":104:13:104:17|*Output GPIO1 has undriven bits -- simulation mismatch possible.
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":4:12:4:20|Input init_done is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":5:12:5:25|Input fab_clk_100MHz is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":7:12:7:23|Input fab_clk_5MHz is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":8:12:8:26|Input fab_clk_1_17MHz is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":95:12:95:17|Input GPIO10 is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\hdl\led.v":97:12:97:16|Input GPIO8 is unused
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\work\build_sb\FABOSC_0\build_sb_FABOSC_0_OSC.v":17:7:17:20|*Output RCOSC_1MHZ_CCC has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\work\build_sb\FABOSC_0\build_sb_FABOSC_0_OSC.v":18:7:18:20|*Output RCOSC_1MHZ_O2F has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\work\build_sb\FABOSC_0\build_sb_FABOSC_0_OSC.v":19:7:19:16|*Output XTLOSC_CCC has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\work\build_sb\FABOSC_0\build_sb_FABOSC_0_OSC.v":20:7:20:16|*Output XTLOSC_O2F has undriven bits -- simulation mismatch possible.
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\work\build_sb\FABOSC_0\build_sb_FABOSC_0_OSC.v":14:7:14:9|Input XTL is unused
+@N: CL177 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif0_spll_lock_q2.
+@N: CL177 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif1_spll_lock_q2.
+@N: CL177 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif2_spll_lock_q2.
+@N: CL177 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element fpll_lock_q2.
+@N: CL201 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Trying to extract state machine for register sdif3_state
+Extracted state machine for register sdif3_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Trying to extract state machine for register sdif2_state
+Extracted state machine for register sdif2_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Trying to extract state machine for register sdif1_state
+Extracted state machine for register sdif1_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Trying to extract state machine for register sdif0_state
+Extracted state machine for register sdif0_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Trying to extract state machine for register sm0_state
+Extracted state machine for register sm0_state
+State machine has 7 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+   110
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":29:20:29:28|Input CLK_LTSSM is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":56:20:56:28|Input FPLL_LOCK is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":59:20:59:34|Input SDIF0_SPLL_LOCK is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":68:20:68:34|Input SDIF1_SPLL_LOCK is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":72:20:72:34|Input SDIF2_SPLL_LOCK is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":76:20:76:34|Input SDIF3_SPLL_LOCK is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":90:20:90:29|Input SDIF0_PSEL is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":91:20:91:31|Input SDIF0_PWRITE is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":92:20:92:31|Input SDIF0_PRDATA is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":93:20:93:29|Input SDIF1_PSEL is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":94:20:94:31|Input SDIF1_PWRITE is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":95:20:95:31|Input SDIF1_PRDATA is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":96:20:96:29|Input SDIF2_PSEL is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":97:20:97:31|Input SDIF2_PWRITE is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":98:20:98:31|Input SDIF2_PRDATA is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":99:20:99:29|Input SDIF3_PSEL is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":100:20:100:31|Input SDIF3_PWRITE is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":101:20:101:31|Input SDIF3_PRDATA is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":107:20:107:37|Input SOFT_EXT_RESET_OUT is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":108:20:108:33|Input SOFT_RESET_F2M is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":109:20:109:32|Input SOFT_M3_RESET is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":110:20:110:49|Input SOFT_MDDR_DDR_AXI_S_CORE_RESET is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":111:20:111:39|Input SOFT_FDDR_CORE_RESET is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":112:20:112:39|Input SOFT_SDIF0_PHY_RESET is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":113:20:113:40|Input SOFT_SDIF0_CORE_RESET is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":114:20:114:39|Input SOFT_SDIF1_PHY_RESET is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":115:20:115:40|Input SOFT_SDIF1_CORE_RESET is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":116:20:116:39|Input SOFT_SDIF2_PHY_RESET is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":117:20:117:40|Input SOFT_SDIF2_CORE_RESET is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":118:20:118:39|Input SOFT_SDIF3_PHY_RESET is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":119:20:119:40|Input SOFT_SDIF3_CORE_RESET is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":123:20:123:42|Input SOFT_SDIF0_0_CORE_RESET is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":124:20:124:42|Input SOFT_SDIF0_1_CORE_RESET is unused
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 74MB peak: 75MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Mar 09 16:12:20 2016
+
+###########################################################]
+Synopsys Netlist Linker, version comp201503p1, Build 094R, built May 14 2015
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Mar 09 16:12:20 2016
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Mar 09 16:12:20 2016
+
+###########################################################]
+Synopsys Netlist Linker, version comp201503p1, Build 094R, built May 14 2015
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Mar 09 16:12:22 2016
+
+###########################################################]
+Pre-mapping Report
+
+Synopsys Generic Technology Pre-mapping, Version map201503actrcp1, Build 002R, Built Jul  1 2015 06:58:23
+Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version J-2015.03M-3
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@L: C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\synthesis\build_scck.rpt 
+Printing clock  summary report in "C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\synthesis\build_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 104MB peak: 107MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 104MB peak: 107MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 106MB peak: 107MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 106MB peak: 108MB)
+
+@W: BN132 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance build_sb_0.CORERESETP_0.MDDR_DDR_AXI_S_CORE_RESET_N_int,  because it is equivalent to instance build_sb_0.CORERESETP_0.FDDR_CORE_RESET_N_int
+@N: BN362 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance DDR_READY_int of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP_Z1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance SDIF_READY_int of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP_Z1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance SDIF_RELEASED_int of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP_Z1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance FDDR_CORE_RESET_N_int of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP_Z1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Removing sequential instance SDIF0_PHY_RESET_N_int of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP_Z1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Removing sequential instance SDIF0_CORE_RESET_N_0 of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP_Z1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Removing sequential instance SDIF1_PHY_RESET_N_int of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP_Z1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Removing sequential instance SDIF1_CORE_RESET_N_0 of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP_Z1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Removing sequential instance SDIF2_PHY_RESET_N_int of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP_Z1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Removing sequential instance SDIF2_CORE_RESET_N_0 of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP_Z1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Removing sequential instance SDIF3_PHY_RESET_N_int of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP_Z1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Removing sequential instance SDIF3_CORE_RESET_N_0 of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP_Z1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Removing sequential instance sdif0_state[3:0] of view:PrimLib.statemachine(prim) in hierarchy view:work.CoreResetP_Z1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Removing sequential instance sdif1_state[3:0] of view:PrimLib.statemachine(prim) in hierarchy view:work.CoreResetP_Z1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Removing sequential instance sdif2_state[3:0] of view:PrimLib.statemachine(prim) in hierarchy view:work.CoreResetP_Z1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Removing sequential instance sdif3_state[3:0] of view:PrimLib.statemachine(prim) in hierarchy view:work.CoreResetP_Z1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":797:4:797:9|Removing sequential instance sdif0_areset_n_clk_base of view:PrimLib.dffr(prim) in hierarchy view:work.CoreResetP_Z1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":811:4:811:9|Removing sequential instance sdif1_areset_n_clk_base of view:PrimLib.dffr(prim) in hierarchy view:work.CoreResetP_Z1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":825:4:825:9|Removing sequential instance sdif2_areset_n_clk_base of view:PrimLib.dffr(prim) in hierarchy view:work.CoreResetP_Z1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":839:4:839:9|Removing sequential instance sdif3_areset_n_clk_base of view:PrimLib.dffr(prim) in hierarchy view:work.CoreResetP_Z1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":797:4:797:9|Removing sequential instance sdif0_areset_n_q1 of view:PrimLib.dffr(prim) in hierarchy view:work.CoreResetP_Z1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":811:4:811:9|Removing sequential instance sdif1_areset_n_q1 of view:PrimLib.dffr(prim) in hierarchy view:work.CoreResetP_Z1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":825:4:825:9|Removing sequential instance sdif2_areset_n_q1 of view:PrimLib.dffr(prim) in hierarchy view:work.CoreResetP_Z1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":839:4:839:9|Removing sequential instance sdif3_areset_n_q1 of view:PrimLib.dffr(prim) in hierarchy view:work.CoreResetP_Z1(verilog) because there are no references to its outputs 
+syn_allowed_resources : blockrams=69  set on top level netlist build
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 136MB)
+
+
+
+@S |Clock Summary
+*****************
+
+Start                                                       Requested     Requested     Clock        Clock              
+Clock                                                       Frequency     Period        Type         Group              
+------------------------------------------------------------------------------------------------------------------------
+build_sb_CCC_0_FCCC|GL0_net_inferred_clock                  100.0 MHz     10.000        inferred     Inferred_clkgroup_1
+build_sb_CCC_0_FCCC|GL1_net_inferred_clock                  100.0 MHz     10.000        inferred     Inferred_clkgroup_0
+build_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     100.0 MHz     10.000        inferred     Inferred_clkgroup_2
+========================================================================================================================
+
+@W: MT530 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":199:4:199:9|Found inferred clock build_sb_CCC_0_FCCC|GL1_net_inferred_clock which controls 71 sequential elements including led_igloo_0.freq[19:16]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\work\build_sb_hpms\build_sb_hpms.v":208:0:208:13|Found inferred clock build_sb_CCC_0_FCCC|GL0_net_inferred_clock which controls 54 sequential elements including build_sb_0.build_sb_HPMS_0.MSS_ADLIB_INST. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":912:4:912:9|Found inferred clock build_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock which controls 15 sequential elements including build_sb_0.CORERESETP_0.sdif3_areset_n_rcosc_q1. This clock has no specified timing constraint which may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@W: MO111 :|Tristate driver out2_t on net out2 has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[0] on net BW[0] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[1] on net BW[1] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[2] on net BW[2] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[3] on net BW[3] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[4] on net BW[4] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[5] on net BW[5] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[6] on net BW[6] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[7] on net BW[7] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[8] on net BW[8] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[9] on net BW[9] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[10] on net BW[10] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[11] on net BW[11] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[12] on net BW[12] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[13] on net BW[13] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[14] on net BW[14] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[15] on net BW[15] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[16] on net BW[16] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[17] on net BW[17] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[18] on net BW[18] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[19] on net BW[19] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[20] on net BW[20] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[21] on net BW[21] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[22] on net BW[22] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[23] on net BW[23] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[24] on net BW[24] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[25] on net BW[25] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[26] on net BW[26] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[27] on net BW[27] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[28] on net BW[28] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[29] on net BW[29] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[30] on net BW[30] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[31] on net BW[31] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[32] on net BW[32] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[33] on net BW[33] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver dac1_clk_t on net dac1_clk has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver dac2_clk_t on net dac2_clk has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver dac1_sleep_t on net dac1_sleep has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_a_t[0] on net fl_a[0] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_a_t[1] on net fl_a[1] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_a_t[2] on net fl_a[2] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_a_t[3] on net fl_a[3] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_a_t[4] on net fl_a[4] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_a_t[5] on net fl_a[5] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_a_t[6] on net fl_a[6] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_a_t[7] on net fl_a[7] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_a_t[8] on net fl_a[8] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_a_t[9] on net fl_a[9] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_a_t[10] on net fl_a[10] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_a_t[11] on net fl_a[11] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_a_t[12] on net fl_a[12] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_a_t[13] on net fl_a[13] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_a_t[14] on net fl_a[14] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_a_t[15] on net fl_a[15] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_a_t[16] on net fl_a[16] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_a_t[17] on net fl_a[17] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_a_t[18] on net fl_a[18] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_a_t[19] on net fl_a[19] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_a_t[20] on net fl_a[20] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_a_t[21] on net fl_a[21] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_a_t[22] on net fl_a[22] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_a_t[23] on net fl_a[23] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_a_t[24] on net fl_a[24] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_a_t[25] on net fl_a[25] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_byten_t on net fl_byten has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_cen_t on net fl_cen has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_dq_t[0] on net fl_dq[0] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_dq_t[1] on net fl_dq[1] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_dq_t[2] on net fl_dq[2] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_dq_t[3] on net fl_dq[3] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_dq_t[4] on net fl_dq[4] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_dq_t[5] on net fl_dq[5] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_dq_t[6] on net fl_dq[6] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_dq_t[7] on net fl_dq[7] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_oen_t on net fl_oen has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_resetn_t on net fl_resetn has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_ryby_t on net fl_ryby has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_wen_t on net fl_wen has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_wpn_t on net fl_wpn has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver sr_cs1n_t on net sr_cs1n has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver sr_cs2_t on net sr_cs2 has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver sr_lbn_t on net sr_lbn has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver sr_oen_t on net sr_oen has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver sr_ubn_t on net sr_ubn has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver sr_wen_t on net sr_wen has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver clk_out_n1_t on net clk_out_n1 has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver clk_out_n2_t on net clk_out_n2 has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver CSN_n1_t on net CSN_n1 has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver GPS1_IDLE_t on net GPS1_IDLE has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver GPS1_PGM_t on net GPS1_PGM has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver GPS1_SCLK_t on net GPS1_SCLK has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver GPS1_SDATA_t on net GPS1_SDATA has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver GPS1_SHDN_t on net GPS1_SHDN has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver REF_CE_t on net REF_CE has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver REF_CLK_t on net REF_CLK has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver REF_DATA_t on net REF_DATA has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver REF_LD_t on net REF_LD has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver REF_LE_t on net REF_LE has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver REF_MXOUT_t on net REF_MXOUT has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver SENSE_DOUT_t[0] on net SENSE_DOUT[0] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver dsa_clk_t on net dsa_clk has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver dsa_data_t on net dsa_data has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver dsa_le_t on net dsa_le has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver en_modul_t on net en_modul has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver GPIO17_t on net GPIO17 has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver GPIO2_t on net GPIO2 has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver GPIO1_t on net GPIO1 has its enable tied to GND (module build) 
+@N: BN225 |Writing default property annotation file C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\synthesis\build.sap.
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 136MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Mar 09 16:12:23 2016
+
+###########################################################]
+Map & Optimize Report
+
+Synopsys Generic Technology Mapper, Version map201503actrcp1, Build 002R, Built Jul  1 2015 06:58:23
+Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version J-2015.03M-3
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\work\build_sb\fabosc_0\build_sb_fabosc_0_osc.v":20:7:20:16|Tristate driver XTLOSC_O2F on net XTLOSC_O2F has its enable tied to GND (module build_sb_FABOSC_0_OSC) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\work\build_sb\fabosc_0\build_sb_fabosc_0_osc.v":19:7:19:16|Tristate driver XTLOSC_CCC on net XTLOSC_CCC has its enable tied to GND (module build_sb_FABOSC_0_OSC) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\work\build_sb\fabosc_0\build_sb_fabosc_0_osc.v":18:7:18:20|Tristate driver RCOSC_1MHZ_O2F on net RCOSC_1MHZ_O2F has its enable tied to GND (module build_sb_FABOSC_0_OSC) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\work\build_sb\fabosc_0\build_sb_fabosc_0_osc.v":17:7:17:20|Tristate driver RCOSC_1MHZ_CCC on net RCOSC_1MHZ_CCC has its enable tied to GND (module build_sb_FABOSC_0_OSC) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":104:13:104:17|Tristate driver GPIO1 on net GPIO1 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":103:13:103:17|Tristate driver GPIO2 on net GPIO2 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":89:13:89:18|Tristate driver GPIO17 on net GPIO17 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":86:13:86:20|Tristate driver en_modul on net en_modul has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":84:13:84:18|Tristate driver dsa_le on net dsa_le has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":83:13:83:20|Tristate driver dsa_data on net dsa_data has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":82:13:82:19|Tristate driver dsa_clk on net dsa_clk has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":211:4:211:9|Tristate driver SENSE_DOUT_2 on net SENSE_DOUT_2 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":75:13:75:21|Tristate driver REF_MXOUT on net REF_MXOUT has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":74:13:74:18|Tristate driver REF_LE on net REF_LE has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":73:13:73:18|Tristate driver REF_LD on net REF_LD has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":72:13:72:20|Tristate driver REF_DATA on net REF_DATA has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":71:13:71:19|Tristate driver REF_CLK on net REF_CLK has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":70:13:70:18|Tristate driver REF_CE on net REF_CE has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":68:13:68:21|Tristate driver GPS1_SHDN on net GPS1_SHDN has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":67:13:67:22|Tristate driver GPS1_SDATA on net GPS1_SDATA has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":66:13:66:21|Tristate driver GPS1_SCLK on net GPS1_SCLK has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":63:13:63:20|Tristate driver GPS1_PGM on net GPS1_PGM has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":61:13:61:21|Tristate driver GPS1_IDLE on net GPS1_IDLE has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":58:13:58:18|Tristate driver CSN_n1 on net CSN_n1 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":57:13:57:22|Tristate driver clk_out_n2 on net clk_out_n2 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":49:13:49:22|Tristate driver clk_out_n1 on net clk_out_n1 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":46:13:46:18|Tristate driver sr_wen on net sr_wen has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":45:13:45:18|Tristate driver sr_ubn on net sr_ubn has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":44:13:44:18|Tristate driver sr_oen on net sr_oen has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":43:13:43:18|Tristate driver sr_lbn on net sr_lbn has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":42:13:42:18|Tristate driver sr_cs2 on net sr_cs2 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":41:13:41:19|Tristate driver sr_cs1n on net sr_cs1n has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":40:13:40:18|Tristate driver fl_wpn on net fl_wpn has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":39:13:39:18|Tristate driver fl_wen on net fl_wen has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":38:13:38:19|Tristate driver fl_ryby on net fl_ryby has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":37:13:37:21|Tristate driver fl_resetn on net fl_resetn has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":36:13:36:18|Tristate driver fl_oen on net fl_oen has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":35:19:35:23|Tristate driver fl_dq_1 on net fl_dq_1 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":35:19:35:23|Tristate driver fl_dq_2 on net fl_dq_2 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":35:19:35:23|Tristate driver fl_dq_3 on net fl_dq_3 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":35:19:35:23|Tristate driver fl_dq_4 on net fl_dq_4 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":35:19:35:23|Tristate driver fl_dq_5 on net fl_dq_5 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":35:19:35:23|Tristate driver fl_dq_6 on net fl_dq_6 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":35:19:35:23|Tristate driver fl_dq_7 on net fl_dq_7 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":35:19:35:23|Tristate driver fl_dq_8 on net fl_dq_8 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":34:13:34:18|Tristate driver fl_cen on net fl_cen has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":33:13:33:20|Tristate driver fl_byten on net fl_byten has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":32:20:32:23|Tristate driver fl_a_1 on net fl_a_1 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":32:20:32:23|Tristate driver fl_a_2 on net fl_a_2 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":32:20:32:23|Tristate driver fl_a_3 on net fl_a_3 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":32:20:32:23|Tristate driver fl_a_4 on net fl_a_4 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":32:20:32:23|Tristate driver fl_a_5 on net fl_a_5 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":32:20:32:23|Tristate driver fl_a_6 on net fl_a_6 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":32:20:32:23|Tristate driver fl_a_7 on net fl_a_7 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":32:20:32:23|Tristate driver fl_a_8 on net fl_a_8 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":32:20:32:23|Tristate driver fl_a_9 on net fl_a_9 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":32:20:32:23|Tristate driver fl_a_10 on net fl_a_10 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":32:20:32:23|Tristate driver fl_a_11 on net fl_a_11 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":32:20:32:23|Tristate driver fl_a_12 on net fl_a_12 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":32:20:32:23|Tristate driver fl_a_13 on net fl_a_13 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":32:20:32:23|Tristate driver fl_a_14 on net fl_a_14 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":32:20:32:23|Tristate driver fl_a_15 on net fl_a_15 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":32:20:32:23|Tristate driver fl_a_16 on net fl_a_16 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":32:20:32:23|Tristate driver fl_a_17 on net fl_a_17 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":32:20:32:23|Tristate driver fl_a_18 on net fl_a_18 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":32:20:32:23|Tristate driver fl_a_19 on net fl_a_19 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":32:20:32:23|Tristate driver fl_a_20 on net fl_a_20 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":32:20:32:23|Tristate driver fl_a_21 on net fl_a_21 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":32:20:32:23|Tristate driver fl_a_22 on net fl_a_22 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":32:20:32:23|Tristate driver fl_a_23 on net fl_a_23 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":32:20:32:23|Tristate driver fl_a_24 on net fl_a_24 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":32:20:32:23|Tristate driver fl_a_25 on net fl_a_25 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":32:20:32:23|Tristate driver fl_a_26 on net fl_a_26 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":30:13:30:22|Tristate driver dac1_sleep on net dac1_sleep has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":28:13:28:20|Tristate driver dac2_clk on net dac2_clk has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":27:13:27:20|Tristate driver dac1_clk on net dac1_clk has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":211:4:211:9|Tristate driver BW_1 on net BW_1 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":211:4:211:9|Tristate driver BW_2 on net BW_2 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":211:4:211:9|Tristate driver BW_3 on net BW_3 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":211:4:211:9|Tristate driver BW_4 on net BW_4 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":211:4:211:9|Tristate driver BW_5 on net BW_5 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":211:4:211:9|Tristate driver BW_6 on net BW_6 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":211:4:211:9|Tristate driver BW_7 on net BW_7 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":211:4:211:9|Tristate driver BW_8 on net BW_8 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":211:4:211:9|Tristate driver BW_9 on net BW_9 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":211:4:211:9|Tristate driver BW_10 on net BW_10 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":211:4:211:9|Tristate driver BW_11 on net BW_11 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":211:4:211:9|Tristate driver BW_12 on net BW_12 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":211:4:211:9|Tristate driver BW_13 on net BW_13 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":211:4:211:9|Tristate driver BW_14 on net BW_14 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":211:4:211:9|Tristate driver BW_15 on net BW_15 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":211:4:211:9|Tristate driver BW_16 on net BW_16 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":211:4:211:9|Tristate driver BW_17 on net BW_17 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":211:4:211:9|Tristate driver BW_18 on net BW_18 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":211:4:211:9|Tristate driver BW_19 on net BW_19 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":211:4:211:9|Tristate driver BW_20 on net BW_20 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":211:4:211:9|Tristate driver BW_21 on net BW_21 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":211:4:211:9|Tristate driver BW_22 on net BW_22 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":211:4:211:9|Tristate driver BW_23 on net BW_23 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":211:4:211:9|Tristate driver BW_24 on net BW_24 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":211:4:211:9|Tristate driver BW_25 on net BW_25 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":211:4:211:9|Tristate driver BW_26 on net BW_26 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":211:4:211:9|Tristate driver BW_27 on net BW_27 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":211:4:211:9|Tristate driver BW_28 on net BW_28 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":211:4:211:9|Tristate driver BW_29 on net BW_29 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":211:4:211:9|Tristate driver BW_30 on net BW_30 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":211:4:211:9|Tristate driver BW_31 on net BW_31 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":211:4:211:9|Tristate driver BW_32 on net BW_32 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":211:4:211:9|Tristate driver BW_33 on net BW_33 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":211:4:211:9|Tristate driver BW_34 on net BW_34 has its enable tied to GND (module led_igloo) 
+@W: MO111 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":15:13:15:16|Tristate driver out2 on net out2 has its enable tied to GND (module led_igloo) 
+@W: MO111 :|Tristate driver out2_t on net out2 has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[0] on net BW[0] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[1] on net BW[1] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[2] on net BW[2] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[3] on net BW[3] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[4] on net BW[4] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[5] on net BW[5] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[6] on net BW[6] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[7] on net BW[7] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[8] on net BW[8] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[9] on net BW[9] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[10] on net BW[10] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[11] on net BW[11] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[12] on net BW[12] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[13] on net BW[13] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[14] on net BW[14] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[15] on net BW[15] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[16] on net BW[16] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[17] on net BW[17] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[18] on net BW[18] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[19] on net BW[19] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[20] on net BW[20] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[21] on net BW[21] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[22] on net BW[22] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[23] on net BW[23] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[24] on net BW[24] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[25] on net BW[25] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[26] on net BW[26] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[27] on net BW[27] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[28] on net BW[28] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[29] on net BW[29] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[30] on net BW[30] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[31] on net BW[31] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[32] on net BW[32] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver BW_t[33] on net BW[33] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver dac1_clk_t on net dac1_clk has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver dac2_clk_t on net dac2_clk has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver dac1_sleep_t on net dac1_sleep has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_a_t[0] on net fl_a[0] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_a_t[1] on net fl_a[1] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_a_t[2] on net fl_a[2] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_a_t[3] on net fl_a[3] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_a_t[4] on net fl_a[4] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_a_t[5] on net fl_a[5] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_a_t[6] on net fl_a[6] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_a_t[7] on net fl_a[7] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_a_t[8] on net fl_a[8] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_a_t[9] on net fl_a[9] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_a_t[10] on net fl_a[10] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_a_t[11] on net fl_a[11] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_a_t[12] on net fl_a[12] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_a_t[13] on net fl_a[13] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_a_t[14] on net fl_a[14] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_a_t[15] on net fl_a[15] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_a_t[16] on net fl_a[16] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_a_t[17] on net fl_a[17] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_a_t[18] on net fl_a[18] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_a_t[19] on net fl_a[19] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_a_t[20] on net fl_a[20] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_a_t[21] on net fl_a[21] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_a_t[22] on net fl_a[22] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_a_t[23] on net fl_a[23] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_a_t[24] on net fl_a[24] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_a_t[25] on net fl_a[25] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_byten_t on net fl_byten has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_cen_t on net fl_cen has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_dq_t[0] on net fl_dq[0] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_dq_t[1] on net fl_dq[1] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_dq_t[2] on net fl_dq[2] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_dq_t[3] on net fl_dq[3] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_dq_t[4] on net fl_dq[4] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_dq_t[5] on net fl_dq[5] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_dq_t[6] on net fl_dq[6] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_dq_t[7] on net fl_dq[7] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_oen_t on net fl_oen has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_resetn_t on net fl_resetn has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_ryby_t on net fl_ryby has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_wen_t on net fl_wen has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver fl_wpn_t on net fl_wpn has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver sr_cs1n_t on net sr_cs1n has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver sr_cs2_t on net sr_cs2 has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver sr_lbn_t on net sr_lbn has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver sr_oen_t on net sr_oen has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver sr_ubn_t on net sr_ubn has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver sr_wen_t on net sr_wen has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver clk_out_n1_t on net clk_out_n1 has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver clk_out_n2_t on net clk_out_n2 has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver CSN_n1_t on net CSN_n1 has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver GPS1_IDLE_t on net GPS1_IDLE has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver GPS1_PGM_t on net GPS1_PGM has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver GPS1_SCLK_t on net GPS1_SCLK has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver GPS1_SDATA_t on net GPS1_SDATA has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver GPS1_SHDN_t on net GPS1_SHDN has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver REF_CE_t on net REF_CE has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver REF_CLK_t on net REF_CLK has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver REF_DATA_t on net REF_DATA has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver REF_LD_t on net REF_LD has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver REF_LE_t on net REF_LE has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver REF_MXOUT_t on net REF_MXOUT has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver SENSE_DOUT_t[0] on net SENSE_DOUT[0] has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver dsa_clk_t on net dsa_clk has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver dsa_data_t on net dsa_data has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver dsa_le_t on net dsa_le has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver en_modul_t on net en_modul has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver GPIO17_t on net GPIO17 has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver GPIO2_t on net GPIO2 has its enable tied to GND (module build) 
+@W: MO111 :|Tristate driver GPIO1_t on net GPIO1 has its enable tied to GND (module build) 
+@W: MO171 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":676:4:676:9|Sequential instance build_sb_0.CORERESETP_0.SDIF0_PERST_N_q1 reduced to a combinational gate by constant propagation 
+@W: MO171 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":695:4:695:9|Sequential instance build_sb_0.CORERESETP_0.SDIF1_PERST_N_q1 reduced to a combinational gate by constant propagation 
+@W: MO171 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":714:4:714:9|Sequential instance build_sb_0.CORERESETP_0.SDIF2_PERST_N_q1 reduced to a combinational gate by constant propagation 
+@W: MO171 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":733:4:733:9|Sequential instance build_sb_0.CORERESETP_0.SDIF3_PERST_N_q1 reduced to a combinational gate by constant propagation 
+@W: MO171 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":676:4:676:9|Sequential instance build_sb_0.CORERESETP_0.SDIF0_PERST_N_q2 reduced to a combinational gate by constant propagation 
+@W: MO171 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":695:4:695:9|Sequential instance build_sb_0.CORERESETP_0.SDIF1_PERST_N_q2 reduced to a combinational gate by constant propagation 
+@W: MO171 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":714:4:714:9|Sequential instance build_sb_0.CORERESETP_0.SDIF2_PERST_N_q2 reduced to a combinational gate by constant propagation 
+@W: MO171 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":733:4:733:9|Sequential instance build_sb_0.CORERESETP_0.SDIF3_PERST_N_q2 reduced to a combinational gate by constant propagation 
+@W: MO171 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":676:4:676:9|Sequential instance build_sb_0.CORERESETP_0.SDIF0_PERST_N_q3 reduced to a combinational gate by constant propagation 
+@W: MO171 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":695:4:695:9|Sequential instance build_sb_0.CORERESETP_0.SDIF1_PERST_N_q3 reduced to a combinational gate by constant propagation 
+@W: MO171 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":714:4:714:9|Sequential instance build_sb_0.CORERESETP_0.SDIF2_PERST_N_q3 reduced to a combinational gate by constant propagation 
+@W: MO171 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":733:4:733:9|Sequential instance build_sb_0.CORERESETP_0.SDIF3_PERST_N_q3 reduced to a combinational gate by constant propagation 
+@W: MO171 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":769:4:769:9|Sequential instance build_sb_0.CORERESETP_0.sm1_areset_n_q1 reduced to a combinational gate by constant propagation 
+@W: MO171 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":769:4:769:9|Sequential instance build_sb_0.CORERESETP_0.sm1_areset_n_clk_base reduced to a combinational gate by constant propagation 
+@W: MO171 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1388:4:1388:9|Sequential instance build_sb_0.CORERESETP_0.RESET_N_F2M_int reduced to a combinational gate by constant propagation 
+@W: BN132 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":963:4:963:9|Removing sequential instance build_sb_0.CORERESETP_0.sdif3_spll_lock_q1,  because it is equivalent to instance build_sb_0.CORERESETP_0.CONFIG2_DONE_q1
+@W: BN132 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":946:4:946:9|Removing sequential instance build_sb_0.CORERESETP_0.CONFIG2_DONE_q1,  because it is equivalent to instance build_sb_0.CORERESETP_0.CONFIG1_DONE_q1
+@W: BN132 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":946:4:946:9|Removing sequential instance build_sb_0.CORERESETP_0.CONFIG2_DONE_clk_base,  because it is equivalent to instance build_sb_0.CORERESETP_0.sdif3_spll_lock_q2
+@W: BN132 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":929:4:929:9|Removing sequential instance build_sb_0.CORERESETP_0.CONFIG1_DONE_clk_base,  because it is equivalent to instance build_sb_0.CORERESETP_0.sdif3_spll_lock_q2
+@W: BN132 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":884:4:884:9|Removing sequential instance build_sb_0.CORERESETP_0.sdif1_areset_n_rcosc_q1,  because it is equivalent to instance build_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_q1
+@W: BN132 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":912:4:912:9|Removing sequential instance build_sb_0.CORERESETP_0.sdif3_areset_n_rcosc_q1,  because it is equivalent to instance build_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_q1
+@W: BN132 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":898:4:898:9|Removing sequential instance build_sb_0.CORERESETP_0.sdif2_areset_n_rcosc_q1,  because it is equivalent to instance build_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_q1
+@W: BN132 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":856:4:856:9|Removing sequential instance build_sb_0.CORERESETP_0.sm0_areset_n_rcosc_q1,  because it is equivalent to instance build_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_q1
+@W: BN132 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":898:4:898:9|Removing sequential instance build_sb_0.CORERESETP_0.sdif2_areset_n_rcosc,  because it is equivalent to instance build_sb_0.CORERESETP_0.sm0_areset_n_rcosc
+@W: BN132 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":912:4:912:9|Removing sequential instance build_sb_0.CORERESETP_0.sdif3_areset_n_rcosc,  because it is equivalent to instance build_sb_0.CORERESETP_0.sm0_areset_n_rcosc
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+Encoding state machine sm0_state[6:0] (view:work.CoreResetP_Z1(verilog))
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   011 -> 0001000
+   100 -> 0010000
+   101 -> 0100000
+   110 -> 1000000
+@N:"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":211:4:211:9|Found counter in view:work.led_igloo(verilog) inst cnt_freq[31:0]
+@N:"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\hdl\led.v":149:2:149:7|Found counter in view:work.led_igloo(verilog) inst cnt[5:0]
+@N: BN362 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance build_sb_0.CORERESETP_0.INIT_DONE_int in hierarchy view:work.build(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance build_sb_0.CORERESETP_0.sm0_state[6] in hierarchy view:work.build(verilog) because there are no references to its outputs 
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 136MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 136MB)
+
+@N: BN114 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\work\build_sb\build_sb.v":269:9:269:20|Removing instance build_sb_0.SYSRESET_POR of black_box view:ACG4.SYSRESET(PRIM) because there are no references to its outputs 
+@N: BN362 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1613:4:1613:9|Removing sequential instance build_sb_0.CORERESETP_0.ddr_settled in hierarchy view:work.build(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1613:4:1613:9|Boundary register build_sb_0.CORERESETP_0.ddr_settled packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":526:4:526:9|Removing sequential instance build_sb_0.CORERESETP_0.FIC_2_APB_M_PRESET_N_q1 in hierarchy view:work.build(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":511:4:511:9|Removing sequential instance build_sb_0.CORERESETP_0.RESET_N_M2F_q1 in hierarchy view:work.build(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":496:4:496:9|Removing sequential instance build_sb_0.CORERESETP_0.POWER_ON_RESET_N_q1 in hierarchy view:work.build(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance build_sb_0.CORERESETP_0.ddr_settled_q1 in hierarchy view:work.build(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Boundary register build_sb_0.CORERESETP_0.ddr_settled_q1 packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":963:4:963:9|Removing sequential instance build_sb_0.CORERESETP_0.sdif3_spll_lock_q2 in hierarchy view:work.build(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":929:4:929:9|Removing sequential instance build_sb_0.CORERESETP_0.CONFIG1_DONE_q1 in hierarchy view:work.build(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":870:4:870:9|Removing sequential instance build_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_q1 in hierarchy view:work.build(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":565:4:565:9|Removing sequential instance build_sb_0.CORERESETP_0.MSS_HPMS_READY_int in hierarchy view:work.build(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":856:4:856:9|Removing sequential instance build_sb_0.CORERESETP_0.sm0_areset_n_rcosc in hierarchy view:work.build(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":755:4:755:9|Removing sequential instance build_sb_0.CORERESETP_0.sm0_areset_n_q1 in hierarchy view:work.build(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":755:4:755:9|Removing sequential instance build_sb_0.CORERESETP_0.sm0_areset_n_clk_base in hierarchy view:work.build(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":526:4:526:9|Removing sequential instance build_sb_0.CORERESETP_0.FIC_2_APB_M_PRESET_N_clk_base in hierarchy view:work.build(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":511:4:511:9|Removing sequential instance build_sb_0.CORERESETP_0.RESET_N_M2F_clk_base in hierarchy view:work.build(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":496:4:496:9|Removing sequential instance build_sb_0.CORERESETP_0.POWER_ON_RESET_N_clk_base in hierarchy view:work.build(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance build_sb_0.CORERESETP_0.ddr_settled_clk_base in hierarchy view:work.build(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance build_sb_0.CORERESETP_0.sm0_state[5] in hierarchy view:work.build(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance build_sb_0.CORERESETP_0.sm0_state[4] in hierarchy view:work.build(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance build_sb_0.CORERESETP_0.sm0_state[3] in hierarchy view:work.build(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance build_sb_0.CORERESETP_0.sm0_state[2] in hierarchy view:work.build(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance build_sb_0.CORERESETP_0.sm0_state[1] in hierarchy view:work.build(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance build_sb_0.CORERESETP_0.sm0_state[0] in hierarchy view:work.build(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":545:4:545:9|Removing sequential instance build_sb_0.CORERESETP_0.mss_ready_state in hierarchy view:work.build(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":545:4:545:9|Removing sequential instance build_sb_0.CORERESETP_0.mss_ready_select in hierarchy view:work.build(verilog) because there are no references to its outputs 
+@N: BN114 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\work\build_sb_hpms\build_sb_hpms.v":208:0:208:13|Removing instance build_sb_0.build_sb_HPMS_0.MSS_ADLIB_INST of black_box view:work.MSS_050(verilog) because there are no references to its outputs 
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 136MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 136MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 136MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 136MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 136MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 137MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		     2.07ns		 154 /        70
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 137MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 137MB)
+
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 70 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+================================== Non-Gated/Non-Generated Clocks ===================================
+Clock Tree ID     Driving Element               Drive Element Type     Fanout     Sample Instance    
+-----------------------------------------------------------------------------------------------------
+@K:CKID0001       build_sb_0.CCC_0.GL1_INST     CLKINT                 70         led_igloo_0.freq[8]
+=====================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 137MB)
+
+Writing Analyst data base C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\synthesis\synwork\build_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 133MB peak: 137MB)
+
+Writing EDIF Netlist and constraint files
+@W: MT558 :|Unable to locate source for clock build_sb_CCC_0_FCCC|GL0_net_inferred_clock. Clock will not be forward annotated
+@N: BW103 |Synopsys Constraint File time units using default value of 1ns 
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+J-2015.03M-3
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 134MB peak: 137MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 134MB peak: 137MB)
+
+@W: MT246 :"c:\projects\verilog\led_igloo\led_dac_adc\libero\mayak_dac_adc\component\work\build_sb\ccc_0\build_sb_ccc_0_fccc.v":29:36:29:43|Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT420 |Found inferred clock build_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:build_sb_0.FABOSC_0.RCOSC_25_50MHZ_CCC"
+
+@W: MT420 |Found inferred clock build_sb_CCC_0_FCCC|GL1_net_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:build_sb_0.CCC_0.GL1_net"
+
+
+
+@S |##### START OF TIMING REPORT #####[
+# Timing Report written on Wed Mar 09 16:12:25 2016
+#
+
+
+Top view:               build
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 2.379
+
+                                                            Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock                                              Frequency     Frequency     Period        Period        Slack     Type         Group              
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+build_sb_CCC_0_FCCC|GL0_net_inferred_clock                  100.0 MHz     NA            10.000        NA            NA        inferred     Inferred_clkgroup_1
+build_sb_CCC_0_FCCC|GL1_net_inferred_clock                  100.0 MHz     189.8 MHz     10.000        5.268         2.379     inferred     Inferred_clkgroup_0
+build_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     100.0 MHz     NA            10.000        NA            NA        inferred     Inferred_clkgroup_2
+System                                                      100.0 MHz     NA            10.000        NA            NA        system       system_clkgroup    
+==============================================================================================================================================================
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                  |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                    Ending                                      |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+build_sb_CCC_0_FCCC|GL1_net_inferred_clock  build_sb_CCC_0_FCCC|GL1_net_inferred_clock  |  10.000      4.732  |  10.000      4.846  |  No paths    -      |  5.000       2.379
+==============================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: build_sb_CCC_0_FCCC|GL1_net_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                             Starting                                                                         Arrival          
+Instance                     Reference                                      Type     Pin     Net              Time        Slack
+                             Clock                                                                                             
+-------------------------------------------------------------------------------------------------------------------------------
+led_igloo_0.cnt[0]           build_sb_CCC_0_FCCC|GL1_net_inferred_clock     SLE      Q       GPIO7_c          0.076       2.379
+led_igloo_0.cnt[4]           build_sb_CCC_0_FCCC|GL1_net_inferred_clock     SLE      Q       cnt[4]           0.076       2.380
+led_igloo_0.cnt[1]           build_sb_CCC_0_FCCC|GL1_net_inferred_clock     SLE      Q       cnt[1]           0.076       2.450
+led_igloo_0.cnt[5]           build_sb_CCC_0_FCCC|GL1_net_inferred_clock     SLE      Q       cnt[5]           0.076       2.452
+led_igloo_0.cnt_frame[1]     build_sb_CCC_0_FCCC|GL1_net_inferred_clock     SLE      Q       cnt_frame[1]     0.094       2.482
+led_igloo_0.cnt[2]           build_sb_CCC_0_FCCC|GL1_net_inferred_clock     SLE      Q       cnt[2]           0.094       2.525
+led_igloo_0.cnt[3]           build_sb_CCC_0_FCCC|GL1_net_inferred_clock     SLE      Q       cnt[3]           0.076       2.540
+led_igloo_0.cnt_frame[2]     build_sb_CCC_0_FCCC|GL1_net_inferred_clock     SLE      Q       cnt_frame[2]     0.076       2.634
+led_igloo_0.cnt_frame[0]     build_sb_CCC_0_FCCC|GL1_net_inferred_clock     SLE      Q       cnt_frame[0]     0.076       2.654
+led_igloo_0.cnt_frame[3]     build_sb_CCC_0_FCCC|GL1_net_inferred_clock     SLE      Q       cnt_frame[3]     0.076       2.715
+===============================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                       Starting                                                                                  Required          
+Instance                               Reference                                      Type     Pin     Net                       Time         Slack
+                                       Clock                                                                                                       
+---------------------------------------------------------------------------------------------------------------------------------------------------
+led_igloo_0.data_from_adc\[2\][8]      build_sb_CCC_0_FCCC|GL1_net_inferred_clock     SLE      EN      data_from_adc\[2\]_9      4.707        2.379
+led_igloo_0.data_from_adc\[2\][2]      build_sb_CCC_0_FCCC|GL1_net_inferred_clock     SLE      EN      data_from_adc\[2\]_3      4.707        2.380
+led_igloo_0.data_from_adc\[2\][10]     build_sb_CCC_0_FCCC|GL1_net_inferred_clock     SLE      EN      data_from_adc\[2\]_11     4.707        2.380
+led_igloo_0.data_from_adc\[2\][1]      build_sb_CCC_0_FCCC|GL1_net_inferred_clock     SLE      EN      data_from_adc\[2\]_2      4.707        2.384
+led_igloo_0.data_from_adc\[2\][3]      build_sb_CCC_0_FCCC|GL1_net_inferred_clock     SLE      EN      data_from_adc\[2\]_4      4.707        2.384
+led_igloo_0.data_from_adc\[2\][5]      build_sb_CCC_0_FCCC|GL1_net_inferred_clock     SLE      EN      data_from_adc\[2\]_6      4.707        2.384
+led_igloo_0.data_from_adc\[2\][11]     build_sb_CCC_0_FCCC|GL1_net_inferred_clock     SLE      EN      data_from_adc\[2\]_12     4.707        2.384
+led_igloo_0.data_from_adc\[2\][9]      build_sb_CCC_0_FCCC|GL1_net_inferred_clock     SLE      EN      data_from_adc\[2\]_10     4.707        2.525
+led_igloo_0.data_from_adc\[2\][0]      build_sb_CCC_0_FCCC|GL1_net_inferred_clock     SLE      EN      data_from_adc\[2\]_1      4.707        2.540
+led_igloo_0.data_from_adc\[2\][7]      build_sb_CCC_0_FCCC|GL1_net_inferred_clock     SLE      EN      data_from_adc\[2\]_8      4.707        2.540
+===================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.293
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.707
+
+    - Propagation time:                      2.328
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     2.379
+
+    Number of logic level(s):                2
+    Starting point:                          led_igloo_0.cnt[0] / Q
+    Ending point:                            led_igloo_0.data_from_adc\[2\][8] / EN
+    The start point is clocked by            build_sb_CCC_0_FCCC|GL1_net_inferred_clock [falling] on pin CLK
+    The end   point is clocked by            build_sb_CCC_0_FCCC|GL1_net_inferred_clock [rising] on pin CLK
+
+Instance / Net                                     Pin      Pin               Arrival     No. of    
+Name                                      Type     Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------
+led_igloo_0.cnt[0]                        SLE      Q        Out     0.076     0.076       -         
+GPIO7_c                                   Net      -        -       0.991     -           14        
+led_igloo_0.SENSE_DOUT61_i_a4             CFG3     B        In      -         1.067       -         
+led_igloo_0.SENSE_DOUT61_i_a4             CFG3     Y        Out     0.125     1.192       -         
+N_109                                     Net      -        -       0.590     -           3         
+led_igloo_0.data_from_adc\[2\]_RNO[8]     CFG4     D        In      -         1.782       -         
+led_igloo_0.data_from_adc\[2\]_RNO[8]     CFG4     Y        Out     0.408     2.190       -         
+data_from_adc\[2\]_9                      Net      -        -       0.138     -           1         
+led_igloo_0.data_from_adc\[2\][8]         SLE      EN       In      -         2.328       -         
+====================================================================================================
+Total path delay (propagation time + setup) of 2.621 is 0.903(34.4%) logic and 1.719(65.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 134MB peak: 137MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 134MB peak: 137MB)
+
+---------------------------------------
+Resource Usage Report for build 
+
+Mapping to part: m2gl050tfbga896-1
+Cell usage:
+CCC             1 use
+CLKINT          1 use
+RCOSC_25_50MHZ  1 use
+CFG1           3 uses
+CFG2           10 uses
+CFG3           31 uses
+CFG4           47 uses
+
+Carry primitives used for arithmetic functions:
+ARI1           64 uses
+
+
+Sequential Cells: 
+SLE            70 uses
+
+DSP Blocks:    0
+
+I/O ports: 184
+I/O primitives: 181
+INBUF          39 uses
+OUTBUF         35 uses
+TRIBUFF        107 uses
+
+
+Global Clock Buffers: 1
+
+
+Total LUTs:    155
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  70 + 0 + 0 + 0 = 70;
+Total number of LUTs after P&R:  155 + 0 + 0 + 0 = 155;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 49MB peak: 137MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Mar 09 16:12:25 2016
+
+###########################################################]

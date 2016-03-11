@@ -1,0 +1,594 @@
+Synopsys HDL Compiler, version comp201503p1, Build 094R, built May 14 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp201503p1, Build 094R, built May 14 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@I::"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\generic\igloo2.v"
+@I::"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\vlog\hypermods.v"
+@I::"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\vlog\umr_capim.v"
+@I::"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\vlog\scemi_objects.v"
+@I::"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\vlog\scemi_pipes.svh"
+@I::"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp_pcie_hotreset.v"
+@I::"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v"
+@I::"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\work\build_sb\CCC_0\build_sb_CCC_0_FCCC.v"
+@I::"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\SgCore\OSC\1.0.105\osc_comps.v"
+@I::"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\work\build_sb\FABOSC_0\build_sb_FABOSC_0_OSC.v"
+@I::"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\work\build_sb_HPMS\build_sb_HPMS_syn.v"
+@I::"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\work\build_sb_HPMS\build_sb_HPMS.v"
+@I::"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\work\build_sb\build_sb.v"
+@I::"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v"
+@I::"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\work\build\build.v"
+Verilog syntax check successful!
+File C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\synthesis\synthesis_1\instr_sources\syn_dics.cdc changed - recompiling
+File C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v changed - recompiling
+File C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\work\build\build.v changed - recompiling
+Selecting top level module build
+@N: CG364 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\work\build_sb_HPMS\build_sb_HPMS_syn.v":5:7:5:13|Synthesizing module MSS_050
+
+@N: CG364 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\work\build_sb_HPMS\build_sb_HPMS.v":9:7:9:19|Synthesizing module build_sb_HPMS
+
+@N: CG364 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\generic\igloo2.v":362:7:362:12|Synthesizing module CLKINT
+
+@N: CG364 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\generic\igloo2.v":376:7:376:9|Synthesizing module VCC
+
+@N: CG364 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\generic\igloo2.v":372:7:372:9|Synthesizing module GND
+
+@N: CG364 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\generic\igloo2.v":727:7:727:9|Synthesizing module CCC
+
+@N: CG364 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\work\build_sb\CCC_0\build_sb_CCC_0_FCCC.v":5:7:5:25|Synthesizing module build_sb_CCC_0_FCCC
+
+@N: CG364 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":23:7:23:16|Synthesizing module CoreResetP
+
+	FAMILY=32'b00000000000000000000000000010011
+	EXT_RESET_CFG=32'b00000000000000000000000000000000
+	DEVICE_VOLTAGE=32'b00000000000000000000000000000010
+	MDDR_IN_USE=32'b00000000000000000000000000000000
+	FDDR_IN_USE=32'b00000000000000000000000000000000
+	SDIF0_IN_USE=32'b00000000000000000000000000000000
+	SDIF1_IN_USE=32'b00000000000000000000000000000000
+	SDIF2_IN_USE=32'b00000000000000000000000000000000
+	SDIF3_IN_USE=32'b00000000000000000000000000000000
+	SDIF0_PCIE=32'b00000000000000000000000000000000
+	SDIF1_PCIE=32'b00000000000000000000000000000000
+	SDIF2_PCIE=32'b00000000000000000000000000000000
+	SDIF3_PCIE=32'b00000000000000000000000000000000
+	SDIF0_PCIE_HOTRESET=32'b00000000000000000000000000000001
+	SDIF1_PCIE_HOTRESET=32'b00000000000000000000000000000001
+	SDIF2_PCIE_HOTRESET=32'b00000000000000000000000000000001
+	SDIF3_PCIE_HOTRESET=32'b00000000000000000000000000000001
+	SDIF0_PCIE_L2P2=32'b00000000000000000000000000000001
+	SDIF1_PCIE_L2P2=32'b00000000000000000000000000000001
+	SDIF2_PCIE_L2P2=32'b00000000000000000000000000000001
+	SDIF3_PCIE_L2P2=32'b00000000000000000000000000000001
+	ENABLE_SOFT_RESETS=32'b00000000000000000000000000000000
+	DEVICE_090=32'b00000000000000000000000000000000
+	DDR_WAIT=32'b00000000000000000000000011001000
+	RCOSC_MEGAHERTZ=32'b00000000000000000000000000110010
+	SDIF_INTERVAL=32'b00000000000000000001100101100100
+	DDR_INTERVAL=32'b00000000000000000010011100010000
+	COUNT_WIDTH_SDIF=32'b00000000000000000000000000001101
+	COUNT_WIDTH_DDR=32'b00000000000000000000000000001110
+	S0=32'b00000000000000000000000000000000
+	S1=32'b00000000000000000000000000000001
+	S2=32'b00000000000000000000000000000010
+	S3=32'b00000000000000000000000000000011
+	S4=32'b00000000000000000000000000000100
+	S5=32'b00000000000000000000000000000101
+	S6=32'b00000000000000000000000000000110
+   Generated name = CoreResetP_Z1
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1613:4:1613:9|Pruning register count_ddr[13:0] 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1581:4:1581:9|Pruning register count_sdif3[12:0] 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1549:4:1549:9|Pruning register count_sdif2[12:0] 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1517:4:1517:9|Pruning register count_sdif1[12:0] 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1485:4:1485:9|Pruning register count_sdif0[12:0] 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif0_enable_q1 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif1_enable_q1 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif2_enable_q1 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif3_enable_q1 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif0_enable_rcosc 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif1_enable_rcosc 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif2_enable_rcosc 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif3_enable_rcosc 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_ddr_enable_q1 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_ddr_enable_rcosc 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Pruning register count_sdif3_enable 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Pruning register count_sdif2_enable 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Pruning register count_sdif1_enable 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Pruning register count_sdif0_enable 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Pruning register count_ddr_enable 
+
+@N: CL177 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1388:4:1388:9|Sharing sequential element M3_RESET_N_int.
+@N: CL177 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif2_spll_lock_q1.
+@N: CL177 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif1_spll_lock_q1.
+@N: CL177 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif0_spll_lock_q1.
+@N: CL177 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element fpll_lock_q1.
+@W: CL190 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1433:4:1433:9|Optimizing register bit EXT_RESET_OUT_int to a constant 0
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Pruning register release_ext_reset 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1433:4:1433:9|Pruning register EXT_RESET_OUT_int 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1433:4:1433:9|Pruning register sm2_state[2:0] 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":783:4:783:9|Pruning register sm2_areset_n_q1 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":783:4:783:9|Pruning register sm2_areset_n_clk_base 
+
+@N: CG364 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\SgCore\OSC\1.0.105\osc_comps.v":51:7:51:24|Synthesizing module RCOSC_25_50MHZ_FAB
+
+@N: CG364 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\SgCore\OSC\1.0.105\osc_comps.v":11:7:11:20|Synthesizing module RCOSC_25_50MHZ
+
+@N: CG364 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\work\build_sb\FABOSC_0\build_sb_FABOSC_0_OSC.v":5:7:5:27|Synthesizing module build_sb_FABOSC_0_OSC
+
+@N: CG364 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\generic\igloo2.v":718:7:718:14|Synthesizing module SYSRESET
+
+@N: CG364 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\work\build_sb\build_sb.v":9:7:9:14|Synthesizing module build_sb
+
+@N: CG364 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\vlog\hypermods.v":9:7:9:22|Synthesizing module syn_hyper_source
+
+	w=32'b00000000000000000000000000000001
+	tag=96'b011001100110000101100010010111110110001101101100011010110101111100111000010011010100100001111010
+   Generated name = syn_hyper_source_1s_fab_clk_8MHz
+
+@N: CG364 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\vlog\hypermods.v":9:7:9:22|Synthesizing module syn_hyper_source
+
+	w=32'b00000000000000000000000000000001
+	tag=104'b01100110011000010110001001011111011000110110110001101011010111110011000100110110010011010100100001111010
+   Generated name = syn_hyper_source_1s_fab_clk_16MHz
+
+@N: CG364 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\vlog\hypermods.v":9:7:9:22|Synthesizing module syn_hyper_source
+
+	w=32'b00000000000000000000000000000001
+	tag=64'b0111010001100101011011010111000001011111011100110110001101101011
+   Generated name = syn_hyper_source_1s_temp_sck
+
+@N: CG364 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\vlog\hypermods.v":9:7:9:22|Synthesizing module syn_hyper_source
+
+	w=32'b00000000000000000000000000000001
+	tag=72'b011101000110010101101101011100000011001101011111011000110111001101101110
+   Generated name = syn_hyper_source_1s_temp3_csn
+
+@N: CG364 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\vlog\hypermods.v":9:7:9:22|Synthesizing module syn_hyper_source
+
+	w=32'b00000000000000000000000000000001
+	tag=72'b011101000110010101101101011100000011001001011111011000110111001101101110
+   Generated name = syn_hyper_source_1s_temp2_csn
+
+@N: CG364 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\vlog\hypermods.v":9:7:9:22|Synthesizing module syn_hyper_source
+
+	w=32'b00000000000000000000000000000001
+	tag=72'b011101000110010101101101011100000011000101011111011000110111001101101110
+   Generated name = syn_hyper_source_1s_temp1_csn
+
+@N: CG364 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\vlog\hypermods.v":9:7:9:22|Synthesizing module syn_hyper_source
+
+	w=32'b00000000000000000000000000000001
+	tag=56'b01110100011001010110110101110000010111110111001101101111
+   Generated name = syn_hyper_source_1s_temp_so
+
+@N: CG364 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\vlog\hypermods.v":9:7:9:22|Synthesizing module syn_hyper_source
+
+	w=32'b00000000000000000000000000100000
+	tag=32'b01100110011100100110010101110001
+   Generated name = syn_hyper_source_32s_freq
+
+@N: CG364 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\vlog\hypermods.v":9:7:9:22|Synthesizing module syn_hyper_source
+
+	w=32'b00000000000000000000000000100000
+	tag=80'b01110100011001010110110101110000010111110110001101101111011101010110111001110100
+   Generated name = syn_hyper_source_32s_temp_count
+
+@N: CG364 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\vlog\hypermods.v":9:7:9:22|Synthesizing module syn_hyper_source
+
+	w=32'b00000000000000000000000000000101
+	tag=120'b011101000110010101101101011100000101111101100011011011110111010101101110011101000101111101100100011000010111010001100001
+   Generated name = syn_hyper_source_5s_temp_count_data
+
+@N: CG364 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\vlog\hypermods.v":9:7:9:22|Synthesizing module syn_hyper_source
+
+	w=32'b00000000000000000000000000010000
+	tag=40'b0111010001100101011011010111000000110001
+   Generated name = syn_hyper_source_16s_temp1
+
+@N: CG364 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\vlog\hypermods.v":9:7:9:22|Synthesizing module syn_hyper_source
+
+	w=32'b00000000000000000000000000010000
+	tag=40'b0111010001100101011011010111000000110010
+   Generated name = syn_hyper_source_16s_temp2
+
+@N: CG364 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\vlog\hypermods.v":9:7:9:22|Synthesizing module syn_hyper_source
+
+	w=32'b00000000000000000000000000010000
+	tag=40'b0111010001100101011011010111000000110011
+   Generated name = syn_hyper_source_16s_temp3
+
+@N: CG364 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\vlog\hypermods.v":9:7:9:22|Synthesizing module syn_hyper_source
+
+	w=32'b00000000000000000000000000100000
+	tag=72'b011101000110100101101101011001010101111101110011011001010110111001110011
+   Generated name = syn_hyper_source_32s_time_sens
+
+@N: CG364 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":3:7:3:15|Synthesizing module led_igloo
+
+@W: CG133 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":16:17:16:20|No assignment to out1
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":17:13:17:16|No assignment to wire out2
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":29:13:29:17|No assignment to wire BW_36
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":34:13:34:22|No assignment to wire dac1_sleep
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":36:20:36:23|No assignment to wire fl_a
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":37:13:37:20|No assignment to wire fl_byten
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":38:13:38:18|No assignment to wire fl_cen
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":39:19:39:23|No assignment to wire fl_dq
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":40:13:40:18|No assignment to wire fl_oen
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":41:13:41:21|No assignment to wire fl_resetn
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":42:13:42:19|No assignment to wire fl_ryby
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":43:13:43:18|No assignment to wire fl_wen
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":44:13:44:18|No assignment to wire fl_wpn
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":45:13:45:19|No assignment to wire sr_cs1n
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":46:13:46:18|No assignment to wire sr_cs2
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":47:13:47:18|No assignment to wire sr_lbn
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":48:13:48:18|No assignment to wire sr_oen
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":49:13:49:18|No assignment to wire sr_ubn
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":50:13:50:18|No assignment to wire sr_wen
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":53:13:53:22|No assignment to wire clk_out_n1
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":61:13:61:22|No assignment to wire clk_out_n2
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":62:13:62:18|No assignment to wire CSN_n1
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":65:13:65:21|No assignment to wire GPS1_IDLE
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":67:13:67:20|No assignment to wire GPS1_PGM
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":70:13:70:21|No assignment to wire GPS1_SCLK
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":71:13:71:22|No assignment to wire GPS1_SDATA
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":72:13:72:21|No assignment to wire GPS1_SHDN
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":74:13:74:18|No assignment to wire REF_CE
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":75:13:75:19|No assignment to wire REF_CLK
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":76:13:76:20|No assignment to wire REF_DATA
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":77:13:77:18|No assignment to wire REF_LD
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":78:13:78:18|No assignment to wire REF_LE
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":79:13:79:21|No assignment to wire REF_MXOUT
+
+@W: CG134 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":83:23:83:32|No assignment to bit 0 of SENSE_DOUT
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":86:13:86:19|No assignment to wire dsa_clk
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":87:13:87:20|No assignment to wire dsa_data
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":88:13:88:18|No assignment to wire dsa_le
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":90:13:90:20|No assignment to wire en_modul
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":93:13:93:18|No assignment to wire GPIO17
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":107:13:107:17|No assignment to wire GPIO2
+
+@W: CG360 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":108:13:108:17|No assignment to wire GPIO1
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":360:4:360:9|Pruning register data_from_adc[8][11:0] 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":360:4:360:9|Pruning register data_from_adc[7][11:0] 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":360:4:360:9|Pruning register data_from_adc[6][11:0] 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":360:4:360:9|Pruning register data_from_adc[5][11:0] 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":360:4:360:9|Pruning register data_from_adc[4][11:0] 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":360:4:360:9|Pruning register data_from_adc[3][11:0] 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":360:4:360:9|Pruning register data_from_adc[1][11:0] 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":360:4:360:9|Pruning register data_from_adc[0][11:0] 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":291:0:291:5|Pruning register en_clk_temp 
+
+@W: CL169 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":185:0:185:5|Pruning register fpga_data_receive_pos[14:0] 
+
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[0][0] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[0][1] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[0][2] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[0][3] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[0][4] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[0][5] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[0][6] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[0][7] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[1][0] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[1][1] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[1][2] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[1][3] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[1][4] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[1][5] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[1][6] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[1][7] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[2][0] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[2][1] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[2][2] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[2][3] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[2][4] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[2][5] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[2][6] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[2][7] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[3][0] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[3][1] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[3][2] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[3][3] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[3][4] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[3][5] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[3][6] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[3][7] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[4][0] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[4][1] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[4][2] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[4][3] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[4][4] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[4][5] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[4][6] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[4][7] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[5][0] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[5][1] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[5][2] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[5][3] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[5][4] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[5][5] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[5][6] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[5][7] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[6][0] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[6][1] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[6][2] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[6][3] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[6][4] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[6][5] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[6][6] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[6][7] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[7][0] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[7][1] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[7][2] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[7][3] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[7][4] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[7][5] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[7][6] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[7][7] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[8][0] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[8][1] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[8][2] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[8][3] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[8][4] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[8][5] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[8][6] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":303:3:303:8|Register bit data_2adc[8][7] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":378:4:378:9|Register bit GPIO12 is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":366:4:366:9|Register bit freq[0] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":366:4:366:9|Register bit freq[1] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":366:4:366:9|Register bit freq[2] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":366:4:366:9|Register bit freq[3] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":366:4:366:9|Register bit freq[4] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":366:4:366:9|Register bit freq[5] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":366:4:366:9|Register bit freq[6] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":366:4:366:9|Register bit freq[14] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":366:4:366:9|Register bit freq[19] is always 1, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":366:4:366:9|Register bit freq[23] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":366:4:366:9|Register bit freq[24] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":366:4:366:9|Register bit freq[25] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":366:4:366:9|Register bit freq[26] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":366:4:366:9|Register bit freq[27] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":366:4:366:9|Register bit freq[28] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":366:4:366:9|Register bit freq[29] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":366:4:366:9|Register bit freq[30] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":366:4:366:9|Register bit freq[31] is always 0, optimizing ...
+@W: CL279 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":366:4:366:9|Pruning register bits 31 to 23 of freq[31:0] 
+
+@W: CL260 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":366:4:366:9|Pruning register bit 19 of freq[31:0] 
+
+@W: CL260 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":366:4:366:9|Pruning register bit 14 of freq[31:0] 
+
+@W: CL279 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":366:4:366:9|Pruning register bits 6 to 0 of freq[31:0] 
+
+@N: CG364 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\work\build\build.v":9:7:9:11|Synthesizing module build
+
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":316:2:316:7|Register bit cnt[6] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":316:2:316:7|Register bit cnt[7] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":316:2:316:7|Register bit cnt[8] is always 0, optimizing ...
+@W: CL189 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":316:2:316:7|Register bit cnt[9] is always 0, optimizing ...
+@W: CL279 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":316:2:316:7|Pruning register bits 9 to 6 of cnt[9:0] 
+
+@N: CL177 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":185:0:185:5|Sharing sequential element BW_out.
+@N: CL201 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":215:0:215:5|Trying to extract state machine for register temp_state
+@N: CL201 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":316:2:316:7|Trying to extract state machine for register state
+@W: CL279 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":366:4:366:9|Pruning register bits 12 to 10 of freq[13:7] 
+
+@A: CL153 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":16:17:16:20|*Unassigned bits of out1 are referenced and tied to 0 -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":17:13:17:16|*Output out2 has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":29:13:29:17|*Output BW_36 has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":34:13:34:22|*Output dac1_sleep has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":36:20:36:23|*Output fl_a has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":37:13:37:20|*Output fl_byten has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":38:13:38:18|*Output fl_cen has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":39:19:39:23|*Output fl_dq has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":40:13:40:18|*Output fl_oen has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":41:13:41:21|*Output fl_resetn has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":42:13:42:19|*Output fl_ryby has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":43:13:43:18|*Output fl_wen has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":44:13:44:18|*Output fl_wpn has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":45:13:45:19|*Output sr_cs1n has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":46:13:46:18|*Output sr_cs2 has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":47:13:47:18|*Output sr_lbn has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":48:13:48:18|*Output sr_oen has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":49:13:49:18|*Output sr_ubn has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":50:13:50:18|*Output sr_wen has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":53:13:53:22|*Output clk_out_n1 has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":61:13:61:22|*Output clk_out_n2 has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":62:13:62:18|*Output CSN_n1 has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":65:13:65:21|*Output GPS1_IDLE has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":67:13:67:20|*Output GPS1_PGM has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":70:13:70:21|*Output GPS1_SCLK has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":71:13:71:22|*Output GPS1_SDATA has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":72:13:72:21|*Output GPS1_SHDN has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":74:13:74:18|*Output REF_CE has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":75:13:75:19|*Output REF_CLK has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":76:13:76:20|*Output REF_DATA has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":77:13:77:18|*Output REF_LD has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":78:13:78:18|*Output REF_LE has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":79:13:79:21|*Output REF_MXOUT has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":83:23:83:32|*Output SENSE_DOUT has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":86:13:86:19|*Output dsa_clk has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":87:13:87:20|*Output dsa_data has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":88:13:88:18|*Output dsa_le has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":90:13:90:20|*Output en_modul has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":93:13:93:18|*Output GPIO17 has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":107:13:107:17|*Output GPIO2 has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":108:13:108:17|*Output GPIO1 has undriven bits -- simulation mismatch possible.
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":4:12:4:20|Input init_done is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":5:12:5:25|Input fab_clk_100MHz is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":8:12:8:26|Input fab_clk_1_17MHz is unused
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\work\build_sb\FABOSC_0\build_sb_FABOSC_0_OSC.v":17:7:17:20|*Output RCOSC_1MHZ_CCC has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\work\build_sb\FABOSC_0\build_sb_FABOSC_0_OSC.v":18:7:18:20|*Output RCOSC_1MHZ_O2F has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\work\build_sb\FABOSC_0\build_sb_FABOSC_0_OSC.v":19:7:19:16|*Output XTLOSC_CCC has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\work\build_sb\FABOSC_0\build_sb_FABOSC_0_OSC.v":20:7:20:16|*Output XTLOSC_O2F has undriven bits -- simulation mismatch possible.
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\work\build_sb\FABOSC_0\build_sb_FABOSC_0_OSC.v":14:7:14:9|Input XTL is unused
+@N: CL177 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif0_spll_lock_q2.
+@N: CL177 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif1_spll_lock_q2.
+@N: CL177 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif2_spll_lock_q2.
+@N: CL177 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element fpll_lock_q2.
+@N: CL201 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Trying to extract state machine for register sdif3_state
+Extracted state machine for register sdif3_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Trying to extract state machine for register sdif2_state
+Extracted state machine for register sdif2_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Trying to extract state machine for register sdif1_state
+Extracted state machine for register sdif1_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Trying to extract state machine for register sdif0_state
+Extracted state machine for register sdif0_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Trying to extract state machine for register sm0_state
+Extracted state machine for register sm0_state
+State machine has 7 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+   110
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":29:20:29:28|Input CLK_LTSSM is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":56:20:56:28|Input FPLL_LOCK is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":59:20:59:34|Input SDIF0_SPLL_LOCK is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":68:20:68:34|Input SDIF1_SPLL_LOCK is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":72:20:72:34|Input SDIF2_SPLL_LOCK is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":76:20:76:34|Input SDIF3_SPLL_LOCK is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":90:20:90:29|Input SDIF0_PSEL is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":91:20:91:31|Input SDIF0_PWRITE is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":92:20:92:31|Input SDIF0_PRDATA is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":93:20:93:29|Input SDIF1_PSEL is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":94:20:94:31|Input SDIF1_PWRITE is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":95:20:95:31|Input SDIF1_PRDATA is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":96:20:96:29|Input SDIF2_PSEL is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":97:20:97:31|Input SDIF2_PWRITE is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":98:20:98:31|Input SDIF2_PRDATA is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":99:20:99:29|Input SDIF3_PSEL is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":100:20:100:31|Input SDIF3_PWRITE is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":101:20:101:31|Input SDIF3_PRDATA is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":107:20:107:37|Input SOFT_EXT_RESET_OUT is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":108:20:108:33|Input SOFT_RESET_F2M is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":109:20:109:32|Input SOFT_M3_RESET is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":110:20:110:49|Input SOFT_MDDR_DDR_AXI_S_CORE_RESET is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":111:20:111:39|Input SOFT_FDDR_CORE_RESET is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":112:20:112:39|Input SOFT_SDIF0_PHY_RESET is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":113:20:113:40|Input SOFT_SDIF0_CORE_RESET is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":114:20:114:39|Input SOFT_SDIF1_PHY_RESET is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":115:20:115:40|Input SOFT_SDIF1_CORE_RESET is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":116:20:116:39|Input SOFT_SDIF2_PHY_RESET is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":117:20:117:40|Input SOFT_SDIF2_CORE_RESET is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":118:20:118:39|Input SOFT_SDIF3_PHY_RESET is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":119:20:119:40|Input SOFT_SDIF3_CORE_RESET is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":123:20:123:42|Input SOFT_SDIF0_0_CORE_RESET is unused
+@W: CL159 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":124:20:124:42|Input SOFT_SDIF0_1_CORE_RESET is unused
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 76MB peak: 78MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Mar 11 20:39:29 2016
+
+###########################################################]
+Synopsys Netlist Linker, version comp201503p1, Build 094R, built May 14 2015
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Mar 11 20:39:29 2016
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Mar 11 20:39:29 2016
+
+###########################################################]

@@ -1,0 +1,2 @@
+@E: CL172 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":142:14:142:18|Only one always block can assign a given variable state[1:0]
+

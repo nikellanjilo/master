@@ -1,0 +1,49 @@
+INFO: Using Synplify installation C:/Microsemi/Libero_v11.6/Synopsys/fpga_J-2015.03M-3/lib for variable $LIBINFO: Added instrumentation 'synthesis_1' to the projectINFO: Current design is buildINFO: Loading instrumentation 'synthesis_1'INFO: Reading Identify Instrumentor constraints file: C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/synthesis/synthesis_1/identify.idcINFO: device jtagport builtinINFO: iice new IICE -type regularINFO: iice current IICEINFO: iice controller -iice IICE noneINFO: iice sampler -iice IICE -depth 1024Setting sampledepth to 1024 for IICE named IICEINFO: signals add -iice IICE -silent -sample /led_igloo_0/dac1_db /led_igloo_0/fpga_count /led_igloo_0/fpga_shiftINFO: signals add -iice IICE -silent -trigger -sample /led_igloo_0/BW /led_igloo_0/BW_clk /led_igloo_0/CTR6 /led_igloo_0/CTR7 /led_igloo_0/GPIO14 /led_igloo_0/dac1_clk /led_igloo_0/dac2_clk /led_igloo_0/dac_count /led_igloo_0/dac_state /led_igloo_0/fab_clk_8MHz /led_igloo_0/fpga_data_receive /led_igloo_0/fpga_data_receive_pos /led_igloo_0/fpga_flag /led_igloo_0/fpga_shift_2 /led_igloo_0/freq /led_igloo_0/temp1 /led_igloo_0/temp1_csn /led_igloo_0/temp2 /led_igloo_0/temp2_csn /led_igloo_0/temp3 /led_igloo_0/temp3_csn /led_igloo_0/temp_count /led_igloo_0/temp_count_data /led_igloo_0/temp_sck /led_igloo_0/temp_so /led_igloo_0/temp_state /led_igloo_0/time_sensINFO: iice clock -iice IICE -edge positive /led_igloo_0/fab_clk_16MHzSetting clock to /led_igloo_0/fab_clk_16MHz for IICE named IICEINFO: signals delete -iice IICE /led_igloo_0/temp_stateINFO: /led_igloo_0/temp_state deleted from iice: IICETotal instrumentation in bits: Sample Only 39, Trigger Only 0, Sample and trigger 232
+		Group wise instrumentation in bits: 
+					Groupdefault:Sample Only 39, Sample and trigger 232INFO: write instrumentation -save_orig_src -idc_onlyINFO: Instrumenting design `build' in directory C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/synthesis/synthesis_1INFO: Current instrumentation information: 	IICE=IICE 
+		Total instrumentation in bits: Sample Only 39, Trigger Only 0, Sample and trigger 232
+		Group wise instrumentation in bits: 
+					Groupdefault:Sample Only 39, Sample and trigger 232INFO: signals delete -iice IICE /led_igloo_0/GPIO14INFO: /led_igloo_0/GPIO14 deleted from iice: IICETotal instrumentation in bits: Sample Only 39, Trigger Only 0, Sample and trigger 231
+		Group wise instrumentation in bits: 
+					Groupdefault:Sample Only 39, Sample and trigger 231INFO: signals delete -iice IICE /led_igloo_0/fpga_data_receiveINFO: /led_igloo_0/fpga_data_receive deleted from iice: IICETotal instrumentation in bits: Sample Only 39, Trigger Only 0, Sample and trigger 216
+		Group wise instrumentation in bits: 
+					Groupdefault:Sample Only 39, Sample and trigger 216INFO: signals delete -iice IICE /led_igloo_0/BWINFO: /led_igloo_0/BW deleted from iice: IICETotal instrumentation in bits: Sample Only 39, Trigger Only 0, Sample and trigger 201
+		Group wise instrumentation in bits: 
+					Groupdefault:Sample Only 39, Sample and trigger 201INFO: signals delete -iice IICE /led_igloo_0/fpga_flagINFO: /led_igloo_0/fpga_flag deleted from iice: IICETotal instrumentation in bits: Sample Only 39, Trigger Only 0, Sample and trigger 200
+		Group wise instrumentation in bits: 
+					Groupdefault:Sample Only 39, Sample and trigger 200INFO: signals delete -iice IICE /led_igloo_0/fpga_data_receive_posINFO: /led_igloo_0/fpga_data_receive_pos deleted from iice: IICETotal instrumentation in bits: Sample Only 39, Trigger Only 0, Sample and trigger 185
+		Group wise instrumentation in bits: 
+					Groupdefault:Sample Only 39, Sample and trigger 185INFO: signals delete -iice IICE /led_igloo_0/fpga_shift_2INFO: /led_igloo_0/fpga_shift_2 deleted from iice: IICETotal instrumentation in bits: Sample Only 39, Trigger Only 0, Sample and trigger 170
+		Group wise instrumentation in bits: 
+					Groupdefault:Sample Only 39, Sample and trigger 170INFO: signals delete -iice IICE /led_igloo_0/fpga_countINFO: /led_igloo_0/fpga_count deleted from iice: IICETotal instrumentation in bits: Sample Only 24, Trigger Only 0, Sample and trigger 170
+		Group wise instrumentation in bits: 
+					Groupdefault:Sample Only 24, Sample and trigger 170INFO: signals delete -iice IICE /led_igloo_0/fpga_shiftINFO: /led_igloo_0/fpga_shift deleted from iice: IICETotal instrumentation in bits: Sample Only 9, Trigger Only 0, Sample and trigger 170
+		Group wise instrumentation in bits: 
+					Groupdefault:Sample Only 9, Sample and trigger 170INFO: signals delete -iice IICE /led_igloo_0/BW_clkINFO: /led_igloo_0/BW_clk deleted from iice: IICETotal instrumentation in bits: Sample Only 9, Trigger Only 0, Sample and trigger 169
+		Group wise instrumentation in bits: 
+					Groupdefault:Sample Only 9, Sample and trigger 169INFO: signals delete -iice IICE /led_igloo_0/dac_countINFO: /led_igloo_0/dac_count deleted from iice: IICETotal instrumentation in bits: Sample Only 9, Trigger Only 0, Sample and trigger 160
+		Group wise instrumentation in bits: 
+					Groupdefault:Sample Only 9, Sample and trigger 160INFO: signals delete -iice IICE /led_igloo_0/dac1_dbINFO: /led_igloo_0/dac1_db deleted from iice: IICETotal instrumentation in bits: Sample Only 0, Trigger Only 0, Sample and trigger 160
+		Group wise instrumentation in bits: 
+					Groupdefault:Sample Only 0, Sample and trigger 160INFO: signals delete -iice IICE /led_igloo_0/dac1_clkINFO: /led_igloo_0/dac1_clk deleted from iice: IICETotal instrumentation in bits: Sample Only 0, Trigger Only 0, Sample and trigger 159
+		Group wise instrumentation in bits: 
+					Groupdefault:Sample Only 0, Sample and trigger 159INFO: signals delete -iice IICE /led_igloo_0/CTR7INFO: /led_igloo_0/CTR7 deleted from iice: IICETotal instrumentation in bits: Sample Only 0, Trigger Only 0, Sample and trigger 158
+		Group wise instrumentation in bits: 
+					Groupdefault:Sample Only 0, Sample and trigger 158INFO: signals delete -iice IICE /led_igloo_0/CTR6INFO: /led_igloo_0/CTR6 deleted from iice: IICETotal instrumentation in bits: Sample Only 0, Trigger Only 0, Sample and trigger 157
+		Group wise instrumentation in bits: 
+					Groupdefault:Sample Only 0, Sample and trigger 157INFO: signals delete -iice IICE /led_igloo_0/dac2_clkINFO: /led_igloo_0/dac2_clk deleted from iice: IICETotal instrumentation in bits: Sample Only 0, Trigger Only 0, Sample and trigger 156
+		Group wise instrumentation in bits: 
+					Groupdefault:Sample Only 0, Sample and trigger 156INFO: signals delete -iice IICE /led_igloo_0/dac_stateINFO: /led_igloo_0/dac_state deleted from iice: IICETotal instrumentation in bits: Sample Only 0, Trigger Only 0, Sample and trigger 155
+		Group wise instrumentation in bits: 
+					Groupdefault:Sample Only 0, Sample and trigger 155INFO: write instrumentation -save_orig_src -idc_onlyINFO: Instrumenting design `build' in directory C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/synthesis/synthesis_1INFO: Current instrumentation information: 	IICE=IICE 
+		Total instrumentation in bits: Sample Only 0, Trigger Only 0, Sample and trigger 155
+		Group wise instrumentation in bits: 
+					Groupdefault:Sample Only 0, Sample and trigger 155INFO: write instrumentation -save_orig_src -idc_onlyINFO: Instrumenting design `build' in directory C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/synthesis/synthesis_1INFO: Current instrumentation information: 	IICE=IICE 
+		Total instrumentation in bits: Sample Only 0, Trigger Only 0, Sample and trigger 155
+		Group wise instrumentation in bits: 
+					Groupdefault:Sample Only 0, Sample and trigger 155INFO: iice currentINFO: iice listINFO: iice currentINFO: iice currentINFO: iice currentINFO: iice get -iice IICEINFO: iice get -iice IICEINFO: iice sampler -iice IICE -depth 1024INFO: iice sampler -iice IICE -ram {type 0}Setting IICE memory module type to '0' for IICE named 'IICE'INFO: iice currentINFO: iice sampler -iice IICE behavioralINFO: iice controller -iice IICE noneINFO: iice currentINFO: iice get -iice IICEINFO: iice get -iice IICEINFO: iice sampler -iice IICE -depth 1024INFO: iice sampler -iice IICE -ram {type 0}INFO: iice currentINFO: iice sampler -iice IICE behavioralINFO: iice current IICEINFO: iice current IICEINFO: iice currentINFO: iice controller -iice IICE noneINFO: iice currentINFO: iice get -iice IICEINFO: iice get -iice IICEINFO: iice sampler -iice IICE -depth 1024INFO: iice sampler -iice IICE -ram {type 0}INFO: iice currentINFO: iice sampler -iice IICE behavioralINFO: iice currentINFO: iice sampler -iice IICE behavioralINFO: iice clock -iice IICE -edge positive /led_igloo_0/fab_clk_16MHzINFO: iice currentINFO: iice sampler -iice IICE behavioralINFO: iice sampler -iice IICE -depth 1024INFO: Current active IICE 'IICE' instrumentation information: 		Total instrumentation in bits: Sample Only 0, Trigger Only 0, Sample and trigger 155
+		Group wise instrumentation in bits: 
+					Groupdefault:Sample Only 0, Sample and trigger 155INFO: iice controller -iice IICE -triggerstates 4INFO: iice controller -iice IICE -triggerconditions 4INFO: write instrumentation -save_orig_src -idc_onlyINFO: Instrumenting design `build' in directory C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/synthesis/synthesis_1INFO: Current instrumentation information: 	IICE=IICE 
+		Total instrumentation in bits: Sample Only 0, Trigger Only 0, Sample and trigger 155
+		Group wise instrumentation in bits: 
+					Groupdefault:Sample Only 0, Sample and trigger 155

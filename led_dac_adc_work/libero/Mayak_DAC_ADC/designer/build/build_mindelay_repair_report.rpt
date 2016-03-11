@@ -1,0 +1,55 @@
+-------------------------------------
+ External Hold Repair Report 
+-------------------------------------
+ Iteration 1  
+ Total I/O input ports improved: 0       
+-------------------------------------
+
+
+
+-------------------------
+ Min-delay Repair Report 
+-------------------------
+ Iteration 1  
+ Total paths found:    2       
+ Total paths improved: 0       
+-------------------------
+
+Path 1
+------------------------
+From: build_sb_0/CCC_0/CCC_INST/INST_CCC_IP:RCOSC_25_50MHZ
+  To: ident_coreinst/IICE_INST/mdiclink_reg[121]:D
+------------------------
+Path min-delay slack:      -107 ps
+------------------------
+... None of the following nets could be modified:
+      build_sb_0/CCC_0/GL1_INST/U0_RGB1_RGB2_rgbr_net_1
+      build_sb_0/CCC_0/GL1_INST/U0_YWn_GEast
+      build_sb_0/CCC_0/GL1_net
+      build_sb_0/FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC
+
+Path 2
+------------------------
+From: build_sb_0/CCC_0/CCC_INST/INST_CCC_IP:RCOSC_25_50MHZ
+  To: ident_coreinst/IICE_INST/mdiclink_reg[0]:D
+------------------------
+Path min-delay slack:       -93 ps
+------------------------
+... None of the following nets could be modified:
+      build_sb_0/CCC_0/GL1_INST/U0_RGB1_RGB4_rgbl_net_1
+      build_sb_0/CCC_0/GL1_INST/U0_YWn_GEast
+      build_sb_0/CCC_0/GL1_net
+      build_sb_0/FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC
+
+
+Note:
+    [1]: A net cannot be modified for repair if:
+         - it is hardwired, preserved, or global;
+         - the sink pin is a clock pin;
+         - the sink pin has negative max-delay slack allowance;
+         - the sink and driving pins are placed in the same cluster.
+
+    [2]: A location is not feasible for inserting a delay buffer if the estimated minimum delay to be inserted might exceed the max-delay slack allowance of the sink pin.
+
+
+

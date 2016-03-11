@@ -1,0 +1,24 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.6 SP1 (Version 11.6.1.6)
+
+Date      :  Thu Mar 10 17:26:53 2016
+Project   :  C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC
+Component :  build_sb
+Family    :  IGLOO2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vlog/core/coreresetp.v
+    C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vlog/core/coreresetp_pcie_hotreset.v
+    C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/build_sb/CCC_0/build_sb_CCC_0_FCCC.v
+    C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/build_sb/FABOSC_0/build_sb_FABOSC_0_OSC.v
+    C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/build_sb/build_sb.v
+    C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/build_sb_HPMS/build_sb_HPMS.v
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/Actel/SgCore/OSC/1.0.105/osc_comps.v
+    C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/build_sb_HPMS/build_sb_HPMS_syn.v
+
+HDL source files for Mentor Precision Synthesis tool:
+    C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/Actel/SgCore/OSC/1.0.105/osc_comps_pre.v
+    C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/build_sb_HPMS/build_sb_HPMS_pre.v
+

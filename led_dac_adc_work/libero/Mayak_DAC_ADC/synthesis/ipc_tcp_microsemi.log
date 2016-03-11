@@ -1,0 +1,30 @@
+1457715064 -20:51:04 -0 -Client create_ipc, start a new server process in mode B !
+1457715064 -20:51:04 -0 -Server started !?
+1457715064 -20:51:04 -0 -client create_ipc modus B, open client jtagapi_c::g_pmC !
+1457715064 -20:51:04 -0 -ipcClient::Reconnect params
+Hostname:  127.0.0.1
+Port:      58015
+Logfile:   C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/synthesis/ipc_tcp_microsemi.log
+Reconnect: 0
+Use ipv6:  0
+
+1457715065 -20:51:05 -0 -Check for server mode B !
+1457715065 -20:51:05 -0 -check JTAG-clients (JTAG-server is in standalone mode): no JTAG-clients found !
+
+1457715065 -20:51:05 -0 -Use a new started server process, switch to mode B !
+1457715065 -20:51:05 -0 -Use a new started server process in mode B (exit after ends last connection)!
+1457715065 -20:51:05 -0 -use a started server process in mode B !
+1457715153 -20:52:33 -0 -Check for server mode B !
+1457715153 -20:52:33 -0 -check JTAG-clients (JTAG-server is not in standalone mode):
+---- JTAG-client 0 ------
+ JTAG handle: 0x007260c0, shared used: 1
+ has connected: yes, with cabletype: 11 (ACTEL_BUILTINJTAG)
+ portnum is: 0, speed is: 0, portname is: usb
+ error if any: none.
+
+
+1457715153 -20:52:33 -0 -Use a new started server process, switch to mode B !
+1457715153 -20:52:33 -0 -Use a new started server process in mode B (exit after ends last connection)!
+1457715153 -20:52:33 -0 -Client can use_ipc, use same running client & server (types) !
+1457717932 -21:38:52 -0 -Client jtagexit (server shutdown if last connection, running in mode B) !
+1457717932 -21:38:52 -0 -Client shutdown (jtagapi_c::g_pmC == NULL) !

@@ -1,0 +1,16 @@
+Project Name: Mayak_DAC_ADC
+Location: C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC
+Description: 
+Preferred HDL Type: Verilog
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : M2GL050T-1FG896I
+Family         : IGLOO2
+Die            : M2GL050T
+Package        : 896 FBGA
+Speed          : -1
+Core Voltage   : 1.2
+Range          : IND

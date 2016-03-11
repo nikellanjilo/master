@@ -1,0 +1,457 @@
+
+
+@S |##### START OF TIMING REPORT #####[
+# Timing Report written on Fri Mar 11 20:39:50 2016
+#
+
+
+Top view:               build
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\synthesis\synthesis_1\instr_sources\syn_dics.sdc
+                       
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 0.315
+
+                                                            Requested     Estimated      Requested     Estimated                 Clock        Clock               
+Starting Clock                                              Frequency     Frequency      Period        Period        Slack       Type         Group               
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+build_sb_CCC_0_FCCC|GL0_net_inferred_clock                  100.0 MHz     NA             10.000        NA            NA          inferred     Inferred_clkgroup_2 
+build_sb_CCC_0_FCCC|GL1_net_inferred_clock                  100.0 MHz     153.7 MHz      10.000        6.508         1.746       inferred     Inferred_clkgroup_1 
+build_sb_CCC_0_FCCC|GL2_net_inferred_clock                  100.0 MHz     199.0 MHz      10.000        5.026         3.452       inferred     Inferred_clkgroup_0 
+build_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     100.0 MHz     NA             10.000        NA            NA          inferred     Inferred_clkgroup_3 
+ident_coreinst.comm_block_INST.dr2_tck                      1.0 MHz       1016.2 MHz     1000.000      0.984         999.016     declared     identify_jtag_group1
+ident_coreinst.comm_block_INST.tck                          1.0 MHz       181.5 MHz      1000.000      5.511         994.490     declared     identify_jtag_group1
+System                                                      100.0 MHz     158.9 MHz      10.000        6.291         3.709       system       system_clkgroup     
+==================================================================================================================================================================
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                  |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                    Ending                                      |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                      System                                      |  0.000       0.932  |  No paths    -      |  No paths    -      |  No paths    -    
+System                                      build_sb_CCC_0_FCCC|GL2_net_inferred_clock  |  0.000       0.315  |  No paths    -      |  No paths    -      |  No paths    -    
+System                                      ident_coreinst.comm_block_INST.tck          |  0.000       0.378  |  No paths    -      |  No paths    -      |  No paths    -    
+System                                      ident_coreinst.comm_block_INST.dr2_tck      |  0.000       0.535  |  No paths    -      |  No paths    -      |  No paths    -    
+build_sb_CCC_0_FCCC|GL2_net_inferred_clock  build_sb_CCC_0_FCCC|GL2_net_inferred_clock  |  0.000       0.378  |  0.000       0.378  |  5.000       5.481  |  No paths    -    
+build_sb_CCC_0_FCCC|GL2_net_inferred_clock  ident_coreinst.comm_block_INST.tck          |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+build_sb_CCC_0_FCCC|GL1_net_inferred_clock  build_sb_CCC_0_FCCC|GL2_net_inferred_clock  |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+build_sb_CCC_0_FCCC|GL1_net_inferred_clock  build_sb_CCC_0_FCCC|GL1_net_inferred_clock  |  0.000       0.480  |  0.000       0.537  |  No paths    -      |  5.000       5.704
+ident_coreinst.comm_block_INST.tck          System                                      |  0.000       0.378  |  No paths    -      |  No paths    -      |  No paths    -    
+ident_coreinst.comm_block_INST.tck          build_sb_CCC_0_FCCC|GL2_net_inferred_clock  |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+ident_coreinst.comm_block_INST.tck          ident_coreinst.comm_block_INST.tck          |  0.000       0.315  |  No paths    -      |  No paths    -      |  No paths    -    
+ident_coreinst.comm_block_INST.dr2_tck      System                                      |  0.000       0.378  |  No paths    -      |  No paths    -      |  No paths    -    
+ident_coreinst.comm_block_INST.dr2_tck      ident_coreinst.comm_block_INST.dr2_tck      |  0.000       0.378  |  No paths    -      |  No paths    -      |  No paths    -    
+==============================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: build_sb_CCC_0_FCCC|GL1_net_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                       Starting                                                                                   Arrival          
+Instance                               Reference                                      Type     Pin     Net                        Time        Slack
+                                       Clock                                                                                                       
+---------------------------------------------------------------------------------------------------------------------------------------------------
+led_igloo_0.cnt_freq[0]                build_sb_CCC_0_FCCC|GL1_net_inferred_clock     SLE      Q       cnt_freq[0]                0.066       0.480
+led_igloo_0.cnt[5]                     build_sb_CCC_0_FCCC|GL1_net_inferred_clock     SLE      Q       cnt[5]                     0.053       0.537
+led_igloo_0.cnt[3]                     build_sb_CCC_0_FCCC|GL1_net_inferred_clock     SLE      Q       cnt[3]                     0.053       0.546
+led_igloo_0.data_from_adc\[2\][9]      build_sb_CCC_0_FCCC|GL1_net_inferred_clock     SLE      Q       data_from_adc\[2\][9]      0.053       0.556
+led_igloo_0.state[0]                   build_sb_CCC_0_FCCC|GL1_net_inferred_clock     SLE      Q       state[0]                   0.053       0.577
+led_igloo_0.cnt_frame[0]               build_sb_CCC_0_FCCC|GL1_net_inferred_clock     SLE      Q       cnt_frame[0]               0.053       0.588
+led_igloo_0.cnt_frame[2]               build_sb_CCC_0_FCCC|GL1_net_inferred_clock     SLE      Q       cnt_frame[2]               0.053       0.590
+led_igloo_0.cnt_frame[3]               build_sb_CCC_0_FCCC|GL1_net_inferred_clock     SLE      Q       cnt_frame[3]               0.066       0.596
+led_igloo_0.data_from_adc\[2\][10]     build_sb_CCC_0_FCCC|GL1_net_inferred_clock     SLE      Q       data_from_adc\[2\][10]     0.053       0.601
+led_igloo_0.data_from_adc\[2\][11]     build_sb_CCC_0_FCCC|GL1_net_inferred_clock     SLE      Q       data_from_adc\[2\][11]     0.053       0.601
+===================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                Starting                                                                                         Required          
+Instance                        Reference                                      Type     Pin     Net                              Time         Slack
+                                Clock                                                                                                              
+---------------------------------------------------------------------------------------------------------------------------------------------------
+led_igloo_0.cnt_freq[0]         build_sb_CCC_0_FCCC|GL1_net_inferred_clock     SLE      D       cnt_freq_s[0]                    0.155        0.480
+led_igloo_0.SENSE_DOUT_1[1]     build_sb_CCC_0_FCCC|GL1_net_inferred_clock     SLE      EN      N_39_i_0                         0.205        0.537
+led_igloo_0.freq[9]             build_sb_CCC_0_FCCC|GL1_net_inferred_clock     SLE      D       un1_data_from_adc\[2\]_1_i_0     0.155        0.556
+led_igloo_0.freq[17]            build_sb_CCC_0_FCCC|GL1_net_inferred_clock     SLE      D       freq3_i_0                        0.155        0.556
+led_igloo_0.SENSE_CS_1          build_sb_CCC_0_FCCC|GL1_net_inferred_clock     SLE      EN      state15                          0.205        0.577
+led_igloo_0.SENSE_CS_1          build_sb_CCC_0_FCCC|GL1_net_inferred_clock     SLE      D       N_21                             0.155        0.588
+led_igloo_0.cnt_frame[1]        build_sb_CCC_0_FCCC|GL1_net_inferred_clock     SLE      D       cnt_frame_0                      0.155        0.588
+led_igloo_0.cnt_frame[2]        build_sb_CCC_0_FCCC|GL1_net_inferred_clock     SLE      D       cnt_frame                        0.155        0.590
+led_igloo_0.state[1]            build_sb_CCC_0_FCCC|GL1_net_inferred_clock     SLE      D       N_23_i_0                         0.155        0.596
+led_igloo_0.freq[13]            build_sb_CCC_0_FCCC|GL1_net_inferred_clock     SLE      D       freq15                           0.155        0.601
+===================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.636
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.155
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (non-critical) :                 0.480
+
+    Number of logic level(s):                1
+    Starting point:                          led_igloo_0.cnt_freq[0] / Q
+    Ending point:                            led_igloo_0.cnt_freq[0] / D
+    The start point is clocked by            build_sb_CCC_0_FCCC|GL1_net_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            build_sb_CCC_0_FCCC|GL1_net_inferred_clock [rising] on pin CLK
+
+Instance / Net                           Pin      Pin               Arrival     No. of    
+Name                            Type     Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------
+led_igloo_0.cnt_freq[0]         SLE      Q        Out     0.066     0.066       -         
+cnt_freq[0]                     Net      -        -       0.411     -           2         
+led_igloo_0.cnt_freq_RNO[0]     CFG1     A        In      -         0.476       -         
+led_igloo_0.cnt_freq_RNO[0]     CFG1     Y        Out     0.063     0.539       -         
+cnt_freq_s[0]                   Net      -        -       0.097     -           1         
+led_igloo_0.cnt_freq[0]         SLE      D        In      -         0.636       -         
+==========================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: build_sb_CCC_0_FCCC|GL2_net_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                               Starting                                                                           Arrival          
+Instance                       Reference                                      Type     Pin     Net                Time        Slack
+                               Clock                                                                                               
+-----------------------------------------------------------------------------------------------------------------------------------
+led_igloo_0.fpga_count[1]      build_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      Q       fpga_count[1]      0.053       0.378
+led_igloo_0.fpga_count[2]      build_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      Q       fpga_count[2]      0.053       0.378
+led_igloo_0.fpga_count[3]      build_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      Q       fpga_count[3]      0.053       0.378
+led_igloo_0.fpga_count[4]      build_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      Q       fpga_count[4]      0.053       0.378
+led_igloo_0.fpga_count[5]      build_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      Q       fpga_count[5]      0.053       0.378
+led_igloo_0.fpga_count[6]      build_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      Q       fpga_count[6]      0.053       0.378
+led_igloo_0.fpga_count[7]      build_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      Q       fpga_count[7]      0.053       0.378
+led_igloo_0.fpga_count[8]      build_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      Q       fpga_count[8]      0.053       0.378
+led_igloo_0.fpga_count[9]      build_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      Q       fpga_count[9]      0.053       0.378
+led_igloo_0.fpga_count[10]     build_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      Q       fpga_count[10]     0.053       0.378
+===================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                              Starting                                                                          Required          
+Instance                      Reference                                      Type     Pin     Net               Time         Slack
+                              Clock                                                                                               
+----------------------------------------------------------------------------------------------------------------------------------
+led_igloo_0.GPIO14            build_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      D       fpga_flag         0.155        0.378
+led_igloo_0.fpga_shift[1]     build_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      D       fpga_count[1]     0.155        0.378
+led_igloo_0.fpga_shift[2]     build_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      D       fpga_count[2]     0.155        0.378
+led_igloo_0.fpga_shift[3]     build_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      D       fpga_count[3]     0.155        0.378
+led_igloo_0.fpga_shift[4]     build_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      D       fpga_count[4]     0.155        0.378
+led_igloo_0.fpga_shift[5]     build_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      D       fpga_count[5]     0.155        0.378
+led_igloo_0.fpga_shift[6]     build_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      D       fpga_count[6]     0.155        0.378
+led_igloo_0.fpga_shift[7]     build_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      D       fpga_count[7]     0.155        0.378
+led_igloo_0.fpga_shift[8]     build_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      D       fpga_count[8]     0.155        0.378
+led_igloo_0.fpga_shift[9]     build_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      D       fpga_count[9]     0.155        0.378
+==================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.533
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.155
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (non-critical) :                 0.378
+
+    Number of logic level(s):                0
+    Starting point:                          led_igloo_0.fpga_count[1] / Q
+    Ending point:                            led_igloo_0.fpga_shift[1] / D
+    The start point is clocked by            build_sb_CCC_0_FCCC|GL2_net_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            build_sb_CCC_0_FCCC|GL2_net_inferred_clock [rising] on pin CLK
+
+Instance / Net                         Pin      Pin               Arrival     No. of    
+Name                          Type     Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------
+led_igloo_0.fpga_count[1]     SLE      Q        Out     0.053     0.053       -         
+fpga_count[1]                 Net      -        -       0.480     -           2         
+led_igloo_0.fpga_shift[1]     SLE      D        In      -         0.533       -         
+========================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: ident_coreinst.comm_block_INST.dr2_tck
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                              Starting                                                                        Arrival          
+Instance                                                      Reference                                  Type     Pin     Net                 Time        Slack
+                                                              Clock                                                                                            
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[0]     ident_coreinst.comm_block_INST.dr2_tck     SLE      Q       b9_OvyH3_saL[0]     0.053       0.378
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[1]     ident_coreinst.comm_block_INST.dr2_tck     SLE      Q       b9_OvyH3_saL[1]     0.053       0.378
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[2]     ident_coreinst.comm_block_INST.dr2_tck     SLE      Q       b9_OvyH3_saL[2]     0.053       0.378
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[3]     ident_coreinst.comm_block_INST.dr2_tck     SLE      Q       b9_OvyH3_saL[3]     0.053       0.378
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[4]     ident_coreinst.comm_block_INST.dr2_tck     SLE      Q       b9_OvyH3_saL[4]     0.053       0.378
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[5]     ident_coreinst.comm_block_INST.dr2_tck     SLE      Q       b9_OvyH3_saL[5]     0.053       0.378
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[6]     ident_coreinst.comm_block_INST.dr2_tck     SLE      Q       b9_OvyH3_saL[6]     0.053       0.378
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[7]     ident_coreinst.comm_block_INST.dr2_tck     SLE      Q       b9_OvyH3_saL[7]     0.053       0.378
+===============================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                         Starting                                                                        Required          
+Instance                                                                 Reference                                  Type     Pin     Net                 Time         Slack
+                                                                         Clock                                                                                             
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[0]                ident_coreinst.comm_block_INST.dr2_tck     SLE      D       b9_OvyH3_saL[1]     0.155        0.378
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[1]                ident_coreinst.comm_block_INST.dr2_tck     SLE      D       b9_OvyH3_saL[2]     0.155        0.378
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[2]                ident_coreinst.comm_block_INST.dr2_tck     SLE      D       b9_OvyH3_saL[3]     0.155        0.378
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[3]                ident_coreinst.comm_block_INST.dr2_tck     SLE      D       b9_OvyH3_saL[4]     0.155        0.378
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[4]                ident_coreinst.comm_block_INST.dr2_tck     SLE      D       b9_OvyH3_saL[5]     0.155        0.378
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[5]                ident_coreinst.comm_block_INST.dr2_tck     SLE      D       b9_OvyH3_saL[6]     0.155        0.378
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[6]                ident_coreinst.comm_block_INST.dr2_tck     SLE      D       b9_OvyH3_saL[7]     0.155        0.378
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[0]     ident_coreinst.comm_block_INST.dr2_tck     SLE      D       b9_OvyH3_saL[0]     0.155        0.378
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[1]     ident_coreinst.comm_block_INST.dr2_tck     SLE      D       b9_OvyH3_saL[1]     0.155        0.378
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[2]     ident_coreinst.comm_block_INST.dr2_tck     SLE      D       b9_OvyH3_saL[2]     0.155        0.378
+===========================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.533
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.155
+    - Clock delay at ending point:           0.000 (ideal)
+0.000
+    = Slack (non-critical) :                 0.378
+
+    Number of logic level(s):                0
+    Starting point:                          ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[0] / Q
+    Ending point:                            ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[0] / D
+    The start point is clocked by            ident_coreinst.comm_block_INST.dr2_tck [rising] on pin CLK
+    The end   point is clocked by            System [rising] on pin CLK
+
+Instance / Net                                                                    Pin      Pin               Arrival     No. of    
+Name                                                                     Type     Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[0]                SLE      Q        Out     0.053     0.053       -         
+b9_OvyH3_saL[0]                                                          Net      -        -       0.480     -           2         
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[0]     SLE      D        In      -         0.533       -         
+===================================================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: ident_coreinst.comm_block_INST.tck
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                           Starting                                                               Arrival          
+Instance                                                   Reference                              Type     Pin     Net            Time        Slack
+                                                           Clock                                                                                   
+---------------------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.comm_block_INST.b9_ORb_xNywD.b3_ORb[2]      ident_coreinst.comm_block_INST.tck     SLE      Q       b3_ORb[2]      0.053       0.315
+ident_coreinst.comm_block_INST.b9_ORb_xNywD.b3_ORb[3]      ident_coreinst.comm_block_INST.tck     SLE      Q       b3_ORb[3]      0.053       0.315
+ident_coreinst.comm_block_INST.b9_ORb_xNywD.b3_ORb[4]      ident_coreinst.comm_block_INST.tck     SLE      Q       b3_ORb[4]      0.053       0.315
+ident_coreinst.comm_block_INST.b9_ORb_xNywD.b3_ORb[5]      ident_coreinst.comm_block_INST.tck     SLE      Q       b3_ORb[5]      0.053       0.315
+ident_coreinst.comm_block_INST.b9_ORb_xNywD.b3_ORb[6]      ident_coreinst.comm_block_INST.tck     SLE      Q       b3_ORb[6]      0.053       0.315
+ident_coreinst.comm_block_INST.b9_ORb_xNywD.b3_ORb[7]      ident_coreinst.comm_block_INST.tck     SLE      Q       b3_ORb[7]      0.053       0.315
+ident_coreinst.comm_block_INST.b9_ORb_xNywD.b3_ORb[8]      ident_coreinst.comm_block_INST.tck     SLE      Q       b3_ORb[8]      0.053       0.315
+ident_coreinst.comm_block_INST.b9_ORb_xNywD.b3_ORb[9]      ident_coreinst.comm_block_INST.tck     SLE      Q       b3_ORb[9]      0.053       0.315
+ident_coreinst.comm_block_INST.b9_ORb_xNywD.b3_ORb[10]     ident_coreinst.comm_block_INST.tck     SLE      Q       b3_ORb[10]     0.053       0.315
+ident_coreinst.comm_block_INST.b9_ORb_xNywD.b3_ORb[11]     ident_coreinst.comm_block_INST.tck     SLE      Q       b3_ORb[11]     0.053       0.315
+===================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                           Starting                                                               Required          
+Instance                                                   Reference                              Type     Pin     Net            Time         Slack
+                                                           Clock                                                                                    
+----------------------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.comm_block_INST.b9_ORb_xNywD.b3_ORb[1]      ident_coreinst.comm_block_INST.tck     SLE      D       b3_ORb[2]      0.155        0.315
+ident_coreinst.comm_block_INST.b9_ORb_xNywD.b3_ORb[2]      ident_coreinst.comm_block_INST.tck     SLE      D       b3_ORb[3]      0.155        0.315
+ident_coreinst.comm_block_INST.b9_ORb_xNywD.b3_ORb[3]      ident_coreinst.comm_block_INST.tck     SLE      D       b3_ORb[4]      0.155        0.315
+ident_coreinst.comm_block_INST.b9_ORb_xNywD.b3_ORb[4]      ident_coreinst.comm_block_INST.tck     SLE      D       b3_ORb[5]      0.155        0.315
+ident_coreinst.comm_block_INST.b9_ORb_xNywD.b3_ORb[5]      ident_coreinst.comm_block_INST.tck     SLE      D       b3_ORb[6]      0.155        0.315
+ident_coreinst.comm_block_INST.b9_ORb_xNywD.b3_ORb[6]      ident_coreinst.comm_block_INST.tck     SLE      D       b3_ORb[7]      0.155        0.315
+ident_coreinst.comm_block_INST.b9_ORb_xNywD.b3_ORb[7]      ident_coreinst.comm_block_INST.tck     SLE      D       b3_ORb[8]      0.155        0.315
+ident_coreinst.comm_block_INST.b9_ORb_xNywD.b3_ORb[8]      ident_coreinst.comm_block_INST.tck     SLE      D       b3_ORb[9]      0.155        0.315
+ident_coreinst.comm_block_INST.b9_ORb_xNywD.b3_ORb[9]      ident_coreinst.comm_block_INST.tck     SLE      D       b3_ORb[10]     0.155        0.315
+ident_coreinst.comm_block_INST.b9_ORb_xNywD.b3_ORb[10]     ident_coreinst.comm_block_INST.tck     SLE      D       b3_ORb[11]     0.155        0.315
+====================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.470
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.155
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (critical) :                     0.315
+
+    Number of logic level(s):                0
+    Starting point:                          ident_coreinst.comm_block_INST.b9_ORb_xNywD.b3_ORb[2] / Q
+    Ending point:                            ident_coreinst.comm_block_INST.b9_ORb_xNywD.b3_ORb[1] / D
+    The start point is clocked by            ident_coreinst.comm_block_INST.tck [rising] on pin CLK
+    The end   point is clocked by            ident_coreinst.comm_block_INST.tck [rising] on pin CLK
+
+Instance / Net                                                     Pin      Pin               Arrival     No. of    
+Name                                                      Type     Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------
+ident_coreinst.comm_block_INST.b9_ORb_xNywD.b3_ORb[2]     SLE      Q        Out     0.053     0.053       -         
+b3_ORb[2]                                                 Net      -        -       0.417     -           1         
+ident_coreinst.comm_block_INST.b9_ORb_xNywD.b3_ORb[1]     SLE      D        In      -         0.470       -         
+====================================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                                     Starting                                        Arrival          
+Instance                                                                             Reference     Type     Pin     Net              Time        Slack
+                                                                                     Clock                                                            
+------------------------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.IICE_INST.b8_12m_IFLY.b5_nUTGT.b11_nUTGT_khWqH.genblk2\.b3_nUT[0]     System        SLE      Q       b6_nUT_IF[0]     0.053       0.315
+ident_coreinst.IICE_INST.b8_12m_IFLY.b5_nUTGT.b11_nUTGT_khWqH.genblk2\.b3_nUT[1]     System        SLE      Q       b6_nUT_IF[1]     0.053       0.315
+ident_coreinst.IICE_INST.b8_12m_IFLY.b5_nUTGT.b11_nUTGT_khWqH.genblk2\.b3_nUT[2]     System        SLE      Q       b6_nUT_IF[2]     0.053       0.315
+ident_coreinst.IICE_INST.b8_12m_IFLY.b5_nUTGT.b11_nUTGT_khWqH.genblk2\.b3_nUT[3]     System        SLE      Q       b6_nUT_IF[3]     0.053       0.315
+ident_coreinst.IICE_INST.b8_12m_IFLY.b5_nUTGT.b11_nUTGT_khWqH.genblk2\.b3_nUT[4]     System        SLE      Q       b6_nUT_IF[4]     0.053       0.315
+ident_coreinst.IICE_INST.b8_12m_IFLY.b5_nUTGT.b11_nUTGT_khWqH.genblk2\.b3_nUT[5]     System        SLE      Q       b6_nUT_IF[5]     0.053       0.315
+ident_coreinst.IICE_INST.b8_12m_IFLY.b5_nUTGT.b11_nUTGT_khWqH.genblk2\.b3_nUT[6]     System        SLE      Q       b6_nUT_IF[6]     0.053       0.315
+ident_coreinst.IICE_INST.b8_12m_IFLY.b5_nUTGT.b11_nUTGT_khWqH.genblk2\.b3_nUT[7]     System        SLE      Q       b6_nUT_IF[7]     0.053       0.315
+ident_coreinst.IICE_INST.b8_12m_IFLY.b5_nUTGT.b11_nUTGT_khWqH.genblk2\.b3_nUT[8]     System        SLE      Q       b6_nUT_IF[8]     0.053       0.315
+ident_coreinst.IICE_INST.b8_12m_IFLY.b5_nUTGT.b11_nUTGT_khWqH.genblk2\.b3_nUT[9]     System        SLE      Q       b6_nUT_IF[9]     0.053       0.315
+======================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                            Starting                                        Required          
+Instance                                                    Reference     Type     Pin     Net              Time         Slack
+                                                            Clock                                                             
+------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.IICE_INST.b8_12m_IFLY.b5_nUTGT.b3_nUT[0]     System        SLE      D       b6_nUT_IF[0]     0.155        0.315
+ident_coreinst.IICE_INST.b8_12m_IFLY.b5_nUTGT.b3_nUT[1]     System        SLE      D       b6_nUT_IF[1]     0.155        0.315
+ident_coreinst.IICE_INST.b8_12m_IFLY.b5_nUTGT.b3_nUT[2]     System        SLE      D       b6_nUT_IF[2]     0.155        0.315
+ident_coreinst.IICE_INST.b8_12m_IFLY.b5_nUTGT.b3_nUT[3]     System        SLE      D       b6_nUT_IF[3]     0.155        0.315
+ident_coreinst.IICE_INST.b8_12m_IFLY.b5_nUTGT.b3_nUT[4]     System        SLE      D       b6_nUT_IF[4]     0.155        0.315
+ident_coreinst.IICE_INST.b8_12m_IFLY.b5_nUTGT.b3_nUT[5]     System        SLE      D       b6_nUT_IF[5]     0.155        0.315
+ident_coreinst.IICE_INST.b8_12m_IFLY.b5_nUTGT.b3_nUT[6]     System        SLE      D       b6_nUT_IF[6]     0.155        0.315
+ident_coreinst.IICE_INST.b8_12m_IFLY.b5_nUTGT.b3_nUT[7]     System        SLE      D       b6_nUT_IF[7]     0.155        0.315
+ident_coreinst.IICE_INST.b8_12m_IFLY.b5_nUTGT.b3_nUT[8]     System        SLE      D       b6_nUT_IF[8]     0.155        0.315
+ident_coreinst.IICE_INST.b8_12m_IFLY.b5_nUTGT.b3_nUT[9]     System        SLE      D       b6_nUT_IF[9]     0.155        0.315
+==============================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.470
+    + Clock delay at starting point:         0.000 (ideal)
+-0.000
+    - Requested Period:                      0.000
+    - Hold time:                             0.155
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (critical) :                     0.315
+
+    Number of logic level(s):                0
+    Starting point:                          ident_coreinst.IICE_INST.b8_12m_IFLY.b5_nUTGT.b11_nUTGT_khWqH.genblk2\.b3_nUT[0] / Q
+    Ending point:                            ident_coreinst.IICE_INST.b8_12m_IFLY.b5_nUTGT.b3_nUT[0] / D
+    The start point is clocked by            System [rising] on pin CLK
+    The end   point is clocked by            build_sb_CCC_0_FCCC|GL2_net_inferred_clock [rising] on pin CLK
+
+Instance / Net                                                                                Pin      Pin               Arrival     No. of    
+Name                                                                                 Type     Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.IICE_INST.b8_12m_IFLY.b5_nUTGT.b11_nUTGT_khWqH.genblk2\.b3_nUT[0]     SLE      Q        Out     0.053     0.053       -         
+b6_nUT_IF[0]                                                                         Net      -        -       0.417     -           1         
+ident_coreinst.IICE_INST.b8_12m_IFLY.b5_nUTGT.b3_nUT[0]                              SLE      D        In      -         0.470       -         
+===============================================================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
