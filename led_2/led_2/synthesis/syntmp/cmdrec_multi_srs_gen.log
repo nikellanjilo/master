@@ -1,7 +1,0 @@
-C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\bin64\syn_nfilter.exe  -link  -top  led_igloo  -multisrs  C:\Projects\Verilog\led_IGLOO\led_2\led_2\synthesis\synwork\led_igloo_comp.srs  -osyn  C:\Projects\Verilog\led_IGLOO\led_2\led_2\synthesis\synwork\led_igloo_mult.srs  -log  C:\Projects\Verilog\led_IGLOO\led_2\led_2\synthesis\synlog\led_igloo_multi_srs_gen.srr 
-rc:0 success:1
-C:\Projects\Verilog\led_IGLOO\led_2\led_2\synthesis\synwork\led_igloo_comp.srs|i|1456935254|6620
-C:\Projects\Verilog\led_IGLOO\led_2\led_2\synthesis\synwork\led_igloo_mult.srs|o|1456935255|6747
-C:\Projects\Verilog\led_IGLOO\led_2\led_2\synthesis\synlog\led_igloo_multi_srs_gen.srr|o|1456935255|481
-C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\bin\syn_nfilter.exe|i|1431628658|3001344
-C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\bin64\syn_nfilter.exe|i|1431628846|3968000
