@@ -144,3 +144,33 @@ Logfile:   C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/s
 Reconnect: 0
 Use ipv6:  0
 
+1458038640 -14:44:00 -0 -ipcServer::ipcServer params
+Port:      58015
+Logfile:   C:/Projects/Verilog/led_IGLOO/led_dac_adc_qudr/led_dac_adc_work/libero/Mayak_DAC_ADC/synthesis/ipc_tcp_microsemi_srv.log
+Reconnect: 0
+Use ipv6:  0
+
+1458039406 -14:56:46 -0 -ipcServer::ipcServer params
+Port:      58015
+Logfile:   C:/Projects/Verilog/led_IGLOO/led_dac_adc_qudr/led_dac_adc_work/libero/Mayak_DAC_ADC/synthesis/ipc_tcp_microsemi_srv.log
+Reconnect: 0
+Use ipv6:  0
+
+1458048457 -17:27:37 -0 -ipcServer::ipcServer params
+Port:      58015
+Logfile:   C:/Projects/Verilog/led_IGLOO/led_dac_adc_qudr/led_dac_adc_work/libero/Mayak_DAC_ADC/synthesis/ipc_tcp_microsemi_srv.log
+Reconnect: 0
+Use ipv6:  0
+
+1458052358 -18:32:38 -0 -ipcServer::ipcServer params
+Port:      58015
+Logfile:   C:/Projects/Verilog/led_IGLOO/led_dac_adc_qudr/led_dac_adc_work/libero/Mayak_DAC_ADC/synthesis/ipc_tcp_microsemi_srv.log
+Reconnect: 0
+Use ipv6:  0
+
+1458054840 -19:14:00 -0 -ipcServer::ipcServer params
+Port:      58015
+Logfile:   C:/Projects/Verilog/led_IGLOO/led_dac_adc_qudr/led_dac_adc_work/libero/Mayak_DAC_ADC/synthesis/ipc_tcp_microsemi_srv.log
+Reconnect: 0
+Use ipv6:  0
+

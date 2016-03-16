@@ -1,19 +1,21 @@
-#--  Synopsys, Inc.
-#--  Version J-2015.03M-3
-#--  Project file C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\synthesis\build_syn.prj
+#add_file options
+add_file -include "C:/Projects/Verilog/led_IGLOO/led_dac_adc_qudr/led_dac_adc_work/libero/Mayak_DAC_ADC/hdl/dds.v"
+add_file -verilog "C:/Projects/Verilog/led_IGLOO/led_dac_adc_qudr/led_dac_adc_work/libero/Mayak_DAC_ADC/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vlog/core/coreresetp_pcie_hotreset.v"
+add_file -verilog "C:/Projects/Verilog/led_IGLOO/led_dac_adc_qudr/led_dac_adc_work/libero/Mayak_DAC_ADC/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vlog/core/coreresetp.v"
+add_file -verilog "C:/Projects/Verilog/led_IGLOO/led_dac_adc_qudr/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/build_sb/CCC_0/build_sb_CCC_0_FCCC.v"
+add_file -verilog "C:/Projects/Verilog/led_IGLOO/led_dac_adc_qudr/led_dac_adc_work/libero/Mayak_DAC_ADC/component/Actel/SgCore/OSC/1.0.105/osc_comps.v"
+add_file -verilog "C:/Projects/Verilog/led_IGLOO/led_dac_adc_qudr/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/build_sb/FABOSC_0/build_sb_FABOSC_0_OSC.v"
+add_file -verilog "C:/Projects/Verilog/led_IGLOO/led_dac_adc_qudr/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/build_sb_HPMS/build_sb_HPMS_syn.v"
+add_file -verilog "C:/Projects/Verilog/led_IGLOO/led_dac_adc_qudr/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/build_sb_HPMS/build_sb_HPMS.v"
+add_file -verilog "C:/Projects/Verilog/led_IGLOO/led_dac_adc_qudr/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/build_sb/build_sb.v"
+add_file -verilog "C:/Projects/Verilog/led_IGLOO/led_dac_adc_qudr/led_dac_adc_work/libero/Mayak_DAC_ADC/hdl/led.v"
+add_file -verilog "C:/Projects/Verilog/led_IGLOO/led_dac_adc_qudr/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/build/build.v"
+
+add_file -include "C:/Projects/Verilog/led_IGLOO/led_dac_adc_qudr/led_dac_adc_work/libero/Mayak_DAC_ADC/hdl/dds.v"
+add_file -include "C:/Projects/Verilog/led_IGLOO/led_dac_adc_qudr/led_dac_adc_work/libero/Mayak_DAC_ADC/hdl/dds.v"
 
 #project files
-add_file -verilog "C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vlog/core/coreresetp_pcie_hotreset.v"
-add_file -verilog "C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vlog/core/coreresetp.v"
-add_file -verilog "C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/build_sb/CCC_0/build_sb_CCC_0_FCCC.v"
-add_file -verilog "C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/Actel/SgCore/OSC/1.0.105/osc_comps.v"
-add_file -verilog "C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/build_sb/FABOSC_0/build_sb_FABOSC_0_OSC.v"
-add_file -verilog "C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/build_sb_HPMS/build_sb_HPMS_syn.v"
-add_file -verilog "C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/build_sb_HPMS/build_sb_HPMS.v"
-add_file -verilog "C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/build_sb/build_sb.v"
-add_file -verilog "C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/hdl/led.v"
-add_file -verilog "C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/build/build.v"
-
+add_file -include "C:/Projects/Verilog/led_IGLOO/led_dac_adc_qudr/led_dac_adc_work/libero/Mayak_DAC_ADC/hdl/dds.v"
 
 
 #implementation: "synthesis"
@@ -29,11 +31,9 @@ set_option -technology IGLOO2
 set_option -part M2GL050T
 set_option -package FBGA896
 set_option -speed_grade -1
-set_option -part_companion ""
-
 #compilation/mapping options
 set_option -use_fsm_explorer 0
-set_option -top_module "build"
+set_option -top_module build
 
 # mapper_options
 set_option -frequency 100.000
@@ -51,13 +51,11 @@ set_option -clock_globalthreshold 2
 set_option -async_globalthreshold 12
 set_option -globalthreshold 5000
 set_option -low_power_ram_decomp 0
-set_option -disable_io_insertion 0
 set_option -opcond COMWC
 set_option -retiming 0
 set_option -report_path 4000
 set_option -update_models_cp 0
 set_option -preserve_registers 0
-
 # sequential_optimization_options
 set_option -symbolic_fsm_compiler 1
 
@@ -88,11 +86,9 @@ set_option -technology IGLOO2
 set_option -part M2GL050T
 set_option -package FBGA896
 set_option -speed_grade -1
-set_option -part_companion ""
-
 #compilation/mapping options
 set_option -use_fsm_explorer 0
-set_option -top_module "build"
+set_option -top_module build
 
 # mapper_options
 set_option -frequency 100.000
@@ -111,13 +107,11 @@ set_option -clock_globalthreshold 2
 set_option -async_globalthreshold 12
 set_option -globalthreshold 5000
 set_option -low_power_ram_decomp 0
-set_option -disable_io_insertion 0
 set_option -opcond COMWC
 set_option -retiming 0
 set_option -report_path 4000
 set_option -update_models_cp 0
 set_option -preserve_registers 0
-
 # sequential_optimization_options
 set_option -symbolic_fsm_compiler 1
 

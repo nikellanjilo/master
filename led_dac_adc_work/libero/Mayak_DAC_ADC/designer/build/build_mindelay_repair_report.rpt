@@ -18,28 +18,28 @@
 Path 1
 ------------------------
 From: build_sb_0/CCC_0/CCC_INST/INST_CCC_IP:RCOSC_25_50MHZ
-  To: ident_coreinst/IICE_INST/mdiclink_reg[121]:D
+  To: ident_coreinst/IICE_INST/mdiclink_reg[421]:D
 ------------------------
-Path min-delay slack:      -107 ps
+Path min-delay slack:       -87 ps
 ------------------------
 ... None of the following nets could be modified:
-      build_sb_0/CCC_0/GL1_INST/U0_RGB1_RGB2_rgbr_net_1
+      build_sb_0/CCC_0/GL1_INST/U0_RGB1_RGB11_rgbl_net_1
       build_sb_0/CCC_0/GL1_INST/U0_YWn_GEast
-      build_sb_0/CCC_0/GL1_net
       build_sb_0/FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC
+      build_sb_0/CCC_0/GL1_net
 
 Path 2
 ------------------------
 From: build_sb_0/CCC_0/CCC_INST/INST_CCC_IP:RCOSC_25_50MHZ
-  To: ident_coreinst/IICE_INST/mdiclink_reg[0]:D
+  To: ident_coreinst/IICE_INST/mdiclink_reg[251]:D
 ------------------------
-Path min-delay slack:       -93 ps
+Path min-delay slack:       -83 ps
 ------------------------
 ... None of the following nets could be modified:
-      build_sb_0/CCC_0/GL1_INST/U0_RGB1_RGB4_rgbl_net_1
-      build_sb_0/CCC_0/GL1_INST/U0_YWn_GEast
-      build_sb_0/CCC_0/GL1_net
+      build_sb_0/CCC_0/GL1_INST/U0_YWn
+      build_sb_0/CCC_0/GL1_INST/U0_RGB1_YR
       build_sb_0/FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC
+      build_sb_0/CCC_0/GL1_net
 
 
 Note:

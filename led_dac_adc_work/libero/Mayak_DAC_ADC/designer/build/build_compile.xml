@@ -3,7 +3,7 @@
 <doc>
 <title>Compile Report</title>
 <text>Microsemi Corporation - Microsemi Libero Software Release v11.6 SP1 (Version 11.6.1.6)</text>
-<text>Date: Fri Mar 11 20:40:03 2016
+<text>Date: Tue Mar 15 19:41:09 2016
 </text>
 <section><name>Device Selection</name></section>
 <table>
@@ -76,15 +76,15 @@
 </row>
 <row>
  <cell>Source</cell>
- <cell>C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\synthesis\synthesis_1\build.edn</cell>
+ <cell>C:\Projects\Verilog\led_IGLOO\led_dac_adc_qudr\led_dac_adc_work\libero\Mayak_DAC_ADC\synthesis\synthesis_1\build.edn</cell>
 </row>
 <row>
  <cell>Source</cell>
- <cell>C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\constraint\io\build.io.pdc</cell>
+ <cell>C:\Projects\Verilog\led_IGLOO\led_dac_adc_qudr\led_dac_adc_work\libero\Mayak_DAC_ADC\constraint\io\build.io.pdc</cell>
 </row>
 <row>
  <cell>Source</cell>
- <cell>C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\constraint\fp\build.fp.pdc</cell>
+ <cell>C:\Projects\Verilog\led_IGLOO\led_dac_adc_qudr\led_dac_adc_work\libero\Mayak_DAC_ADC\constraint\fp\build.fp.pdc</cell>
 </row>
 </table>
 <section><name>Options</name></section>
@@ -122,15 +122,15 @@
 </header>
 <row>
  <cell>4LUT</cell>
- <cell>1509</cell>
+ <cell>3534</cell>
  <cell>56340</cell>
- <cell>2.68</cell>
+ <cell>6.27</cell>
 </row>
 <row>
  <cell>DFF</cell>
- <cell>1817</cell>
+ <cell>4352</cell>
  <cell>56340</cell>
- <cell>3.23</cell>
+ <cell>7.72</cell>
 </row>
 <row>
  <cell>I/O Register</cell>
@@ -164,9 +164,9 @@
 </row>
 <row>
  <cell>RAM1K18</cell>
- <cell>9</cell>
+ <cell>26</cell>
  <cell>69</cell>
- <cell>13.04</cell>
+ <cell>37.68</cell>
 </row>
 <row>
  <cell>MACC</cell>
@@ -238,8 +238,8 @@
 </header>
 <row>
  <cell>Fabric Logic</cell>
- <cell>1185</cell>
- <cell>1493</cell>
+ <cell>2598</cell>
+ <cell>3416</cell>
 </row>
 <row>
  <cell>RAM64x18 Interface Logic</cell>
@@ -248,8 +248,8 @@
 </row>
 <row>
  <cell>RAM1K18 Interface Logic</cell>
- <cell>324</cell>
- <cell>324</cell>
+ <cell>936</cell>
+ <cell>936</cell>
 </row>
 <row>
  <cell>MACC Interface Logic</cell>
@@ -258,8 +258,8 @@
 </row>
 <row>
  <cell>Total Used</cell>
- <cell>1509</cell>
- <cell>1817</cell>
+ <cell>3534</cell>
+ <cell>4352</cell>
 </row>
 </table>
 <section><name>Detailed Carry Chains Resource Usage</name></section>
@@ -272,11 +272,15 @@
 </row>
 <row>
  <cell>7</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>8</cell>
  <cell>1</cell>
 </row>
 <row>
  <cell>9</cell>
- <cell>2</cell>
+ <cell>1</cell>
 </row>
 <row>
  <cell>11</cell>
@@ -287,20 +291,24 @@
  <cell>1</cell>
 </row>
 <row>
- <cell>26</cell>
- <cell>2</cell>
-</row>
-<row>
- <cell>32</cell>
+ <cell>17</cell>
  <cell>1</cell>
 </row>
 <row>
- <cell>34</cell>
+ <cell>23</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>26</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>33</cell>
  <cell>1</cell>
 </row>
 <row>
  <cell>Total</cell>
- <cell>11</cell>
+ <cell>12</cell>
 </row>
 </table>
 <section><name>I/O Function</name></section>
@@ -400,7 +408,7 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>849</cell>
+ <cell>2083</cell>
  <cell>INT_NET</cell>
  <cell>Net   : ident_coreinst/IICE_comm2iice[11]</cell>
 </row>
@@ -415,7 +423,7 @@
  <cell>Source: NETLIST</cell>
 </row>
 <row>
- <cell>489</cell>
+ <cell>1139</cell>
  <cell>INT_NET</cell>
  <cell>Net   : BW_clk_c</cell>
 </row>
@@ -430,7 +438,7 @@
  <cell>Source: NETLIST</cell>
 </row>
 <row>
- <cell>163</cell>
+ <cell>253</cell>
  <cell>INT_NET</cell>
  <cell>Net   : temp_sck_c</cell>
 </row>
@@ -461,7 +469,7 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>465</cell>
+ <cell>1365</cell>
  <cell>INT_NET</cell>
  <cell>Net   : ident_coreinst/IICE_INST/b8_12m_IFLY/b4_PfFz/b5_PbrtL/b6_OKctIF4</cell>
 </row>
@@ -471,7 +479,7 @@
  <cell>Driver: ident_coreinst/IICE_INST/b8_12m_IFLY/b4_PfFz/b5_PbrtL/b6_OKctIF4</cell>
 </row>
 <row>
- <cell>198</cell>
+ <cell>498</cell>
  <cell>INT_NET</cell>
  <cell>Net   : ident_coreinst/IICE_INST/b8_SoWGfWYY</cell>
 </row>
@@ -481,7 +489,7 @@
  <cell>Driver: ident_coreinst/IICE_INST/b8_12m_IFLY/b5_nUTGT/b12_voSc3_gmasbb</cell>
 </row>
 <row>
- <cell>162</cell>
+ <cell>462</cell>
  <cell>INT_NET</cell>
  <cell>Net   : ident_coreinst/IICE_INST/b3_SoW_0/b7_nYJ_BFM_or[10]</cell>
 </row>
@@ -489,6 +497,16 @@
  <cell></cell>
  <cell></cell>
  <cell>Driver: ident_coreinst/IICE_INST/b3_SoW_0/genblk9.b7_nYJ_BFM_or[10]</cell>
+</row>
+<row>
+ <cell>111</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : GPIO4_c</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: SENSE_DIN_ibuf[1]</cell>
 </row>
 <row>
  <cell>86</cell>
@@ -501,6 +519,46 @@
  <cell>Driver: ident_coreinst/comm_block_INST/jtagi/b10_nv_ywKMm9X</cell>
 </row>
 <row>
+ <cell>63</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : CFG0_GND_INST_NET</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: CFG0_GND_INST</cell>
+</row>
+<row>
+ <cell>60</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : led_igloo_0/cnt[1]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: led_igloo_0/cnt[1]</cell>
+</row>
+<row>
+ <cell>56</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : ident_coreinst/IICE_INST/b3_SoW_0/b4_2o_z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: ident_coreinst/IICE_INST/b3_SoW_0/b6_SoWyQD/genblk2.b13_oRB_MqCD2_EdR</cell>
+</row>
+<row>
+ <cell>53</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : led_igloo_0/cnt_frame[2]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: led_igloo_0/cnt_frame[2]</cell>
+</row>
+<row>
  <cell>52</cell>
  <cell>INT_NET</cell>
  <cell>Net   : temp_count_data[2]</cell>
@@ -509,56 +567,6 @@
  <cell></cell>
  <cell></cell>
  <cell>Driver: led_igloo_0/temp_count_data[2]</cell>
-</row>
-<row>
- <cell>51</cell>
- <cell>INT_NET</cell>
- <cell>Net   : temp_count_data[3]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: led_igloo_0/temp_count_data[3]</cell>
-</row>
-<row>
- <cell>49</cell>
- <cell>INT_NET</cell>
- <cell>Net   : temp_so_c</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: temp_so_ibuf</cell>
-</row>
-<row>
- <cell>46</cell>
- <cell>INT_NET</cell>
- <cell>Net   : led_igloo_0/temp_state[0]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: led_igloo_0/temp_state[0]</cell>
-</row>
-<row>
- <cell>38</cell>
- <cell>INT_NET</cell>
- <cell>Net   : ident_coreinst/IICE_INST/b8_12m_IFLY/b5_nUTGT/b6_nfs_IF[1]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: ident_coreinst/IICE_INST/b8_12m_IFLY/b5_nUTGT/b11_nUTGT_khWqH/genblk1.b3_nfs[1]</cell>
-</row>
-<row>
- <cell>34</cell>
- <cell>INT_NET</cell>
- <cell>Net   : CFG0_GND_INST_NET</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: CFG0_GND_INST</cell>
 </row>
 </table>
 <section><name>High fanout nets (through buffer trees)</name></section>
@@ -569,7 +577,7 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>465</cell>
+ <cell>1365</cell>
  <cell>INT_NET</cell>
  <cell>Net   : ident_coreinst/IICE_INST/b8_12m_IFLY/b4_PfFz/b5_PbrtL/b6_OKctIF4</cell>
 </row>
@@ -579,7 +587,7 @@
  <cell>Driver: ident_coreinst/IICE_INST/b8_12m_IFLY/b4_PfFz/b5_PbrtL/b6_OKctIF4</cell>
 </row>
 <row>
- <cell>198</cell>
+ <cell>498</cell>
  <cell>INT_NET</cell>
  <cell>Net   : ident_coreinst/IICE_INST/b8_SoWGfWYY</cell>
 </row>
@@ -589,7 +597,7 @@
  <cell>Driver: ident_coreinst/IICE_INST/b8_12m_IFLY/b5_nUTGT/b12_voSc3_gmasbb</cell>
 </row>
 <row>
- <cell>162</cell>
+ <cell>462</cell>
  <cell>INT_NET</cell>
  <cell>Net   : ident_coreinst/IICE_INST/b3_SoW_0/b7_nYJ_BFM_or[10]</cell>
 </row>
@@ -597,6 +605,16 @@
  <cell></cell>
  <cell></cell>
  <cell>Driver: ident_coreinst/IICE_INST/b3_SoW_0/genblk9.b7_nYJ_BFM_or[10]</cell>
+</row>
+<row>
+ <cell>111</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : GPIO4_c</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: SENSE_DIN_ibuf[1]</cell>
 </row>
 <row>
  <cell>86</cell>
@@ -609,6 +627,46 @@
  <cell>Driver: ident_coreinst/comm_block_INST/jtagi/b10_nv_ywKMm9X</cell>
 </row>
 <row>
+ <cell>63</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : CFG0_GND_INST_NET</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: CFG0_GND_INST</cell>
+</row>
+<row>
+ <cell>60</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : led_igloo_0/cnt[1]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: led_igloo_0/cnt[1]</cell>
+</row>
+<row>
+ <cell>56</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : ident_coreinst/IICE_INST/b3_SoW_0/b4_2o_z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: ident_coreinst/IICE_INST/b3_SoW_0/b6_SoWyQD/genblk2.b13_oRB_MqCD2_EdR</cell>
+</row>
+<row>
+ <cell>53</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : led_igloo_0/cnt_frame[2]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: led_igloo_0/cnt_frame[2]</cell>
+</row>
+<row>
  <cell>52</cell>
  <cell>INT_NET</cell>
  <cell>Net   : temp_count_data[2]</cell>
@@ -617,56 +675,6 @@
  <cell></cell>
  <cell></cell>
  <cell>Driver: led_igloo_0/temp_count_data[2]</cell>
-</row>
-<row>
- <cell>51</cell>
- <cell>INT_NET</cell>
- <cell>Net   : temp_count_data[3]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: led_igloo_0/temp_count_data[3]</cell>
-</row>
-<row>
- <cell>49</cell>
- <cell>INT_NET</cell>
- <cell>Net   : temp_so_c</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: temp_so_ibuf</cell>
-</row>
-<row>
- <cell>46</cell>
- <cell>INT_NET</cell>
- <cell>Net   : led_igloo_0/temp_state[0]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: led_igloo_0/temp_state[0]</cell>
-</row>
-<row>
- <cell>38</cell>
- <cell>INT_NET</cell>
- <cell>Net   : ident_coreinst/IICE_INST/b8_12m_IFLY/b5_nUTGT/b6_nfs_IF[1]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: ident_coreinst/IICE_INST/b8_12m_IFLY/b5_nUTGT/b11_nUTGT_khWqH/genblk1.b3_nfs[1]</cell>
-</row>
-<row>
- <cell>34</cell>
- <cell>INT_NET</cell>
- <cell>Net   : CFG0_GND_INST_NET</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: CFG0_GND_INST</cell>
 </row>
 </table>
 </doc>

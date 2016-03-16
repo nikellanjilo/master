@@ -80,15 +80,15 @@ set_compile_info \
 set_compile_info \
     -category {"Source Files"} \
     -name {"Source"} \
-    -value {"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\synthesis\synthesis_1\build.edn"}
+    -value {"C:\Projects\Verilog\led_IGLOO\led_dac_adc_qudr\led_dac_adc_work\libero\Mayak_DAC_ADC\synthesis\synthesis_1\build.edn"}
 set_compile_info \
     -category {"Source Files"} \
     -name {"Source"} \
-    -value {"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\constraint\io\build.io.pdc"}
+    -value {"C:\Projects\Verilog\led_IGLOO\led_dac_adc_qudr\led_dac_adc_work\libero\Mayak_DAC_ADC\constraint\io\build.io.pdc"}
 set_compile_info \
     -category {"Source Files"} \
     -name {"Source"} \
-    -value {"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\constraint\fp\build.fp.pdc"}
+    -value {"C:\Projects\Verilog\led_IGLOO\led_dac_adc_qudr\led_dac_adc_work\libero\Mayak_DAC_ADC\constraint\fp\build.fp.pdc"}
 set_compile_info \
     -category {"Options"} \
     -name {"Merge User SDC file(s) with Existing Timing Constraints"} \
@@ -110,11 +110,11 @@ set_compile_info \
     -name {"Limit the number of high fanout nets to display to"} \
     -value {"10"}
 compile \
-    -desdir {C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\designer\build} \
+    -desdir {C:\Projects\Verilog\led_IGLOO\led_dac_adc_qudr\led_dac_adc_work\libero\Mayak_DAC_ADC\designer\build} \
     -design build \
     -fam IGLOO2 \
     -die PA4MGL5000 \
     -pkg fg896 \
-    -pdc_file {C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\constraint\io\build.io.pdc} \
-    -pdc_file {C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\constraint\fp\build.fp.pdc} \
+    -pdc_file {C:\Projects\Verilog\led_IGLOO\led_dac_adc_qudr\led_dac_adc_work\libero\Mayak_DAC_ADC\constraint\io\build.io.pdc} \
+    -pdc_file {C:\Projects\Verilog\led_IGLOO\led_dac_adc_qudr\led_dac_adc_work\libero\Mayak_DAC_ADC\constraint\fp\build.fp.pdc} \
     -merge_pdc 0

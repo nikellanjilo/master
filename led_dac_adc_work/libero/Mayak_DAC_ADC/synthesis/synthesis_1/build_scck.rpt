@@ -1,13 +1,13 @@
 # Synopsys Constraint Checker(syntax only), version map201503actrcp1, Build 002R, built Jul  1 2015
 # Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
 
-# Written on Fri Mar 11 20:39:31 2016
+# Written on Tue Mar 15 19:40:03 2016
 
 
 ##### DESIGN INFO #######################################################
 
 Top View:                "build"
-Constraint File(s):      "C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\synthesis\synthesis_1\instr_sources\syn_dics.sdc"
+Constraint File(s):      "C:\Projects\Verilog\led_IGLOO\led_dac_adc_qudr\led_dac_adc_work\libero\Mayak_DAC_ADC\synthesis\synthesis_1\instr_sources\syn_dics.sdc"
 
 #Run constraint checker to find more issues with constraints.
 #########################################################################

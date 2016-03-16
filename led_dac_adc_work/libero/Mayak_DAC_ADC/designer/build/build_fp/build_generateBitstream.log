@@ -4,13 +4,13 @@ Release: v11.6 SP1
 
 Software Version: 11.6.1.6
 Opened
-'C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/designer/build/build_fp/bu\
-ild.pro'
+'C:/Projects/Verilog/led_IGLOO/led_dac_adc_qudr/led_dac_adc_work/libero/Mayak_DAC_ADC/designer/\
+build/build_fp/build.pro'
 The 'open_project' command succeeded.
 PDB file
-'C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\designer\build\b472b507-f1\
-74-41aa-b174-21aaf17421aa.pdb' has been loaded successfully.
-DESIGN : build;  CHECKSUM : 99A7;  PDB_VERSION : 1.9
+'C:\Projects\Verilog\led_IGLOO\led_dac_adc_qudr\led_dac_adc_work\libero\Mayak_DAC_ADC\designer\\
+build\46a204c7-6801-49fe-a801-09fe680109fe.pdb' has been loaded successfully.
+DESIGN : build;  CHECKSUM : A250;  PDB_VERSION : 1.9
 The 'load_programming_data' command succeeded.
 The 'set_programming_file' command succeeded.
 Project saved.

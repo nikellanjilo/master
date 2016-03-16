@@ -1,23 +1,24 @@
 #--  Synopsys, Inc.
 #--  Version J-2015.03M-3
-#--  Project file C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\synthesis\synthesis_1\scratchproject.prs
+#--  Project file C:\Projects\Verilog\led_IGLOO\led_dac_adc_qudr\led_dac_adc_work\libero\Mayak_DAC_ADC\synthesis\synthesis_1\scratchproject.prs
 
 #project files
-add_file -verilog "C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vlog/core/coreresetp_pcie_hotreset.v"
-add_file -verilog "C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vlog/core/coreresetp.v"
-add_file -verilog "C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/build_sb/CCC_0/build_sb_CCC_0_FCCC.v"
-add_file -verilog "C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/Actel/SgCore/OSC/1.0.105/osc_comps.v"
-add_file -verilog "C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/build_sb/FABOSC_0/build_sb_FABOSC_0_OSC.v"
-add_file -verilog "C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/build_sb_HPMS/build_sb_HPMS_syn.v"
-add_file -verilog "C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/build_sb_HPMS/build_sb_HPMS.v"
-add_file -verilog "C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/build_sb/build_sb.v"
-add_file -verilog "C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/hdl/led.v"
-add_file -verilog "C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/build/build.v"
+add_file -include "C:/Projects/Verilog/led_IGLOO/led_dac_adc_qudr/led_dac_adc_work/libero/Mayak_DAC_ADC/hdl/dds.v"
+add_file -verilog "C:/Projects/Verilog/led_IGLOO/led_dac_adc_qudr/led_dac_adc_work/libero/Mayak_DAC_ADC/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vlog/core/coreresetp_pcie_hotreset.v"
+add_file -verilog "C:/Projects/Verilog/led_IGLOO/led_dac_adc_qudr/led_dac_adc_work/libero/Mayak_DAC_ADC/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vlog/core/coreresetp.v"
+add_file -verilog "C:/Projects/Verilog/led_IGLOO/led_dac_adc_qudr/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/build_sb/CCC_0/build_sb_CCC_0_FCCC.v"
+add_file -verilog "C:/Projects/Verilog/led_IGLOO/led_dac_adc_qudr/led_dac_adc_work/libero/Mayak_DAC_ADC/component/Actel/SgCore/OSC/1.0.105/osc_comps.v"
+add_file -verilog "C:/Projects/Verilog/led_IGLOO/led_dac_adc_qudr/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/build_sb/FABOSC_0/build_sb_FABOSC_0_OSC.v"
+add_file -verilog "C:/Projects/Verilog/led_IGLOO/led_dac_adc_qudr/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/build_sb_HPMS/build_sb_HPMS_syn.v"
+add_file -verilog "C:/Projects/Verilog/led_IGLOO/led_dac_adc_qudr/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/build_sb_HPMS/build_sb_HPMS.v"
+add_file -verilog "C:/Projects/Verilog/led_IGLOO/led_dac_adc_qudr/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/build_sb/build_sb.v"
+add_file -verilog "C:/Projects/Verilog/led_IGLOO/led_dac_adc_qudr/led_dac_adc_work/libero/Mayak_DAC_ADC/hdl/led.v"
+add_file -verilog "C:/Projects/Verilog/led_IGLOO/led_dac_adc_qudr/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/build/build.v"
 
 
 
 #implementation: "synthesis_1"
-impl -add C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\synthesis\synthesis_1 -type fpga
+impl -add C:\Projects\Verilog\led_IGLOO\led_dac_adc_qudr\led_dac_adc_work\libero\Mayak_DAC_ADC\synthesis\synthesis_1 -type fpga
 
 #
 #implementation attributes
@@ -73,5 +74,5 @@ set_option -auto_infer_blackbox 0
 set_option -write_apr_constraint 1
 
 #set result format/file last
-project -result_file "C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/synthesis/synthesis_1/build.edn"
+project -result_file "C:/Projects/Verilog/led_IGLOO/led_dac_adc_qudr/led_dac_adc_work/libero/Mayak_DAC_ADC/synthesis/synthesis_1/build.edn"
 impl -active "synthesis_1"

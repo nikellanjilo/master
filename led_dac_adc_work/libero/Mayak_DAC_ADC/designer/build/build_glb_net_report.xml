@@ -3,7 +3,7 @@
 <doc>
 <title>Global Net Report</title>
 <text>Microsemi Corporation - Microsemi Libero Software Release v11.6 SP1 (Version 11.6.1.6)</text>
-<text>Date: Fri Mar 11 20:41:15 2016
+<text>Date: Tue Mar 15 19:42:44 2016
 </text>
 <section>
 <name>Global Nets Information</name>
@@ -20,21 +20,21 @@
  <cell>GB[3] </cell>
  <cell>(437, 108)</cell>
  <cell>ident_coreinst/comm_block_INST/jtagi/jtag_clkint_prim/U0_YWn</cell>
- <cell>849</cell>
+ <cell>2083</cell>
 </row>
 <row>
  <cell>2</cell>
  <cell>GB[7] </cell>
  <cell>(441, 108)</cell>
  <cell>build_sb_0/CCC_0/GL2_INST/U0_YWn</cell>
- <cell>489</cell>
+ <cell>1139</cell>
 </row>
 <row>
  <cell>3</cell>
  <cell>GB[6] </cell>
  <cell>(440, 108)</cell>
  <cell>build_sb_0/CCC_0/GL1_INST/U0_YWn</cell>
- <cell>163</cell>
+ <cell>253</cell>
 </row>
 </table>
 <text></text>

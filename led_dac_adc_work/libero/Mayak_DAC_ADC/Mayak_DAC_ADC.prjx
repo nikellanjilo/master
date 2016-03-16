@@ -26,7 +26,7 @@ KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
 KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
 KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
 KEY VendorTechnology_VOLTR "IND"
-KEY ProjectLocation "C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC"
+KEY ProjectLocation "C:\Projects\Verilog\led_IGLOO\led_dac_adc_qudr\led_dac_adc_work\libero\Mayak_DAC_ADC"
 KEY ProjectDescription ""
 KEY Pa4PeripheralNewSeq "GOOD"
 KEY SimulationType "VERILOG"
@@ -161,12 +161,12 @@ PARENT="<project>\component\work\build_sb_HPMS\build_sb_HPMS.cxf"
 ENDFILE
 VALUE "<project>\component\work\build\build.cxf,actgen_cxf"
 STATE="utd"
-TIME="1457710716"
+TIME="1458053303"
 SIZE="16942"
 ENDFILE
 VALUE "<project>\component\work\build\build.v,hdl"
 STATE="utd"
-TIME="1457710713"
+TIME="1458053300"
 SIZE="21264"
 PARENT="<project>\component\work\build\build.cxf"
 IS_READONLY="TRUE"
@@ -282,10 +282,15 @@ STATE="utd"
 TIME="1457525783"
 SIZE="223"
 ENDFILE
+VALUE "<project>\hdl\dds.v,hdl"
+STATE="utd"
+TIME="1457977288"
+SIZE="20147"
+ENDFILE
 VALUE "<project>\hdl\led.v,hdl"
 STATE="utd"
-TIME="1457710703"
-SIZE="12284"
+TIME="1458056169"
+SIZE="13162"
 ENDFILE
 VALUE "<project>\simulation\peripheral_init.bfm,sim"
 STATE="utd"
@@ -300,7 +305,7 @@ SIZE="1422"
 ENDFILE
 VALUE "<project>\simulation\subsystem.bfm,sim"
 STATE="utd"
-TIME="1457710714"
+TIME="1458053301"
 SIZE="759"
 PARENT="<project>\component\work\build\build.cxf"
 ENDFILE
@@ -332,27 +337,27 @@ SIZE="1375"
 ENDFILE
 VALUE "<project>\synthesis\build_syn.prj,prj"
 STATE="utd"
-TIME="1457710720"
-SIZE="4054"
+TIME="1458056284"
+SIZE="4688"
 ENDFILE
 VALUE "<project>\synthesis\synthesis_1\build.edn,syn_edn"
 STATE="utd"
-TIME="1457710823"
-SIZE="4482498"
+TIME="1458056435"
+SIZE="7561125"
 ENDFILE
 VALUE "<project>\synthesis\synthesis_1\build.so,so"
 STATE="utd"
-TIME="1457710824"
-SIZE="259"
+TIME="1458056436"
+SIZE="276"
 ENDFILE
 VALUE "<project>\synthesis\synthesis_1\build.v,syn_hdl"
-STATE="utd"
-TIME="1457710834"
-SIZE="1368356"
+STATE="ood"
+TIME="1458054020"
+SIZE="1786277"
 ENDFILE
 VALUE "<project>\synthesis\synthesis_1\build_sdc.sdc,syn_sdc"
 STATE="utd"
-TIME="1457710823"
+TIME="1458056435"
 SIZE="1923"
 ENDFILE
 VALUE "<project>\synthesis\synthesis_1\synwork\layer0.so,so"
@@ -378,6 +383,7 @@ LIST ProjectState5.1
 LIST Impl1
 LiberoState=Post_Synthesis
 ideSYNTHESIS(<project>\synthesis\synthesis_1\build.edn,syn_edn)=StateSuccess
+ideSYNTHESIS(<project>\synthesis\build.vm,syn_vm)=StateFailure
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -524,6 +530,7 @@ LIST "build::work"
 LIST Impl1
 LiberoState=Post_Synthesis
 ideSYNTHESIS(<project>\synthesis\synthesis_1\build.edn,syn_edn)=StateSuccess
+ideSYNTHESIS(<project>\synthesis\build.vm,syn_vm)=StateFailure
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -587,7 +594,10 @@ SUBBLOCK "coreresetp_pcie_hotreset::work","component\Actel\DirectCore\CoreResetP
 ENDLIST
 LIST "coreresetp_pcie_hotreset::work","component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp_pcie_hotreset.v","FALSE","FALSE"
 ENDLIST
+LIST "dds::work","hdl\dds.v","FALSE","FALSE"
+ENDLIST
 LIST "led_igloo::work","hdl\led.v","FALSE","FALSE"
+SUBBLOCK "dds::work","hdl\dds.v","FALSE","FALSE"
 ENDLIST
 LIST "MSS_050::work","component\work\build_sb_HPMS\build_sb_HPMS_syn.v","FALSE","FALSE"
 ENDLIST

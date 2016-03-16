@@ -116,12 +116,12 @@ if { [string length $inst] != 0 } \
 
 
 save
-set has_violations {C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\designer\build\build_pre_layout_has_violations}
+set has_violations {C:\Projects\Verilog\led_IGLOO\led_dac_adc_qudr\led_dac_adc_work\libero\Mayak_DAC_ADC\designer\build\build_pre_layout_has_violations}
 set fp [open $has_violations w]
 puts $fp [has_violations -short]
 close $fp
-report -type combinational_loops -format xml {C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\designer\build\build_combinational_loops.xml}
-if { [catch "file delete -force -- {C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\designer\build\pinslacks.txt}"] } {
+report -type combinational_loops -format xml {C:\Projects\Verilog\led_IGLOO\led_dac_adc_qudr\led_dac_adc_work\libero\Mayak_DAC_ADC\designer\build\build_combinational_loops.xml}
+if { [catch "file delete -force -- {C:\Projects\Verilog\led_IGLOO\led_dac_adc_qudr\led_dac_adc_work\libero\Mayak_DAC_ADC\designer\build\pinslacks.txt}"] } {
    ;
 }
-report -type slack {C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\designer\build\pinslacks.txt}
+report -type slack {C:\Projects\Verilog\led_IGLOO\led_dac_adc_qudr\led_dac_adc_work\libero\Mayak_DAC_ADC\designer\build\pinslacks.txt}

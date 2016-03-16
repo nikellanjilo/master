@@ -1,6 +1,6 @@
 <project name="build" version="1.1">
     <ProjectDirectory>
-        C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/designer/build/build_fp
+        C:/Projects/Verilog/led_IGLOO/led_dac_adc_qudr/led_dac_adc_work/libero/Mayak_DAC_ADC/designer/build/build_fp
     </ProjectDirectory>
     <View>
         ChainView
@@ -9,19 +9,11 @@
         M2GL050T
     </LiberoTargetDevice>
     <LogFile>
-        C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/designer/build/build_fp/build.log
+        C:/Projects/Verilog/led_IGLOO/led_dac_adc_qudr/led_dac_adc_work/libero/Mayak_DAC_ADC/designer/build/build_fp/build.log
     </LogFile>
     <SerializationOption>
         Skip
     </SerializationOption>
-    <programmer status="enable" type="FlashPro4" revision="UndefRev" connection="usb2.0">
-        <name>
-            88883
-        </name>
-        <id>
-            88883
-        </id>
-    </programmer>
     <configuration>
         <Hardware>
             <FlashPro>

@@ -1,6 +1,6 @@
 DESIGN=build
-DESDIR=C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\designer\build
-TARGET_DIR=C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\designer\build
+DESDIR=C:\Projects\Verilog\led_IGLOO\led_dac_adc_qudr\led_dac_adc_work\libero\Mayak_DAC_ADC\designer\build
+TARGET_DIR=C:\Projects\Verilog\led_IGLOO\led_dac_adc_qudr\led_dac_adc_work\libero\Mayak_DAC_ADC\designer\build
 FAM=IGLOO2
 DIE=PA4MGL5000
 PACKAGE=fg896

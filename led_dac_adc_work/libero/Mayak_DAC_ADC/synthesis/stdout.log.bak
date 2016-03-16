@@ -3,7 +3,7 @@ sourcing C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\message_overri
 Starting:    C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\bin64\mbin\synplify.exe
 Install:     C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3
 Hostname:    NIKELLANJILO
-Date:        Fri Mar 11 20:00:36 2016
+Date:        Tue Mar 15 19:38:05 2016
 Version:     J-2015.03M-3
 
 Arguments:   -product synplify_pro build_syn.prj
@@ -15,27 +15,20 @@ Licensed Vendor: actel
 License Option: actel_oem
 
 
+Warning: File already exists in project: "C:\Projects\Verilog\led_IGLOO\led_dac_adc_qudr\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\dds.v"
+Warning: File already exists in project: "C:\Projects\Verilog\led_IGLOO\led_dac_adc_qudr\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\dds.v"
+Warning: File already exists in project: "C:\Projects\Verilog\led_IGLOO\led_dac_adc_qudr\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\dds.v"
 auto_infer_blackbox is not supported in current product.
 auto_infer_blackbox is not supported in current product.
 OnSyncomMessage()
 OnSyncomMessage()
-Running: identify_ui_flow in foreground
-
-Running: identify_ui_flow
-
-Running: Identify Debugger
-
-
-Return Code: 136
-Run Time:0h:00m:00s
-Complete: identify_ui_flow
 Note: Launching classic instrumentor
 Running: identify_ui_flow in foreground
 
 Running: identify_ui_flow
 
 Running: identify_db_generator (Identify Database Generator)
-Copied C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\synthesis\synthesis_1\synlog\build_identify_db_generator.srr to C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\synthesis\synthesis_1\identify.srr
+Copied C:\Projects\Verilog\led_IGLOO\led_dac_adc_qudr\led_dac_adc_work\libero\Mayak_DAC_ADC\synthesis\synthesis_1\synlog\build_identify_db_generator.srr to C:\Projects\Verilog\led_IGLOO\led_dac_adc_qudr\led_dac_adc_work\libero\Mayak_DAC_ADC\synthesis\synthesis_1\identify.srr
 
 identify_db_generator Completed
 Return Code: 0
@@ -44,6 +37,6 @@ Run Time:0h:00m:00s
 Running: Identify Instrumentor UI (HDL Compile)
 
 
-Return Code: 72
+Return Code: 232
 Run Time:0h:00m:00s
 Complete: identify_ui_flow

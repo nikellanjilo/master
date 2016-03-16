@@ -5,7 +5,7 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 *******************************************************************************************-->
 <report_table display_priority="2" name="Timing Summary">
 <report_link name="Detailed report">
-<data>C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\synthesis\synthesis_1\synlog\build_fpga_mapper.srr</data>
+<data>C:\Projects\Verilog\led_IGLOO\led_dac_adc_qudr\led_dac_adc_work\libero\Mayak_DAC_ADC\synthesis\synthesis_1\synlog\build_fpga_mapper.srr</data>
 <title>START OF TIMING REPORT</title>
 </report_link>
 <row>
@@ -23,14 +23,14 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 <row>
 <data>build_sb_CCC_0_FCCC|GL1_net_inferred_clock</data>
 <data>100.0 MHz</data>
-<data>153.7 MHz</data>
-<data>1.746</data>
+<data>139.3 MHz</data>
+<data>1.411</data>
 </row>
 <row>
 <data>build_sb_CCC_0_FCCC|GL2_net_inferred_clock</data>
 <data>100.0 MHz</data>
-<data>199.0 MHz</data>
-<data>3.452</data>
+<data>181.2 MHz</data>
+<data>3.486</data>
 </row>
 <row>
 <data>build_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock</data>
@@ -47,13 +47,13 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 <row>
 <data>ident_coreinst.comm_block_INST.tck</data>
 <data>1.0 MHz</data>
-<data>181.5 MHz</data>
-<data>994.490</data>
+<data>180.5 MHz</data>
+<data>994.460</data>
 </row>
 <row>
 <data>System</data>
 <data>100.0 MHz</data>
-<data>158.9 MHz</data>
-<data>3.709</data>
+<data>152.2 MHz</data>
+<data>3.428</data>
 </row>
 </report_table>

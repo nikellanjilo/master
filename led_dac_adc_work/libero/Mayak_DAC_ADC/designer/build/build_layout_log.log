@@ -12,50 +12,50 @@ Running the I/O Bank and Globals Assigner.
 Info:  I/O Bank and Globals Assigner identified 177 fixed I/O macros, 2 unfixed I/O macros
 
 I/O Bank and Globals Assigner completed successfully.
-Total time spent in I/O Bank and Globals Assigner: 1 seconds
+Total time spent in I/O Bank and Globals Assigner: 0 seconds
 Running 'g4placer.exe' in 64-bit mode
 Placer V4.0 - 11.6.1 
-Design: build                           Started: Fri Mar 11 20:40:31 2016
+Design: build                           Started: Tue Mar 15 19:41:38 2016
 
 Initializing Timing-Driven Placement ...
 Placing design...
 End of placement.
-Pre-Placement Runtime        : 4 seconds
-Placement Runtime            : 13 seconds
+Pre-Placement Runtime        : 10 seconds
+Placement Runtime            : 27 seconds
 
 Placer completed successfully.
 
 Design: build                           
-Finished: Fri Mar 11 20:41:14 2016
-Total CPU Time:     00:00:41            Total Elapsed Time: 00:00:43
-Total Memory Usage: 426.3 Mbytes
+Finished: Tue Mar 15 19:42:42 2016
+Total CPU Time:     00:01:02            Total Elapsed Time: 00:01:04
+Total Memory Usage: 472.5 Mbytes
                         o - o - o - o - o - o
 
 Running 'g4layout.exe' in 64-bit mode
 Running 'g4router.exe' in 64-bit mode
 Router 
-Design: C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\designer\build\buildStarted: Fri Mar 11 20:41:23 2016
+Design: C:\Projects\Verilog\led_IGLOO\led_dac_adc_qudr\led_dac_adc_work\libero\Mayak_DAC_ADC\designer\build\buildStarted: Tue Mar 15 19:42:53 2016
 
 
 Router completed successfully.
 
-Design: C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\designer\build\build
-Finished: Fri Mar 11 20:42:01 2016
-Total CPU Time:     00:00:34            Total Elapsed Time: 00:00:38
-Total Memory Usage: 1848.8 Mbytes
+Design: C:\Projects\Verilog\led_IGLOO\led_dac_adc_qudr\led_dac_adc_work\libero\Mayak_DAC_ADC\designer\build\build
+Finished: Tue Mar 15 19:44:00 2016
+Total CPU Time:     00:00:47            Total Elapsed Time: 00:01:07
+Total Memory Usage: 1849.4 Mbytes
                         o - o - o - o - o - o
 
 Info: Iteration 1:
   Number of violating paths: 2
-  Worst minimum delay slack: -0.107 ns
+  Worst minimum delay slack: -0.087 ns
 Resource Usage
 +---------------+------+-------+------------+
 | Type          | Used | Total | Percentage |
 +---------------+------+-------+------------+
-| 4LUT          | 1509 | 56340 | 2.68       |
-| DFF           | 1817 | 56340 | 3.23       |
+| 4LUT          | 3534 | 56340 | 6.27       |
+| DFF           | 4352 | 56340 | 7.72       |
 | I/O Register  | 0    | 1125  | 0.00       |
-| Logic Element | 2094 | 56340 | 3.72       |
+| Logic Element | 4970 | 56340 | 8.82       |
 +---------------+------+-------+------------+
 
 The 'probe' command succeeded.

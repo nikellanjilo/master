@@ -6,13 +6,13 @@ Software Version: 11.6.1.6
 Driver : 3.0.0 build 1
 programmer '88883' : FlashPro4
 Opened
-'C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/designer/build/build_fp/bu\
-ild.pro'
+'C:/Projects/Verilog/led_IGLOO/led_dac_adc_qudr/led_dac_adc_work/libero/Mayak_DAC_ADC/designer/\
+build/build_fp/build.pro'
 The 'open_project' command succeeded.
 IPD file
-'C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/designer/build/build.ipd'
-has been loaded successfully.
-DESIGN : build;  CHECKSUM : 99A7;  PDB_VERSION : 1.9
+'C:/Projects/Verilog/led_IGLOO/led_dac_adc_qudr/led_dac_adc_work/libero/Mayak_DAC_ADC/designer/\
+build/build.ipd' has been loaded successfully.
+DESIGN : build;  CHECKSUM : 7153;  PDB_VERSION : 1.9
 The 'set_programming_file' command succeeded.
 Warning: Programming is already enabled for device 'M2GL050T'.
 The 'enable_device' command succeeded.
@@ -23,13 +23,13 @@ Warning: programmer '88883' : Vpump has been selected on programmer AND an exter
 programmer '88883' : Check Chain...
 programmer '88883' : Scan and Check Chain PASSED.
 programmer '88883' : device 'M2GL050T' : Executing action PROGRAM
-programmer '88883' : device 'M2GL050T' : EXPORT ISC_ENABLE_RESULT[32] = 00756244
+programmer '88883' : device 'M2GL050T' : EXPORT ISC_ENABLE_RESULT[32] = 00756344
 programmer '88883' : device 'M2GL050T' : EXPORT CRCERR: [1] = 0
 programmer '88883' : device 'M2GL050T' : EXPORT EDCERR: [1] = 0
 programmer '88883' : device 'M2GL050T' : TEMPGRADE: ROOM
 programmer '88883' : device 'M2GL050T' : EXPORT VPPRANGE: [3] = 2
 programmer '88883' : device 'M2GL050T' : VPPRANGE: HIGH
-programmer '88883' : device 'M2GL050T' : EXPORT TEMP: [8] = 62
+programmer '88883' : device 'M2GL050T' : EXPORT TEMP: [8] = 63
 programmer '88883' : device 'M2GL050T' : EXPORT VPP: [8] = 75
 programmer '88883' : device 'M2GL050T' : Programming FPGA Array...
 programmer '88883' : device 'M2GL050T' :
@@ -37,11 +37,11 @@ programmer '88883' : device 'M2GL050T' :
 programmer '88883' : device 'M2GL050T' : EXPORT DSN[128] = 1388d8040000cd5a003b0019002d0009
 programmer '88883' : device 'M2GL050T' :
 ===================================================================================
-programmer '88883' : device 'M2GL050T' : Finished: Fri Mar 11 20:50:25 2016 (Elapsed time
-00:00:52)
+programmer '88883' : device 'M2GL050T' : Finished: Tue Mar 15 19:10:34 2016 (Elapsed time
+00:00:58)
 programmer '88883' : device 'M2GL050T' : Executing action PROGRAM PASSED.
 programmer '88883' : Chain programming PASSED.
-Chain Programming Finished: Fri Mar 11 20:50:25 2016 (Elapsed time 00:00:52)
+Chain Programming Finished: Tue Mar 15 19:10:34 2016 (Elapsed time 00:00:58)
 
                         o - o - o - o - o - o
 
