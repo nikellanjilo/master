@@ -1,1 +1,0 @@
-Here will be verilog code of FPGA realization of convolution 
