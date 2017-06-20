@@ -1,0 +1,61 @@
+Running in restricted mode: identify_job
+
+sourcing C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\message_override.tcl
+
+
+Starting:    C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\bin64\mbin\identify_instrumentor_shell_new.exe
+Install:     C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3
+Hostname:    NIKELLANJILO
+Date:        Tue Mar 15 19:39:55 2016
+Version:     J-2015.03M-3
+
+Arguments:   -product identify_instrumentor -tsl PihQDhog -af _CMD_.CML
+ProductType: identify_instrumentor
+
+
+
+
+
+Warning: File already exists in project: "C:\Projects\Verilog\led_IGLOO\led_dac_adc_qudr\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\dds.v"
+Warning: File already exists in project: "C:\Projects\Verilog\led_IGLOO\led_dac_adc_qudr\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\dds.v"
+Warning: File already exists in project: "C:\Projects\Verilog\led_IGLOO\led_dac_adc_qudr\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\dds.v"
+clock_globalthreshold is not supported in current product.
+async_globalthreshold is not supported in current product.
+globalthreshold is not supported in current product.
+opcond is not supported in current product.
+auto_infer_blackbox is not supported in current product.
+clock_globalthreshold is not supported in current product.
+async_globalthreshold is not supported in current product.
+globalthreshold is not supported in current product.
+opcond is not supported in current product.
+auto_infer_blackbox is not supported in current product.
+
+DEBUG: Expanded argument list=
+C:/Microsemi/Libero_v11.6/Synopsys/fpga_J-2015.03M-3/bin64/mbin/identify_instrumentor_shell_new.exe -product identify_instrumentor -tsl PihQDhog  -idb  C:/Projects/Verilog/led_IGLOO/led_dac_adc_qudr/led_dac_adc_work/libero/Mayak_DAC_ADC/synthesis/synthesis_1/identify.db  -synplify_install  C:/Microsemi/Libero_v11.6/Synopsys/fpga_J-2015.03M-3  -synplify_tool  synplify_pro  -log  C:/Projects/Verilog/led_IGLOO/led_dac_adc_qudr/led_dac_adc_work/libero/Mayak_DAC_ADC/synthesis/synthesis_1/synlog/build_identify_compile.log  -family  IGLOO2  -prj  C:/Projects/Verilog/led_IGLOO/led_dac_adc_qudr/led_dac_adc_work/libero/Mayak_DAC_ADC/synthesis/build_syn.prj  -curimpl  synthesis_1  -dbgimpl  synthesis_1  -fver  2015.09  -f  C:/Projects/Verilog/led_IGLOO/led_dac_adc_qudr/led_dac_adc_work/libero/Mayak_DAC_ADC/synthesis/synthesis_1/identifylaunch.tcl  -ppid 6300
+
+*** Integrated Instrumentor ***
+
+Added instrumentation 'synthesis_1' to the project
+
+"design_flow" is unrecognized option for current device
+
+Current design is build
+
+Loading instrumentation 'synthesis_1'
+
+Source IDC file C:/Projects/Verilog/led_IGLOO/led_dac_adc_qudr/led_dac_adc_work/libero/Mayak_DAC_ADC/synthesis/synthesis_1/identify.idc
+
+Setting IICE sampler (sampledepth) to 1024 for IICE named 'IICE'(previous value: 128)
+
+Setting IICE sampler (set IICE clock) to 'fab_clk_16MHz' for IICE named 'IICE' (previous value: '')
+
+Instrumenting design `build' in directory C:\Projects\Verilog\led_IGLOO\led_dac_adc_qudr\led_dac_adc_work\libero\Mayak_DAC_ADC\synthesis\synthesis_1
+
+Current instrumentation information: 	IICE=IICE 
+		Total instrumentation in bits: Sample Only 0, Trigger Only 0, Sample and trigger 455
+		Group wise instrumentation in bits: 
+					Groupdefault:Sample Only 0, Sample and trigger 455
+
+
+exit status=0
+

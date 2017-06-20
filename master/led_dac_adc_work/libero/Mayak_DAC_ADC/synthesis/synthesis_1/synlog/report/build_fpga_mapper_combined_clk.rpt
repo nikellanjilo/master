@@ -1,0 +1,27 @@
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+4 non-gated/non-generated clock tree(s) driving 3470 clock pin(s) of sequential element(s)
+2 gated/generated clock tree(s) driving 24 clock pin(s) of sequential element(s)
+0 instances converted, 24 sequential instances remain driven by gated/generated clocks
+
+=================================================================== Non-Gated/Non-Generated Clocks ===================================================================
+Clock Tree ID     Driving Element                                 Drive Element Type              Fanout     Sample Instance                                          
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0003       build_sb_0.CCC_0.GL2_INST                       CLKINT                          1138       led_igloo_0.fpga_count[14]                               
+@K:CKID0004       build_sb_0.CCC_0.GL1_INST                       CLKINT                          249        led_igloo_0.temp3_csn                                    
+@K:CKID0005       ident_coreinst.comm_block_INST.tck              clock definition on keepbuf     2075       ident_coreinst.comm_block_INST.b9_ORb_xNywD.b3_ORb[7]    
+@K:CKID0006       ident_coreinst.comm_block_INST.dr2_tck_keep     clock definition on keepbuf     8          ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[0]
+======================================================================================================================================================================
+================================================================================================================= Gated/Generated Clocks ==================================================================================================================
+Clock Tree ID     Driving Element                                           Drive Element Type     Fanout     Sample Instance                                                                       Explanation                                            
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       ident_coreinst.comm_block_INST.jtagi.b9_nv_oQwfYF_3       CFG3                   16         ident_coreinst.IICE_INST.b8_12m_IFLY.b5_nUTGT.b11_nUTGT_khWqH.genblk3.b8_vABZ3qsY     No gated clock conversion method for cell cell:ACG4.SLE
+@K:CKID0002       ident_coreinst.comm_block_INST.jtagi.b10_8Kz_rKlrtX_3     CFG2                   8          ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1.b10_dZst39_EF3[7]                   No gated clock conversion method for cell cell:ACG4.SLE
+===========================================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+

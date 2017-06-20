@@ -1,0 +1,204 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/simulation
+vbuild
+Z1 !s110 1457705211
+!i10b 1
+!s100 iA3mCf6hgzIjeZR;3<Xc=2
+I]kz^J;A3JM2L>SAaEU^M92
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1457705007
+8C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/build/build.v
+FC:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/build/build.v
+L0 9
+Z3 OW;L;10.3c;59
+r1
+!s85 0
+31
+!s108 1457705211.294000
+!s107 C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/build/build.v|
+!s90 -reportprogress|300|-work|presynth|C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/build/build.v|
+!s101 -O0
+!i113 1
+Z4 o-work presynth -O0
+vbuild_sb
+R1
+!i10b 1
+!s100 ej@1^3TYHWmF]D0fmznOC3
+I_O]E=CT_37>MLgzOE:23i0
+R2
+R0
+Z5 w1457616412
+8C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/build_sb/build_sb.v
+FC:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/build_sb/build_sb.v
+L0 9
+R3
+r1
+!s85 0
+31
+!s108 1457705211.060000
+!s107 C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/build_sb/build_sb.v|
+!s90 -reportprogress|300|-work|presynth|C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/build_sb/build_sb.v|
+!s101 -O0
+!i113 1
+R4
+vbuild_sb_CCC_0_FCCC
+Z6 !s110 1457705210
+!i10b 1
+!s100 FT`KXGm=6P05jIQ;9^8Bn3
+IgRajRFdkoHEVDMBh_57;b1
+R2
+R0
+w1457616409
+8C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/build_sb/CCC_0/build_sb_CCC_0_FCCC.v
+FC:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/build_sb/CCC_0/build_sb_CCC_0_FCCC.v
+L0 5
+R3
+r1
+!s85 0
+31
+!s108 1457705210.716000
+!s107 C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/build_sb/CCC_0/build_sb_CCC_0_FCCC.v|
+!s90 -reportprogress|300|-work|presynth|C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/build_sb/CCC_0/build_sb_CCC_0_FCCC.v|
+!s101 -O0
+!i113 1
+R4
+nbuild_sb_@c@c@c_0_@f@c@c@c
+vbuild_sb_FABOSC_0_OSC
+R6
+!i10b 1
+!s100 `zFcBePZOR7?[EY^D@3C30
+I1oaIg1SoSjY59>o]9j[D@1
+R2
+R0
+R5
+8C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/build_sb/FABOSC_0/build_sb_FABOSC_0_OSC.v
+FC:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/build_sb/FABOSC_0/build_sb_FABOSC_0_OSC.v
+L0 5
+R3
+r1
+!s85 0
+31
+!s108 1457705210.841000
+!s107 C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/build_sb/FABOSC_0/build_sb_FABOSC_0_OSC.v|
+!s90 -reportprogress|300|-work|presynth|C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/build_sb/FABOSC_0/build_sb_FABOSC_0_OSC.v|
+!s101 -O0
+!i113 1
+R4
+nbuild_sb_@f@a@b@o@s@c_0_@o@s@c
+vbuild_sb_HPMS
+R6
+!i10b 1
+!s100 akl3eW1dF6m]720]1h7_A3
+IPcUnW]PkHg?B?0cN[9Da92
+R2
+R0
+w1457616404
+8C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/build_sb_HPMS/build_sb_HPMS.v
+FC:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/build_sb_HPMS/build_sb_HPMS.v
+L0 9
+R3
+r1
+!s85 0
+31
+!s108 1457705210.950000
+!s107 C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/build_sb_HPMS/build_sb_HPMS.v|
+!s90 -reportprogress|300|-work|presynth|C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/build_sb_HPMS/build_sb_HPMS.v|
+!s101 -O0
+!i113 1
+R4
+nbuild_sb_@h@p@m@s
+vCoreResetP
+R6
+!i10b 1
+!s100 OD5Fn3EVhTWEeGkUMzYHQ0
+IQJ[m2h<55K0CFJFJeePbf0
+R2
+R0
+Z7 w1457002842
+8C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vlog/core/coreresetp.v
+FC:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vlog/core/coreresetp.v
+L0 23
+R3
+r1
+!s85 0
+31
+!s108 1457705210.481000
+!s107 C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vlog/core/coreresetp.v|
+!s90 -reportprogress|300|-work|presynth|C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vlog/core/coreresetp.v|
+!s101 -O0
+!i113 1
+R4
+n@core@reset@p
+vcoreresetp_pcie_hotreset
+R6
+!i10b 1
+!s100 ;5iJX2O^F5ieeX`hU8e:G0
+IzQZR>giiRI_VPdBj`jTC93
+R2
+R0
+R7
+8C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vlog/core/coreresetp_pcie_hotreset.v
+FC:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vlog/core/coreresetp_pcie_hotreset.v
+L0 31
+R3
+r1
+!s85 0
+31
+!s108 1457705210.388000
+!s107 C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vlog/core/coreresetp_pcie_hotreset.v|
+!s90 -reportprogress|300|-work|presynth|C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vlog/core/coreresetp_pcie_hotreset.v|
+!s101 -O0
+!i113 1
+R4
+vled_igloo
+R1
+!i10b 1
+!s100 jCGjJn4R`bbFRWb>^d6>z0
+I80;O6YF=9H`JzfL>DWFnk0
+R2
+R0
+w1457705153
+8C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/hdl/led.v
+FC:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/hdl/led.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1457705211.154000
+!s107 C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/hdl/led.v|
+!s90 -reportprogress|300|-work|presynth|C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/hdl/led.v|
+!s101 -O0
+!i113 1
+R4
+vsmart_tb
+R1
+!i10b 1
+!s100 P_Hk6m_XAFUC?ma_k[4k12
+I^ha;jzTV`e>j:G6VnW_O[2
+R2
+R0
+w1457705198
+8C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/smart_tb/smart_tb.v
+FC:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/smart_tb/smart_tb.v
+L0 9
+R3
+r1
+!s85 0
+31
+!s108 1457705211.435000
+!s107 C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/smart_tb/smart_tb.v|
+!s90 -reportprogress|300|+incdir+C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/smart_tb|-work|presynth|C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/smart_tb/smart_tb.v|
+!s101 -O0
+!i113 1
+R4
+!s92 +incdir+C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/smart_tb -work presynth -O0

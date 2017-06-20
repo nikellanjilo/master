@@ -1,0 +1,7 @@
+C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\bin64\syn_nfilter.exe  -link  -top  build  -multisrs  C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\synthesis\synwork\build_comp.srs  -osyn  C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\synthesis\synwork\build_mult.srs  -log  C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\synthesis\synlog\build_multi_srs_gen.srr 
+rc:0 success:1
+C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\synthesis\synwork\build_comp.srs|i|1457533673|97271
+C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\synthesis\synwork\build_mult.srs|o|1457533674|9956
+C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\synthesis\synlog\build_multi_srs_gen.srr|o|1457533674|503
+C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\bin\syn_nfilter.exe|i|1431628658|3001344
+C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\bin64\syn_nfilter.exe|i|1431628846|3968000

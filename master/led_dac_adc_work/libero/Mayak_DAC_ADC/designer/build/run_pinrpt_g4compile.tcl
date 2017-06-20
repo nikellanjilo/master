@@ -1,0 +1,10 @@
+DESIGN=build
+DESDIR=C:\Projects\Verilog\led_IGLOO\led_dac_adc_qudr\led_dac_adc_work\libero\Mayak_DAC_ADC\designer\build
+TARGET_DIR=C:\Projects\Verilog\led_IGLOO\led_dac_adc_qudr\led_dac_adc_work\libero\Mayak_DAC_ADC\designer\build
+FAM=IGLOO2
+DIE=PA4MGL5000
+PACKAGE=fg896
+PINRPT_BY_NAME=1
+PINRPT_BY_NUMBER=1
+BANK_REPORT=1
+IOREG_REPORT=1

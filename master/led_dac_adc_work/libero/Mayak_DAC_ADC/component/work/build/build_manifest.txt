@@ -1,0 +1,14 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.6 SP1 (Version 11.6.1.6)
+
+Date      :  Fri Mar 11 20:39:07 2016
+Project   :  C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC
+Component :  build
+Family    :  IGLOO2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/build/build.v
+
+Stimulus files for all Simulation tools:
+    C:/Projects/Verilog/led_IGLOO/led_dac_adc_work/libero/Mayak_DAC_ADC/component/work/build/subsystem.bfm
+

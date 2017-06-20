@@ -1,0 +1,78 @@
+@P:  Worst Slack : 1.411
+@P:  build_sb_CCC_0_FCCC|GL0_net_inferred_clock - Estimated Frequency : NA
+@P:  build_sb_CCC_0_FCCC|GL0_net_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  build_sb_CCC_0_FCCC|GL0_net_inferred_clock - Estimated Period : NA
+@P:  build_sb_CCC_0_FCCC|GL0_net_inferred_clock - Requested Period : 10.000
+@P:  build_sb_CCC_0_FCCC|GL0_net_inferred_clock - Slack : NA
+@P:  build_sb_CCC_0_FCCC|GL1_net_inferred_clock - Estimated Frequency : 139.3 MHz
+@P:  build_sb_CCC_0_FCCC|GL1_net_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  build_sb_CCC_0_FCCC|GL1_net_inferred_clock - Estimated Period : 7.178
+@P:  build_sb_CCC_0_FCCC|GL1_net_inferred_clock - Requested Period : 10.000
+@P:  build_sb_CCC_0_FCCC|GL1_net_inferred_clock - Slack : 1.411
+@P:  build_sb_CCC_0_FCCC|GL2_net_inferred_clock - Estimated Frequency : 181.2 MHz
+@P:  build_sb_CCC_0_FCCC|GL2_net_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  build_sb_CCC_0_FCCC|GL2_net_inferred_clock - Estimated Period : 5.520
+@P:  build_sb_CCC_0_FCCC|GL2_net_inferred_clock - Requested Period : 10.000
+@P:  build_sb_CCC_0_FCCC|GL2_net_inferred_clock - Slack : 3.486
+@P:  build_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Estimated Frequency : NA
+@P:  build_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  build_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Estimated Period : NA
+@P:  build_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Requested Period : 10.000
+@P:  build_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Slack : NA
+@P:  ident_coreinst.comm_block_INST.dr2_tck - Estimated Frequency : 1016.2 MHz
+@P:  ident_coreinst.comm_block_INST.dr2_tck - Requested Frequency : 1.0 MHz
+@P:  ident_coreinst.comm_block_INST.dr2_tck - Estimated Period : 0.984
+@P:  ident_coreinst.comm_block_INST.dr2_tck - Requested Period : 1000.000
+@P:  ident_coreinst.comm_block_INST.dr2_tck - Slack : 999.016
+@P:  ident_coreinst.comm_block_INST.tck - Estimated Frequency : 180.5 MHz
+@P:  ident_coreinst.comm_block_INST.tck - Requested Frequency : 1.0 MHz
+@P:  ident_coreinst.comm_block_INST.tck - Estimated Period : 5.540
+@P:  ident_coreinst.comm_block_INST.tck - Requested Period : 1000.000
+@P:  ident_coreinst.comm_block_INST.tck - Slack : 994.460
+@P:  System - Estimated Frequency : 152.2 MHz
+@P:  System - Requested Frequency : 100.0 MHz
+@P:  System - Estimated Period : 6.572
+@P:  System - Requested Period : 10.000
+@P:  System - Slack : 3.428
+@P:  Worst Slack(min analysis) : 0.315
+@P:  build_sb_CCC_0_FCCC|GL0_net_inferred_clock - Estimated Frequency(min analysis) : NA
+@P:  build_sb_CCC_0_FCCC|GL0_net_inferred_clock - Requested Frequency(min analysis) : 100.0 MHz
+@P:  build_sb_CCC_0_FCCC|GL0_net_inferred_clock - Estimated Period(min analysis) : NA
+@P:  build_sb_CCC_0_FCCC|GL0_net_inferred_clock - Requested Period(min analysis) : 10.000
+@P:  build_sb_CCC_0_FCCC|GL0_net_inferred_clock - Slack(min analysis) : NA
+@P:  build_sb_CCC_0_FCCC|GL1_net_inferred_clock - Estimated Frequency(min analysis) : 139.3 MHz
+@P:  build_sb_CCC_0_FCCC|GL1_net_inferred_clock - Requested Frequency(min analysis) : 100.0 MHz
+@P:  build_sb_CCC_0_FCCC|GL1_net_inferred_clock - Estimated Period(min analysis) : 7.178
+@P:  build_sb_CCC_0_FCCC|GL1_net_inferred_clock - Requested Period(min analysis) : 10.000
+@P:  build_sb_CCC_0_FCCC|GL1_net_inferred_clock - Slack(min analysis) : 1.411
+@P:  build_sb_CCC_0_FCCC|GL2_net_inferred_clock - Estimated Frequency(min analysis) : 181.2 MHz
+@P:  build_sb_CCC_0_FCCC|GL2_net_inferred_clock - Requested Frequency(min analysis) : 100.0 MHz
+@P:  build_sb_CCC_0_FCCC|GL2_net_inferred_clock - Estimated Period(min analysis) : 5.520
+@P:  build_sb_CCC_0_FCCC|GL2_net_inferred_clock - Requested Period(min analysis) : 10.000
+@P:  build_sb_CCC_0_FCCC|GL2_net_inferred_clock - Slack(min analysis) : 3.486
+@P:  build_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Estimated Frequency(min analysis) : NA
+@P:  build_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Requested Frequency(min analysis) : 100.0 MHz
+@P:  build_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Estimated Period(min analysis) : NA
+@P:  build_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Requested Period(min analysis) : 10.000
+@P:  build_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Slack(min analysis) : NA
+@P:  ident_coreinst.comm_block_INST.dr2_tck - Estimated Frequency(min analysis) : 1016.2 MHz
+@P:  ident_coreinst.comm_block_INST.dr2_tck - Requested Frequency(min analysis) : 1.0 MHz
+@P:  ident_coreinst.comm_block_INST.dr2_tck - Estimated Period(min analysis) : 0.984
+@P:  ident_coreinst.comm_block_INST.dr2_tck - Requested Period(min analysis) : 1000.000
+@P:  ident_coreinst.comm_block_INST.dr2_tck - Slack(min analysis) : 999.016
+@P:  ident_coreinst.comm_block_INST.tck - Estimated Frequency(min analysis) : 180.5 MHz
+@P:  ident_coreinst.comm_block_INST.tck - Requested Frequency(min analysis) : 1.0 MHz
+@P:  ident_coreinst.comm_block_INST.tck - Estimated Period(min analysis) : 5.540
+@P:  ident_coreinst.comm_block_INST.tck - Requested Period(min analysis) : 1000.000
+@P:  ident_coreinst.comm_block_INST.tck - Slack(min analysis) : 994.460
+@P:  System - Estimated Frequency(min analysis) : 152.2 MHz
+@P:  System - Requested Frequency(min analysis) : 100.0 MHz
+@P:  System - Estimated Period(min analysis) : 6.572
+@P:  System - Requested Period(min analysis) : 10.000
+@P:  System - Slack(min analysis) : 3.428
+@P: build Part : m2gl050tfbga896-1
+@P: build Register bits  : 3416 
+@P: build DSP Blocks  : 0
+@P: build I/O primitives : 179
+@P: build Block Rams (RAM1K18) :  26
+@P:  CPU Time : 0h:00m:21s

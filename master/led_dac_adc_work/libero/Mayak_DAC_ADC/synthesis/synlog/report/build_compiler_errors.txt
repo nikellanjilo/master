@@ -1,0 +1,2 @@
+@E: CL172 :"C:\Projects\Verilog\led_IGLOO\led_dac_adc_work\libero\Mayak_DAC_ADC\hdl\led.v":29:24:29:30|Only one always block can assign a given variable dac1_db[13:5]
+
