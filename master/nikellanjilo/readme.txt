@@ -1,2 +1,2 @@
 Design of nikellanjilo.ru
-Set
+Setup
