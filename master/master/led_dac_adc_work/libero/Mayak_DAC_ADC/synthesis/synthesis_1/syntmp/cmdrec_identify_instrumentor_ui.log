@@ -1,0 +1,7 @@
+C:\Microsemi\Libero_v11.6\Synopsys\Identify_me_J201503M1\bin\identify_instrumentor.exe  -idb  C:\Projects\Verilog\led_IGLOO\led_dac_adc_qudr\led_dac_adc_work\libero\Mayak_DAC_ADC\synthesis\synthesis_1\identify.db  -synplify_install  C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3  -synplify_tool  synplify_pro  -log  C:\Projects\Verilog\led_IGLOO\led_dac_adc_qudr\led_dac_adc_work\libero\Mayak_DAC_ADC\synthesis\synthesis_1\synlog\build_Identify_Instrumentor_UI.log  -family  IGLOO2  -prj  C:\Projects\Verilog\led_IGLOO\led_dac_adc_qudr\led_dac_adc_work\libero\Mayak_DAC_ADC\synthesis\build_syn.prj  -curimpl  synthesis_1  -dbgimpl  synthesis_1  -fver  2015.09 
+rc:232 success:1
+C:\Projects\Verilog\led_IGLOO\led_dac_adc_qudr\led_dac_adc_work\libero\Mayak_DAC_ADC\synthesis\synthesis_1\identify.db|i|1458056277|264096
+C:\Projects\Verilog\led_IGLOO\led_dac_adc_qudr\led_dac_adc_work\libero\Mayak_DAC_ADC\synthesis\synthesis_1\synlog\build_Identify_Instrumentor_UI.log|o|1458053944|7021
+C:\Projects\Verilog\led_IGLOO\led_dac_adc_qudr\led_dac_adc_work\libero\Mayak_DAC_ADC\synthesis\build_syn.prj|i|1458056284|4688
+C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\bin\identify_instrumentor.exe|i|1431627440|96256
+C:\Microsemi\Libero_v11.6\Synopsys\Identify_me_J201503M1\bin\identify_instrumentor.exe|i|1430896338|167936

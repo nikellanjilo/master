@@ -1,0 +1,190 @@
+Compile Report
+Microsemi Corporation - Microsemi Libero Software Release v11.6 SP1 (Version 11.6.1.6)
+Date: Tue Mar 15 19:41:09 2016
+
+Device Selection
++--------------------------------+----------------+
+| Family                         | IGLOO2         |
+| Device                         | M2GL050T       |
+| Package                        | 896 FBGA       |
+| Speed Grade                    | -1             |
+| Temp                           | -40:25:100     |
+| Voltage                        | 1.26:1.20:1.14 |
+| Core Voltage                   | 1.2V           |
+| Ramp Rate                      | 100ms Minimum  |
+| System Controller Suspend Mode | No             |
+| PLL Supply Voltage             | 2.5V           |
+| Default I/O technology         | LVCMOS 2.5V    |
+| Restrict Probe Pins            | Yes            |
+| Restrict SPI Pins              | No             |
++--------------------------------+----------------+
+
+Source Files
++---------+----------------------------------------------------------------------------------------------------------------------+
+| Topcell | build                                                                                                                |
+| Format  | EDIF                                                                                                                 |
+| Source  | C:\Projects\Verilog\led_IGLOO\led_dac_adc_qudr\led_dac_adc_work\libero\Mayak_DAC_ADC\synthesis\synthesis_1\build.edn |
+| Source  | C:\Projects\Verilog\led_IGLOO\led_dac_adc_qudr\led_dac_adc_work\libero\Mayak_DAC_ADC\constraint\io\build.io.pdc      |
+| Source  | C:\Projects\Verilog\led_IGLOO\led_dac_adc_qudr\led_dac_adc_work\libero\Mayak_DAC_ADC\constraint\fp\build.fp.pdc      |
++---------+----------------------------------------------------------------------------------------------------------------------+
+
+Options
++---------------------------------------------------------+-------+
+| Merge User SDC file(s) with Existing Timing Constraints | true  |
+| Abort Compile if errors are found in PDC file(s)        | true  |
+| Enable Single Event Transient mitigation                | false |
+| Enable Design Separation Methodology                    | false |
+| Limit the number of high fanout nets to display to      | 10    |
++---------------------------------------------------------+-------+
+
+Resource Usage
++---------------------------+------+-------+------------+
+| Type                      | Used | Total | Percentage |
++---------------------------+------+-------+------------+
+| 4LUT                      | 3534 | 56340 | 6.27       |
+| DFF                       | 4352 | 56340 | 7.72       |
+| I/O Register              | 0    | 1125  | 0.00       |
+| User I/O                  | 179  | 375   | 47.73      |
+| -- Single-ended I/O       | 179  | 375   | 47.73      |
+| -- Differential I/O Pairs | 0    | 187   | 0.00       |
+| RAM64x18                  | 0    | 72    | 0.00       |
+| RAM1K18                   | 26   | 69    | 37.68      |
+| MACC                      | 0    | 72    | 0.00       |
+| Chip Globals              | 3    | 16    | 18.75      |
+| CCC                       | 1    | 6     | 16.67      |
+| RCOSC_25_50MHZ            | 1    | 1     | 100.00     |
+| RCOSC_1MHZ                | 0    | 1     | 0.00       |
+| XTLOSC                    | 0    | 1     | 0.00       |
+| SERDESIF Blocks           | 0    | 2     | 0.00       |
+| -- SERDESIF Lanes         | 0    | 8     | 0.00       |
+| FDDR                      | 0    | 1     | 0.00       |
+| HPMS                      | 0    | 1     | 0.00       |
++---------------------------+------+-------+------------+
+
+Detailed Logic Resource Usage
++--------------------------+------+------+
+| Type                     | 4LUT | DFF  |
++--------------------------+------+------+
+| Fabric Logic             | 2598 | 3416 |
+| RAM64x18 Interface Logic | 0    | 0    |
+| RAM1K18 Interface Logic  | 936  | 936  |
+| MACC Interface Logic     | 0    | 0    |
+| Total Used               | 3534 | 4352 |
++--------------------------+------+------+
+
+Detailed Carry Chains Resource Usage
++--------+------+
+| Length | Used |
+| 7      | 2    |
+| 8      | 1    |
+| 9      | 1    |
+| 11     | 3    |
+| 15     | 1    |
+| 17     | 1    |
+| 23     | 1    |
+| 26     | 1    |
+| 33     | 1    |
+| Total  | 12   |
++--------+------+
+
+I/O Function
++-------------------------------+--------------+-------------+-----------------+
+| Type                          | w/o register | w/ register | w/ DDR register |
++-------------------------------+--------------+-------------+-----------------+
+| Input I/O                     | 52           | 0           | 0               |
+| Output I/O                    | 127          | 0           | 0               |
+| Bidirectional I/O             | 0            | 0           | 0               |
+| Differential Input I/O Pairs  | 0            | 0           | 0               |
+| Differential Output I/O Pairs | 0            | 0           | 0               |
++-------------------------------+--------------+-------------+-----------------+
+
+I/O Technology
++--------------+--------+------+-------+--------+---------------+
+| I/O Standard | Vddi   | Vref | Input | Output | Bidirectional |
++--------------+--------+------+-------+--------+---------------+
+| LVCMOS33     |  3.30v |  N/A |  30   |  96    |  0            |
+| LVCMOS25     |  2.50v |  N/A |  22   |  31    |  0            |
++--------------+--------+------+-------+--------+---------------+
+
+I/O Placement
++----------+-------+------------+
+| Type     | Count | Percentage |
++----------+-------+------------+
+| Locked   |  177  | 98.88%     |
+| Placed   |  0    | 0.00%      |
+| UnPlaced |  2    | 1.12%      |
++----------+-------+------------+
+
+Nets assigned to chip global resources
++--------+---------+-----------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                  |
++--------+---------+-----------------------------------------------------------------------+
+| 2083   | INT_NET | Net   : ident_coreinst/IICE_comm2iice[11]                             |
+|        |         | Driver: ident_coreinst/comm_block_INST/jtagi/jtag_clkint_prim/U0_RGB1 |
+|        |         | Source: NETLIST                                                       |
+| 1139   | INT_NET | Net   : BW_clk_c                                                      |
+|        |         | Driver: build_sb_0/CCC_0/GL2_INST/U0_RGB1                             |
+|        |         | Source: NETLIST                                                       |
+| 253    | INT_NET | Net   : temp_sck_c                                                    |
+|        |         | Driver: build_sb_0/CCC_0/GL1_INST/U0_RGB1                             |
+|        |         | Source: NETLIST                                                       |
++--------+---------+-----------------------------------------------------------------------+
+
+Nets assigned to row global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+High fanout nets
++--------+---------+-------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                          |
++--------+---------+-------------------------------------------------------------------------------+
+| 1365   | INT_NET | Net   : ident_coreinst/IICE_INST/b8_12m_IFLY/b4_PfFz/b5_PbrtL/b6_OKctIF4      |
+|        |         | Driver: ident_coreinst/IICE_INST/b8_12m_IFLY/b4_PfFz/b5_PbrtL/b6_OKctIF4      |
+| 498    | INT_NET | Net   : ident_coreinst/IICE_INST/b8_SoWGfWYY                                  |
+|        |         | Driver: ident_coreinst/IICE_INST/b8_12m_IFLY/b5_nUTGT/b12_voSc3_gmasbb        |
+| 462    | INT_NET | Net   : ident_coreinst/IICE_INST/b3_SoW_0/b7_nYJ_BFM_or[10]                   |
+|        |         | Driver: ident_coreinst/IICE_INST/b3_SoW_0/genblk9.b7_nYJ_BFM_or[10]           |
+| 111    | INT_NET | Net   : GPIO4_c                                                               |
+|        |         | Driver: SENSE_DIN_ibuf[1]                                                     |
+| 86     | INT_NET | Net   : ident_coreinst/IICE_comm2iice[9]                                      |
+|        |         | Driver: ident_coreinst/comm_block_INST/jtagi/b10_nv_ywKMm9X                   |
+| 63     | INT_NET | Net   : CFG0_GND_INST_NET                                                     |
+|        |         | Driver: CFG0_GND_INST                                                         |
+| 60     | INT_NET | Net   : led_igloo_0/cnt[1]                                                    |
+|        |         | Driver: led_igloo_0/cnt[1]                                                    |
+| 56     | INT_NET | Net   : ident_coreinst/IICE_INST/b3_SoW_0/b4_2o_z                             |
+|        |         | Driver: ident_coreinst/IICE_INST/b3_SoW_0/b6_SoWyQD/genblk2.b13_oRB_MqCD2_EdR |
+| 53     | INT_NET | Net   : led_igloo_0/cnt_frame[2]                                              |
+|        |         | Driver: led_igloo_0/cnt_frame[2]                                              |
+| 52     | INT_NET | Net   : temp_count_data[2]                                                    |
+|        |         | Driver: led_igloo_0/temp_count_data[2]                                        |
++--------+---------+-------------------------------------------------------------------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+-------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                          |
++--------+---------+-------------------------------------------------------------------------------+
+| 1365   | INT_NET | Net   : ident_coreinst/IICE_INST/b8_12m_IFLY/b4_PfFz/b5_PbrtL/b6_OKctIF4      |
+|        |         | Driver: ident_coreinst/IICE_INST/b8_12m_IFLY/b4_PfFz/b5_PbrtL/b6_OKctIF4      |
+| 498    | INT_NET | Net   : ident_coreinst/IICE_INST/b8_SoWGfWYY                                  |
+|        |         | Driver: ident_coreinst/IICE_INST/b8_12m_IFLY/b5_nUTGT/b12_voSc3_gmasbb        |
+| 462    | INT_NET | Net   : ident_coreinst/IICE_INST/b3_SoW_0/b7_nYJ_BFM_or[10]                   |
+|        |         | Driver: ident_coreinst/IICE_INST/b3_SoW_0/genblk9.b7_nYJ_BFM_or[10]           |
+| 111    | INT_NET | Net   : GPIO4_c                                                               |
+|        |         | Driver: SENSE_DIN_ibuf[1]                                                     |
+| 86     | INT_NET | Net   : ident_coreinst/IICE_comm2iice[9]                                      |
+|        |         | Driver: ident_coreinst/comm_block_INST/jtagi/b10_nv_ywKMm9X                   |
+| 63     | INT_NET | Net   : CFG0_GND_INST_NET                                                     |
+|        |         | Driver: CFG0_GND_INST                                                         |
+| 60     | INT_NET | Net   : led_igloo_0/cnt[1]                                                    |
+|        |         | Driver: led_igloo_0/cnt[1]                                                    |
+| 56     | INT_NET | Net   : ident_coreinst/IICE_INST/b3_SoW_0/b4_2o_z                             |
+|        |         | Driver: ident_coreinst/IICE_INST/b3_SoW_0/b6_SoWyQD/genblk2.b13_oRB_MqCD2_EdR |
+| 53     | INT_NET | Net   : led_igloo_0/cnt_frame[2]                                              |
+|        |         | Driver: led_igloo_0/cnt_frame[2]                                              |
+| 52     | INT_NET | Net   : temp_count_data[2]                                                    |
+|        |         | Driver: led_igloo_0/temp_count_data[2]                                        |
++--------+---------+-------------------------------------------------------------------------------+
+

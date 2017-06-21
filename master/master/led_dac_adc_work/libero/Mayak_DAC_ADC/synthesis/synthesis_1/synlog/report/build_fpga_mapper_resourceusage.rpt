@@ -1,0 +1,43 @@
+Resource Usage Report for build 
+
+Mapping to part: m2gl050tfbga896-1
+Cell usage:
+CCC             1 use
+CLKINT          3 uses
+RCOSC_25_50MHZ  1 use
+UJTAG           1 use
+CFG1           15 uses
+CFG2           135 uses
+CFG3           523 uses
+CFG4           1755 uses
+
+Carry primitives used for arithmetic functions:
+ARI1           174 uses
+
+
+Sequential Cells: 
+SLE            3416 uses
+
+DSP Blocks:    0
+
+I/O ports: 185
+I/O primitives: 179
+INBUF          52 uses
+OUTBUF         55 uses
+TRIBUFF        72 uses
+
+
+Global Clock Buffers: 3
+
+
+Total LUTs:    2602
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 936; LUTs = 936;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  3416 + 0 + 936 + 0 = 4352;
+Total number of LUTs after P&R:  2602 + 0 + 936 + 0 = 3538;
+

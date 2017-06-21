@@ -1,0 +1,57 @@
+@P:  Worst Slack : 2.171
+@P:  build_sb_CCC_0_FCCC|GL0_net_inferred_clock - Estimated Frequency : NA
+@P:  build_sb_CCC_0_FCCC|GL0_net_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  build_sb_CCC_0_FCCC|GL0_net_inferred_clock - Estimated Period : NA
+@P:  build_sb_CCC_0_FCCC|GL0_net_inferred_clock - Requested Period : 10.000
+@P:  build_sb_CCC_0_FCCC|GL0_net_inferred_clock - Slack : NA
+@P:  build_sb_CCC_0_FCCC|GL1_net_inferred_clock - Estimated Frequency : 172.6 MHz
+@P:  build_sb_CCC_0_FCCC|GL1_net_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  build_sb_CCC_0_FCCC|GL1_net_inferred_clock - Estimated Period : 5.793
+@P:  build_sb_CCC_0_FCCC|GL1_net_inferred_clock - Requested Period : 10.000
+@P:  build_sb_CCC_0_FCCC|GL1_net_inferred_clock - Slack : 2.171
+@P:  build_sb_CCC_0_FCCC|GL2_net_inferred_clock - Estimated Frequency : 361.7 MHz
+@P:  build_sb_CCC_0_FCCC|GL2_net_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  build_sb_CCC_0_FCCC|GL2_net_inferred_clock - Estimated Period : 2.765
+@P:  build_sb_CCC_0_FCCC|GL2_net_inferred_clock - Requested Period : 10.000
+@P:  build_sb_CCC_0_FCCC|GL2_net_inferred_clock - Slack : 7.235
+@P:  build_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Estimated Frequency : NA
+@P:  build_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  build_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Estimated Period : NA
+@P:  build_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Requested Period : 10.000
+@P:  build_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Slack : NA
+@P:  System - Estimated Frequency : NA
+@P:  System - Requested Frequency : 100.0 MHz
+@P:  System - Estimated Period : NA
+@P:  System - Requested Period : 10.000
+@P:  System - Slack : NA
+@P:  Worst Slack(min analysis) : 0.480
+@P:  build_sb_CCC_0_FCCC|GL0_net_inferred_clock - Estimated Frequency(min analysis) : NA
+@P:  build_sb_CCC_0_FCCC|GL0_net_inferred_clock - Requested Frequency(min analysis) : 100.0 MHz
+@P:  build_sb_CCC_0_FCCC|GL0_net_inferred_clock - Estimated Period(min analysis) : NA
+@P:  build_sb_CCC_0_FCCC|GL0_net_inferred_clock - Requested Period(min analysis) : 10.000
+@P:  build_sb_CCC_0_FCCC|GL0_net_inferred_clock - Slack(min analysis) : NA
+@P:  build_sb_CCC_0_FCCC|GL1_net_inferred_clock - Estimated Frequency(min analysis) : 172.6 MHz
+@P:  build_sb_CCC_0_FCCC|GL1_net_inferred_clock - Requested Frequency(min analysis) : 100.0 MHz
+@P:  build_sb_CCC_0_FCCC|GL1_net_inferred_clock - Estimated Period(min analysis) : 5.793
+@P:  build_sb_CCC_0_FCCC|GL1_net_inferred_clock - Requested Period(min analysis) : 10.000
+@P:  build_sb_CCC_0_FCCC|GL1_net_inferred_clock - Slack(min analysis) : 2.171
+@P:  build_sb_CCC_0_FCCC|GL2_net_inferred_clock - Estimated Frequency(min analysis) : 361.7 MHz
+@P:  build_sb_CCC_0_FCCC|GL2_net_inferred_clock - Requested Frequency(min analysis) : 100.0 MHz
+@P:  build_sb_CCC_0_FCCC|GL2_net_inferred_clock - Estimated Period(min analysis) : 2.765
+@P:  build_sb_CCC_0_FCCC|GL2_net_inferred_clock - Requested Period(min analysis) : 10.000
+@P:  build_sb_CCC_0_FCCC|GL2_net_inferred_clock - Slack(min analysis) : 7.235
+@P:  build_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Estimated Frequency(min analysis) : NA
+@P:  build_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Requested Frequency(min analysis) : 100.0 MHz
+@P:  build_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Estimated Period(min analysis) : NA
+@P:  build_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Requested Period(min analysis) : 10.000
+@P:  build_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Slack(min analysis) : NA
+@P:  System - Estimated Frequency(min analysis) : NA
+@P:  System - Requested Frequency(min analysis) : 100.0 MHz
+@P:  System - Estimated Period(min analysis) : NA
+@P:  System - Requested Period(min analysis) : 10.000
+@P:  System - Slack(min analysis) : NA
+@P: build Part : m2gl050tfbga896-1
+@P: build Register bits  : 89 
+@P: build DSP Blocks  : 0
+@P: build I/O primitives : 182
+@P:  CPU Time : 0h:00m:01s

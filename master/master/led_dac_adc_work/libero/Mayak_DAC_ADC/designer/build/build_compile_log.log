@@ -1,0 +1,34 @@
+Running 'g4compile.exe' in 64-bit mode
+Warning: CMPG4-201: Net ident_coreinst/IICE_INST/b8_PSyi2XYG drives no load.
+Warning: CMPG4-201: Net ident_coreinst/IICE_INST/b12_ibScJX_E2_bd drives no load.
+Warning: CMPG4-007: Top level port DEVRST_N is not connected to any IO pad
+
+===============================================================================.
+
+Info: Global design data: 
+      Total globals:                       3 
+      Globals that cannot be demoted:      2 
+      Globals considered for demotion:     1 
+
+
+Info: List of globals that cannot be demoted: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    1138   0      1      'build_sb_0/CCC_0/GL2_INST' 
+    249    0      4      'build_sb_0/CCC_0/GL1_INST' 
+
+Info: List of globals considered for demotion: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    2083   0      0      'ident_coreinst/comm_block_INST/jtagi/jtag_clkint_prim' 
+
+Info: Demotion information: 
+Info: CMPG4-302: Added 0 row global instances.
+Info: CMPG4-303: Deleted 0 global instances.
+
+===============================================================================.
+
+INFO: Reading User PDC file C:/Projects/Verilog/led_IGLOO/led_dac_adc_qudr/led_dac_adc_work/libero/Mayak_DAC_ADC/constraint/io/build.io.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file C:/Projects/Verilog/led_IGLOO/led_dac_adc_qudr/led_dac_adc_work/libero/Mayak_DAC_ADC/constraint/fp/build.fp.pdc. 0 error(s) and 0 warning(s)
+Running 'st_shell.exe' in 64-bit mode
+Running 'g4layout.exe' in 64-bit mode

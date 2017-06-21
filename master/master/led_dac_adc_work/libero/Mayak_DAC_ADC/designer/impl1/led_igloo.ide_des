@@ -1,0 +1,8 @@
+KEY IDE_DES_TOOL "Ide"
+KEY IDE_DES_ADB_PATH "C:\Projects\Verilog\led_IGLOO\led_dac_adc\libero\Mayak_DAC_ADC\designer\impl1\led_igloo.adb"
+LIST SOURCE_FILES
+ENDLIST
+LIST OPTIONAL_FILES
+ENDLIST
+LIST VCD_FILES
+ENDLIST
