@@ -1,2 +1,0 @@
-CKID0001:@|S:build_sb_0.CCC_0.GL1_INST@|E:led_igloo_0.freq[7]@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
-CKID0002:@|S:build_sb_0.CCC_0.GL2_INST@|E:led_igloo_0.dac_state@|F:@syn_sample_clock_path==CKID0002@|M:ClockId0002 
