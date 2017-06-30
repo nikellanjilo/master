@@ -1,12 +1,4 @@
 <?php get_header(); ?>	
-	<div id="leftcol">
-		<div class = "link_col"><a href="">Telegram</a><br>			</div>
-		<div class = "link_col"><a href="">Altium Designer</a><br>  </div>
-		<div class = "link_col"><a href="">Ubuntu</a><br>           </div>
-		<div class = "link_col"><a href="">Схемотехника</a><br>     </div>
-		<div class = "link_col"><a href="">Блог</a><br>             </div>
-		<div class = "link_col"><a href="">Проекты</a><br>          </div>
-	</div>
 	<div id="ads">
 		<script type="text/javascript" src="//vk.com/js/api/openapi.js?146"></script>
 

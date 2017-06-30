@@ -1,19 +1,6 @@
-<?php get_header(); ?>
 <script src="<?php echo get_template_directory_uri().'/js/jmobile_index.js'?>"></script>
+<?php get_header(); ?>
 
- <div id="leftcol">
-    <div class = "link_col"><a href="">Telegram</a><br>			</div>
-    <div class = "link_col"><a href="">Altium Designer</a><br>  </div>
-    <div class = "link_col"><a href="">Ubuntu</a><br>           </div>
-    <div class = "link_col"><a href="">Схемотехника</a><br>     </div>
-	<div class = "link_col"><a href="">Блог</a><br>             </div>
-	<div class = "link_col"><a href="">Проекты</a><br>          </div>
-	
-	<div id="ads-main-page">
-		
-		
-	</div>
-  </div>
 	
   <div id = "main-page-content">
     <div class="fotorama" data-loop="true" data-autoplay="true" data-nav="thumbs" data-fit="cover" data-width = "calc(100% - 20px)" data-minheight = "250px" >

@@ -60,21 +60,25 @@ BODY {
 	max-height : 320px;
  }
  
-#leftcol .link_col {
+#leftcol .menu .menu-item{
 	margin-bottom: 10px;
 	background-image : url(../img/bottom_nav.png);
 	background-repeat : no-repeat;
 	background-position: right bottom;
 	}
-  #leftcol .link_col a{
+  #leftcol .menu .menu-item a{
 		font-size: 18px;
 		vertical-align: 5px;
 		color: #08088A;
 		text-decoration : none;
 		font-family : Exo;
 	}
+	#leftcol li
+	{
+		list-style-type: none
+	}
  
- #leftcol .link_col a:hover {
+ #leftcol .menu .menu-item a:hover {
 	font-weight : bold;
 	}
 input[type="text"] {
