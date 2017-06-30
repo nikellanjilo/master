@@ -1,80 +1,5 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-<script>
-		//document.write(document.getElementById('leftcol').clientWidth);
-		
-		//document.write(document.body.clientWidth);
-		
-		//	function showMy()
-		//	{
-		//		var td = document.getElementById('leftcol');
-		//		alert("height - " + td.getAttribute('height') + " | width - " + td.getAttribute('width'));
-		//	}		
-		//	document.addEventListener("DOMContentLoaded", showMy)
-		window.onload = function() {
-		if (document.body.clientWidth < 600)
-		{
-			document.getElementById('leftcol').style.letterSpacing  = "0px";
-			var a = document.querySelectorAll("#leftcol .link_col > a");
-			var b = document.querySelectorAll(".fotorama .any ");
-			var c = document.querySelectorAll(".over-page-block");
-			var d = document.querySelectorAll(".over-page-block-image");
-			
-			for(var i = 0; i < a.length; i++){
-				if (i == 3)
-				{
-					a[i].style.fontSize = "12px";
-					a[i].style.lineHeight = "2.0";
-				}
-				else
-					a[i].style.fontSize = "18px"; 
-			}
-			for (var j = 0; j < b.length; j++)
-			{
-				b[j].style.fontSize = "20px";
-			}
-				
-			for	(var z = 0; z < c.length; z++)
-			{
-				c[z].style.width = "calc(100% - 40px)";
-				c[z].style.height = "calc(100% - 40px)";
-				c[z].style.overflow = "hidden ";
-			}
-			
-			for (var j = 0; j < d.length; j++)
-			{
-				d[j].style.width = "50px";
-				d[j].style.height = "50px";
-			}
-		}
-		}
-	 </script
- <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta name = "description" content = "Морской котик знает все ... об электронике, сайтах и путешествиях" >
-  <link href="css/my_style.css" type="text/css" rel="stylesheet" media="all" />
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- 1. Link to jQuery (1.8 or later), -->
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> <!-- 33 KB -->
-
-  <!-- fotorama.css & fotorama.js. -->
-  <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> <!-- 16 KB -->
-
-  <title>Название страницы</title>
- </head>
- <body>
-	 <div id = "header">
-		 <a href = ""> N - Network</a> <br/>
-		 Морской котик знает все о электронике, сайтах и путешествиях
-    <form>
-       <p>
-			<input type="text" placeholder="Котик знает все, проверь" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Камооон...не бойся'" />
-			<input type="submit" value="Найти">
-		</p>
-    </form>
-	
-	 </div>
+<?php get_header(); ?>
+<script src="<?php echo get_template_directory_uri().'/js/jmobile_index.js'?>"></script>
 
  <div id="leftcol">
     <div class = "link_col"><a href="">Telegram</a><br>			</div>
@@ -177,8 +102,5 @@
 
   </div>
 
-	<div id = "footer">
-		Блог Никита Малышева. Все права защищены.
-	</div>
- </body>
+	
 </html>

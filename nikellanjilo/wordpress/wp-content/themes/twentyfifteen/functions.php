@@ -249,6 +249,7 @@ add_action( 'wp_head', 'twentyfifteen_javascript_detection', 0 );
  *
  * @since Twenty Fifteen 1.0
  */
+
 function twentyfifteen_scripts() {
 	// Add custom fonts, used in the main stylesheet.
 	wp_enqueue_style( 'twentyfifteen-fonts', twentyfifteen_fonts_url(), array(), null );
@@ -284,7 +285,6 @@ function twentyfifteen_scripts() {
 	) );
 }
 add_action( 'wp_enqueue_scripts', 'twentyfifteen_scripts' );
-
 /**
  * Add preconnect for Google Fonts.
  *
