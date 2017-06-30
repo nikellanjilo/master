@@ -97,7 +97,7 @@ input[type="text"] {
 input[type="submit"] {
     width: 100px; 
     height: 26px;
-    border: none;
+    border: 1px solid #08088A;
 	font-size : 16px;
 	margin-bottom : 10px;
 	border-radius: 4px;	
@@ -107,6 +107,20 @@ input[type="submit"]:hover{
 		background : #08088A;
 		color:white;
 		font-family : Exo;
+	}
+input[type="comment"]{
+	margin-left : 25%;
+	min-width : 100px;
+	width : 30%;
+	box-sizing: border-box;
+    border: 2px solid #08088A;
+    border-radius: 4px;
+	font-size: 16px;
+    background-color: #F2F2F2;	
+	font-size: 16px;
+	color : #08088A;	
+	text-align:left;
+	font-family: Exo;
 	}
  #rightcol {
   margin-top : -10px;
