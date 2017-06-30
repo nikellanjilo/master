@@ -5,7 +5,7 @@
 	<link href="<?php echo get_template_directory_uri().'/css/fotorama.css' ?>" rel="stylesheet"> <!-- 3 KB -->
 	<script src="<?php echo get_template_directory_uri().'/js/fotorama.js'?>"></script>	<!-- 16 KB -->
   
-  <link href="<?php echo get_template_directory_uri().'/css/my_style.css' ?>" rel="stylesheet">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/my_style.css' ?>" media="screen" />
   
   
   <script src="<?php echo get_template_directory_uri().'/js/mobile.js'?>"></script>
@@ -15,7 +15,7 @@
   <meta charset="utf-8">
   <meta name = "description" content = "Морской котик знает все ... об электронике, сайтах и путешествиях" >
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>COCOCOC</title>
+  <title><?php wp_title( '|', true, 'right' ); ?></title>
  </head>
  <body>
 	 <div id = "header">

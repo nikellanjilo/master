@@ -82,7 +82,8 @@ BODY {
 	font-weight : bold;
 	}
 input[type="text"] {
-	width : 330px;
+	min-width : 100px;
+	width : 30%;
 	box-sizing: border-box;
     border: 2px solid #08088A;
     border-radius: 4px;
@@ -120,6 +121,13 @@ input[type="submit"]:hover{
    min-height: calc(100vh - 20px);
    --font-family : SF-UI-Display-Ultralight;
    font-family : Exo;
+ }
+ #category-page-content
+ {
+	margin-left : 48%;
+    min-height : calc(100vh - 20px);
+    font-family : Exo;
+    text-align : justify;
  }
  #main-page-content
  {
