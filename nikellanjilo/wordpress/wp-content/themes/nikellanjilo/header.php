@@ -12,18 +12,19 @@
 <html>	 
  <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta name = "description" content = "Морской котик знает все ... об электронике, сайтах и путешествиях" >
+  <meta charset="utf-8">
+  <meta name = "description" content = "РњРѕСЂСЃРєРѕР№ РєРѕС‚РёРє Р·РЅР°РµС‚ РІСЃРµ ... РѕР± СЌР»РµРєС‚СЂРѕРЅРёРєРµ, СЃР°Р№С‚Р°С… Рё РїСѓС‚РµС€РµСЃС‚РІРёСЏС…" >
 	<meta name="viewport" content="width=device-width, initial-scale=1">
   <title>COCOCOC</title>
  </head>
  <body>
 	 <div id = "header">
 		 <a href = ""> N - Network</a> <br/>
-		 Морской котик знает все о электронике, сайтах и путешествиях
+		 РњРѕСЂСЃРєРѕР№ РєРѕС‚РёРє Р·РЅР°РµС‚ РІСЃРµ Рѕ СЌР»РµРєС‚СЂРѕРЅРёРєРµ, СЃР°Р№С‚Р°С… Рё РїСѓС‚РµС€РµСЃС‚РІРёСЏС…
     <form>
        <p>
-			<input type="text" placeholder="Котик знает все, проверь" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Камооон...не бойся'" />
-			<input type="submit" value="Найти">
+			<input type="text" placeholder="РљРѕС‚РёРє Р·РЅР°РµС‚ РІСЃРµ, РїСЂРѕРІРµСЂСЊ" onfocus="this.placeholder = ''" onblur="this.placeholder = 'РљР°РјРѕРѕРѕРЅ...РЅРµ Р±РѕР№СЃСЏ'" />
+			<input type="submit" value="РќР°Р№С‚Рё">
 		</p>
     </form>
 	
