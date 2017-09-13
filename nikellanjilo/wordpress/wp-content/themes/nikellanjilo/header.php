@@ -4,7 +4,7 @@
 	<!-- fotorama.css & fotorama.js. -->
 	<link href="<?php echo get_template_directory_uri().'/css/fotorama.css' ?>" rel="stylesheet"> <!-- 3 KB -->
 	<script src="<?php echo get_template_directory_uri().'/js/fotorama.js'?>"></script>	<!-- 16 KB -->
-  
+	<script src="<?php echo get_template_directory_uri().'/js/mobile_index.js'?>"></script>
   <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/my_style.css' ?>" media="screen" />
   
   

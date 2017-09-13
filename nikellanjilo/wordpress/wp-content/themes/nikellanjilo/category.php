@@ -1,4 +1,4 @@
-<script src="<?php echo get_template_directory_uri().'/js/jmobile_index.js'?>"></script>
+
 <?php get_header(); ?>
 
 	
